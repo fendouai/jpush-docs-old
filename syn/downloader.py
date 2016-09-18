@@ -25,17 +25,22 @@ autobuild()
 
 def git_push():
     print (os.chdir("/opt/push/jpush-docs/jpush-docs/"))
-    logging.info(commands.getstatusoutput("git add ."))
-    logging.info(commands.getstatusoutput('git commit -m "update the jpush server readme file"'))
-    logging.info(commands.getstatusoutput('git push origin renew'))
-    print ("git push origin renew")
+    add_result= (commands.getstatusoutput("git add ."))
+    commit_result=(commands.getstatusoutput('git commit -m "fix the pull to push"'))
+    push_result= (commands.getstatusoutput("git push origin renew"))
+    logging.info(push_result)
+    if(push_result[0]):
+        print "fail"
+    else:
+        print "success"
+        print ("git push origin renew")
 
 
 downloader=GithubDownload()
 for file_dic in repositories:
      html_content = downloader.get_html(repositories[file_dic]["url"]+"/releases")
      try:
-          title = downloader.get_tile(html_content)
+          title = downloader.get_title(html_content)
           logging.info("get title success")
      except:
           logging.info("get title fail")
