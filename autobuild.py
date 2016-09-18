@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.DEBUG,
                     filename='/opt/push/jpush-docs/autobuild.log',
                     filemode='a+')
 
-print (os.chdir("/opt/push/jpush-docs/jiguang-docs/"))
+print (os.chdir("/opt/push/jpush-docs/jpush-docs/"))
 logging.info(commands.getstatusoutput("git add ."))
 logging.info(commands.getstatusoutput('git commit -m "fix the pull to push"'))
 logging.info(commands.getstatusoutput("git push origin renew"))
