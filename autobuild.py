@@ -15,7 +15,10 @@ print (os.chdir("/opt/push/jpush-docs/jpush-docs/"))
 add_result= (commands.getstatusoutput("git add ."))
 commit_result=(commands.getstatusoutput('git commit -m "fix the pull to push"'))
 push_result= (commands.getstatusoutput("git push origin renew"))
-print push_result[0]
+if(push_result[0]):
+	print "success"
+else:
+	print "fail"
 
 print ("git push origin renew,test")
 
