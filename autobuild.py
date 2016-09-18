@@ -16,9 +16,9 @@ add_result= (commands.getstatusoutput("git add ."))
 commit_result=(commands.getstatusoutput('git commit -m "fix the pull to push"'))
 push_result= (commands.getstatusoutput("git push origin renew"))
 if(push_result[0]):
-	print "success"
-else:
 	print "fail"
+else:
+	print "success"
 
 print ("git push origin renew,test")
 
