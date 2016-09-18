@@ -11,13 +11,16 @@ logging.basicConfig(level=logging.DEBUG,
                     filename='/opt/push/jpush-docs/autobuild.log',
                     filemode='a+')
 
-print (os.chdir("/opt/push/jpush-docs/jiguang-docs/"))
-logging.info(commands.getstatusoutput("git add ."))
-logging.info(commands.getstatusoutput('git commit -m "fix the pull to push"'))
-logging.info(commands.getstatusoutput("git push origin renew"))
+print (os.chdir("/opt/push/jpush-docs/jpush-docs/"))
+add_result= (commands.getstatusoutput("git add ."))
+commit_result=(commands.getstatusoutput('git commit -m "fix the pull to push"'))
+push_result= (commands.getstatusoutput("git push origin renew"))
+if(push_result[0]):
+	print "fail"
+else:
+	print "success"
 
-
-print ("git push origin renew")
+print ("git push origin renew,test")
 
 
 
