@@ -30,10 +30,11 @@ def git_push():
     push_result= (commands.getstatusoutput("git push origin renew"))
     logging.info(push_result)
     if(push_result[0]):
-        print "fail"
+        reset_result=commands.getstatusoutput("git reset --hard HEAD^")
+        logging.info(reset_result)
     else:
         print "success"
-        print ("git push origin renew")
+        logging.info ("git push origin renew")
 
 
 downloader=GithubDownload()
