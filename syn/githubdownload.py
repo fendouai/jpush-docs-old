@@ -17,7 +17,7 @@ class GithubDownload():
             html_content = BeautifulSoup(result.content, "html.parser")
         return html_content
 
-    def get_tile(self,html_content):
+    def get_title(self,html_content):
         label_latest=html_content.find_all(class_="label-latest")[0]
         release_title=label_latest.find_all(class_="release-title")[0]
         release_title=release_title.a.text
