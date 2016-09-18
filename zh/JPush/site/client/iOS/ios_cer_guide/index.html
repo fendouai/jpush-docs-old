@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+  <html class="no-js lt-ie9" lang="en">
+  <![endif]-->
+<!--[if gt IE 8]>
+    <!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="author" content="JPush Offical"> 
+    <title>iOS 证书设置指南 - 极光文档</title> 
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <script src="../../../js/jquery-2.1.4.js"></script>
+
+    <link rel="stylesheet" href="../../../css/theme.css" type="text/css" />
+    <script src="../../../js/bootstrap/js/bootstrap.js"></script>
+
+    <link href="../../../js/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../css/theme_extra.css" type="text/css" />
+    
+    <script>
+    // Current page data
+    var mkdocs_page_name = "iOS 证书设置指南";
+    var mkdocs_page_input_path = "client/iOS/ios_cer_guide.md";
+    var mkdocs_page_url = "/client/iOS/ios_cer_guide/";
+    </script>
+    
+    <script src="../../../js/jpush.js"></script> 
+</head>
+
+<body data-spy="scroll" data-target="#navbar-right">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3  col-md-3  col-sm-3 ">
+                    <div id="doc-icon">
+                        <a href="/"><img src="/img/icon/logo.png"></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-8  col-sm-8">
+                    <div class="header">
+                        <ul class="nav nav-tabs">
+                            <li role="presentation" >
+                                <a href="/jpush/guideline/intro/" id="jpush-top">JPush</a></li>
+                            <li role="presentation" >
+                                <a href="/jmessage/guideline/jmessage_guide/" id="jmessage-top">JMessage</a></li>
+                            <li role="presentation" >
+                                <a href="/jsms/guideline/JSMS_guide/" id="jsms-top">短信验证码</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2  col-md-1 col-sm-1">
+                    <div>
+                        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3  col-md-3 col-sm-4">
+                <div id="navbar-left">
+                    <ul class="wy-menu">
+                        
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    入门指南 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../guideline/intro/">JPush产品简介</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../console/Instructions/">控制台使用指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../guideline/push-SMS-intro/">JPush短信补充</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../advanced/rich_push/">Rich Push 开发指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../guideline/faq/">常见问题</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    Android 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../Android/android_sdk/">Android SDK 概述</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../Android/android_3m/">3 分钟 Demo</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../Android/android_guide/">Android SDK 集成指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../Android/android_debug_guide/">Android SDK 调试指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../Android/android_senior/">Android SDK 进阶教程</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../Android/android_api/">Android SDK API</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../Android/android_faq/">Android SDK FAQ</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    iOS 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../ios_sdk/">iOS SDK 概述</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../ios_guide_new/">iOS SDK 集成指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../ios_debug_guide/">iOS SDK 调试指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 current">
+        <a class="current" href="./">iOS 证书设置指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../ios_new_fetures/">iOS 新特性汇总</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../ios_api/">iOS SDK API</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../ios_faq/">iOS SDK FAQ</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    WindowsPhone 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../Windows Phone/winphone_sdk/">Windows Phone SDK 概述</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../Windows Phone/winphone_3m/">Windows Phone 3分钟 Demo</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../Windows Phone/winphone_guide/">Windows Phone SDK 集成指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../Windows Phone/winphone_api/">Windows Phone API</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    REST API 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/push/server_overview/">REST API 概述</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/push/rest_api_v3_push/">Push API v3</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/push/rest_api_v3_report/">Report API v3</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/push/rest_api_v3_device/">Device API v3</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/push/rest_api_push_schedule/">Schedule API v3</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/push/http_status_code/">HTTP 状态码</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    高级 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../advanced/scenes/">JPush应用场景</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../advanced/topics/">JPush高级话题</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                                <ul class="subnavul">
+                                    <li class="subnavli_single " >
+                                        <span>
+                          <a href="../../client_plugins/" class="">客户端集成插件</a></span>
+                                    </li>
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    服务端SDK 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/3rd/java_sdk/">Java SDK</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/3rd/python_sdk/">Python SDK</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/3rd/php_sdk/">PHP SDK</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/3rd/ruby_sdk/">Ruby SDK</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/3rd/csharp_sdk/">C# SDK</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/3rd/nodejs_sdk/">Node.js SDK</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    旧文档 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/old/rest_api_v2_push/">REST API v2 - Push</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/old/rest_api_v2_report/">REST API v2 - Report</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                                <ul class="subnavul">
+                                    <li class="subnavli_single " >
+                                        <span>
+                          <a href="../../../updates/" class="">最近更新</a></span>
+                                    </li>
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                                <ul class="subnavul">
+                                    <li class="subnavli_single " >
+                                        <span>
+                          <a href="../../../resources/" class="">资源下载</a></span>
+                                    </li>
+                                </ul>
+                                <li></ul>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-8  col-md-9  col-sm-8">
+                <div id="content-top"></div>
+                <section >
+                    <div class="rst-content"><div id="breadcrumbs" role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../../guideline/intro/">极光文档</a>></li>
+    
+      
+        
+          <li><a href="../ios_sdk/">iOS</a> ></li>
+        
+      
+    
+    <li>
+    iOS 证书设置指南
+    <!--
+    <a href="./">iOS 证书设置指南</a>
+    -->
+    </li>
+  </ul>
+</div>
+                        <div role="main">
+                            <div class="section"> <h1 id="ios">iOS 证书 设置指南</h1>
+<h2 id="id">创建应用程序ID</h2>
+<ul>
+<li>登陆 <a href="https://developer.apple.com/devcenter/ios/index.action">iOS Dev Center</a> 选择进入iOS Provisioning Portal。</li>
+</ul>
+<p><img alt="jpush_ios" src="../../image/login.png" /></p>
+<ul>
+<li>在 <a href="https://daw.apple.com/cgi-bin/WebObjects/DSAuthWeb.woa/wa/login?&amp;appIdKey=891bd3417a7776362562d2197f89480a8547b108fd934911bcbea0110d07f757&amp;path=%2F%2Faccount%2Findex.action">iOS Provisioning Portal</a>中，点击App IDs进入App ID列表。</li>
+</ul>
+<p><img alt="" src="../../image/appid.png" /></p>
+<ul>
+<li>创建 App ID，如果 ID 已经存在可以直接跳过此步骤</li>
+</ul>
+<p><img alt="jpush_ios" src="../../image/appid2.png" /></p>
+<ul>
+<li>为 App 开启 Push Notification 功能。如果是已经创建的 App ID 也可以通过设置开启 Push Notification 功能。</li>
+</ul>
+<p><img alt="jpush_ios" src="../../image/appservice.png" /></p>
+<p>根据实际情况完善 App ID 信息并提交,注意此处需要指定具体的 Bundle ID 不要使用通配符。</p>
+<p><img alt="jpush_ios" src="../../image/appid3.png" /></p>
+<h2 id="_1">配置和下载证书</h2>
+<ul>
+<li>如果你之前没有创建过 Push 证书或者是要重新创建一个新的，请在证书列表下面新建。</li>
+</ul>
+<p><img alt="" src="../../image/cer0.png" /></p>
+<ul>
+<li>新建证书需要注意选择证书种类（开发证书用于开发和调试使用，生产证书用于 App Store 发布）</li>
+</ul>
+<p><img alt="" src="../../image/cer1.png" /></p>
+<ul>
+<li>点击 Continue 后选择证书对应的应用ID，然后继续会出现“About Creating a Certificate Signing Request (CSR)”。</li>
+</ul>
+<p><img alt="" src="../../image/cer2.png" /></p>
+<ul>
+<li>根据它的说明创建打开KeychainAccess 创建 Certificate Signing Request。</li>
+</ul>
+<p><img alt="" src="../../image/Screenshot_13-4-1_5_22.png" /></p>
+<ul>
+<li>填写“User Email Address”和“Common Name” 后选择 Saved to disk 进行保存 。</li>
+</ul>
+<p><img alt="" src="../../image/Snip20140122_7.png" /></p>
+<ul>
+<li>继续返回Apple developer 网站点击 Continue ，上传刚刚生成的 .certSigningRequest 文件生成 APNs Push  Certificate。</li>
+<li>下载并双击打开证书，证书打开时会启动“钥匙串访问”工具。</li>
+<li>在“钥匙串访问”中你的证书会显示在“我的证书”中，注意选择“My Certificates” 和"login"</li>
+</ul>
+<p><img alt="jpush_ios" src="../../image/keychain_cert.png" /></p>
+<h2 id="p12">导出 .p12 证书文件</h2>
+<pre><code>注意要选“login”和“My Certificates” 导出证书时要选中证书文件，不要展开private key。
+</code></pre>
+
+<p><img alt="jpush_ios" src="../../image/export_p12.png" /></p>
+<ul>
+<li>将文件保存为Personal Information Exchange (.p12)格式。</li>
+</ul>
+<p><img alt="" src="../../image/export_filename.png" /></p>
+<ul>
+<li>将文件保存为Personal Information Exchange (.p12)格式。</li>
+</ul>
+<h2 id="_2">上传证书</h2>
+<p>在 <a href="https://www.jiguang.cn/apps/">JPush 管理 Portal 上</a>，针对某应用程序，上传上面步骤得到 .p12 证书文件。这是 iOS SDK 能够接收到 JPush 推送消息的必要步骤。</p>
+<h2 id="provisioning-profile">Provisioning Profile的创建</h2>
+<ul>
+<li>创建Provisioning Profile的前提，已在Apple Developer网站创建待发布应用所使用的Bundle ID的App ID，且为该App ID创建了APNs证书，如下图:</li>
+</ul>
+<p><img alt="jpush_ios" src="../../image/appidcer.png" /></p>
+<ul>
+<li>
+<p>创建App ID、APN证书和p12证书的导出的具体步骤请看 :<a href="../ios_faq/#ios_1">iOS 证书 设置指南</a></p>
+</li>
+<li>
+<p>在<a href="https://developer.apple.com/account/ios/profile/profileList.action">苹果开发者账号的Provisioning Profile</a>页面点击下图按钮，创建Provisioning Profile</p>
+</li>
+</ul>
+<p><img alt="jpush_ios" src="../../image/provision_profile.png" /></p>
+<ul>
+<li>选择此Provisioning Profile的环境后点击[Continue]：</li>
+</ul>
+<p><img alt="jpush_ios" src="../../image/create_pp_type.png" /></p>
+<ul>
+<li>选择要创建Provisioning Profile的App ID后点击[Continue]：</li>
+</ul>
+<p><img alt="jpush_ios" src="../../image/pp_appid_new.png" /></p>
+<ul>
+<li>选择所属的开发者证书，（这里创建了多个开发者证书，建议只创建一个，方便管理）为了方便，选择了[Select All]，再点击[Continue]进入下一步：</li>
+</ul>
+<p><img alt="jpush_ios" src="../../image/select_cer.png" /></p>
+<ul>
+<li>为该Provisioning Profile选择将要安装的设备（一般选择[Select All]），点击[Continue]:</li>
+</ul>
+<p><img alt="jpush_ios" src="../../image/select_devices.png" /></p>
+<ul>
+<li>给该Provisioning Profile填写Profile Name，点击[generate]完成创建。</li>
+</ul>
+<p><img alt="jpush_ios" src="../../image/pp_name.png" /></p>
+<ul>
+<li>填写完Profile Name后点击[generate]完成创建，之后点击[DownLoad]下载Provisioning Profile</li>
+</ul>
+<p><img alt="jpush_ios" src="../../image/download_pp.png" /></p>
+<ul>
+<li>双击下载下来的Provisioning Profile，添加到xcode。</li>
+</ul>
+<h2 id="xcode">XCode的证书配置教程</h2>
+<p>参照<a href="../ios_guide_new/">iOS SDK 集成指南</a>集成JPush SDK 和上传了推送用到的p12证书后在编译运行前需要先配置一下证书，步骤如下：</p>
+<ul>
+<li>打开xxx-info.plist的Bundle identifier项把上传到JPush 控制台的bundle id填写进去：</li>
+</ul>
+<p><img alt="jpush_ios" src="../../image/xcode_bundle.png" /></p>
+<ul>
+<li>点击项目，选择目标TARGETS后进入Build Setting 界面，搜索“Code signing”，按照下图配置</li>
+</ul>
+<p><img alt="jpush_ios" src="../../image/xcode_buildsettings_cs.png" /></p> </div>
+                        </div> <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../ios_new_fetures/" class="btn btn-neutral float-right" title="iOS 新特性汇总">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../ios_debug_guide/" class="btn btn-neutral float-left" title="iOS SDK 调试指南"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>Copyright 2011-2016, jiguang.cn, All Rights Reserved. <br />粤ICP备12056275号-13 深圳市和讯华谷信息技术有限公司</p>
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer> </div>
+                </section>
+            </div>
+            <div class="col-lg-1">
+                <div class="visible-lg">
+                    <div id="tocright">
+                        <div id="navbar-right">
+                            <div>
+                            <p>目录</p>
+                            </div>
+                            <ul class="nav" >
+    
+        
+            <li><a href="#id">创建应用程序ID</a></li>
+        
+            <li><a href="#_1">配置和下载证书</a></li>
+        
+            <li><a href="#p12">导出 .p12 证书文件</a></li>
+        
+            <li><a href="#_2">上传证书</a></li>
+        
+            <li><a href="#provisioning-profile">Provisioning Profile的创建</a></li>
+        
+            <li><a href="#xcode">XCode的证书配置教程</a></li>
+        
+    
+    </ul>
+    
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,374 @@
+{
+    "docs": [
+        {
+            "location": "/guideline/JSMS_guide/", 
+            "text": "\u77ed\u4fe1\u9a8c\u8bc1\u7801\u6982\u8ff0\n\n\n\u529f\u80fd\n\n\n\u6781\u5149\u9762\u5411\u5f00\u53d1\u8005\u63d0\u4f9b\u77ed\u4fe1\u9a8c\u8bc1\u7801\u670d\u52a1\uff0c\u4e3b\u8981\u5305\u62ec\uff1a\n\n\n\n\nSDK \u77ed\u4fe1\u9a8c\u8bc1\u529f\u80fd\uff0c\u6ee1\u8db3 App \u77ed\u4fe1\u9a8c\u8bc1\u9700\u6c42\u3002\n\n\nREST API \u77ed\u4fe1\u9a8c\u8bc1\uff0c\u4e3b\u8981\u6ee1\u8db3\u7f51\u7ad9\u548c\u5176\u4ed6\u7ec8\u7aef\u8bbf\u95ee\u9700\u6c42\u3002\n\n\n\n\n\u4e3b\u8981\u573a\u666f\n\n\n\n\n\u7528\u6237\u6ce8\u518c\uff1b\n\n\n\u767b\u5f55\u9a8c\u8bc1\uff1b\n\n\n\u5173\u952e\u4fe1\u606f\u4fee\u6539\uff1b\n\n\n\u652f\u4ed8\u786e\u8ba4\uff1b\n\n\n\u4eba\u5458\u8eab\u4efd\u6709\u6548\u6027\u786e\u8ba4\u3002\n\n\n\n\n\u8bd5\u7528\u6b65\u9aa4\n\n\n\n\n\u6ce8\u518c\u6210\u4e3a\u6781\u5149\u5f00\u53d1\u8005\u3002\n\n\n\u901a\u8fc7\u6781\u5149\u540e\u53f0\u521b\u5efa APP \u5f97\u5230 AppKey\uff08\u5982\u679c\u4e4b\u524d\u521b\u5efa\u8fc7\u53ef\u4ee5\u901a\u7528\uff09\u3002\n\n\n\n\n\u5145\u503c\u548c\u5f00\u901a\n\n\n\u76ee\u524d\u6ca1\u6709\u81ea\u52a8\u5145\u503c\u7684\u65b9\u5f0f\uff0c\u5982\u9700\u8981\u5f00\u901a\u6b64\u63a5\u53e3\uff0c\u8bf7\u8054\u7cfb\uff1a\n\u5546\u52a1\u5ba2\u670d\n\u3002\n\n\nFAQ\n\n\n\u957f\u5ea6\u8ba1\u7b97\n\n\n70\u4e2a\u5b57\u8bb0\u4e00\u6761\u77ed\u4fe1\u8d39\uff0c\u5982\u679c\u8d85\u8fc770\u4e2a\u5b57\u5219\u6309\u7167\u6bcf\u676167\u4e2a\u5b57\u62c6\u5206\uff0c\u9010\u6761\u8ba1\u8d39\u3002\u5355\u4e2a\u6c49\u5b57\u3001\u6807\u70b9\u3001\u82f1\u6587\u90fd\u7b97\u4e00\u4e2a\u5b57\u3002\n\n\n\u96c6\u6210\u6307\u5357\n\n\n\n\nJSMS Android SDK \u96c6\u6210\u6307\u5357\n\u3002\n\n\nJSMS iOS SDK \u96c6\u6210\u6307\u5357\n\u3002\n\n\nJSMS Rest API\n\u3002", 
+            "title": "\u77ed\u4fe1\u9a8c\u8bc1\u7801\u6982\u8ff0"
+        }, 
+        {
+            "location": "/guideline/JSMS_guide/#_1", 
+            "text": "", 
+            "title": "\u77ed\u4fe1\u9a8c\u8bc1\u7801\u6982\u8ff0"
+        }, 
+        {
+            "location": "/guideline/JSMS_guide/#_2", 
+            "text": "\u6781\u5149\u9762\u5411\u5f00\u53d1\u8005\u63d0\u4f9b\u77ed\u4fe1\u9a8c\u8bc1\u7801\u670d\u52a1\uff0c\u4e3b\u8981\u5305\u62ec\uff1a   SDK \u77ed\u4fe1\u9a8c\u8bc1\u529f\u80fd\uff0c\u6ee1\u8db3 App \u77ed\u4fe1\u9a8c\u8bc1\u9700\u6c42\u3002  REST API \u77ed\u4fe1\u9a8c\u8bc1\uff0c\u4e3b\u8981\u6ee1\u8db3\u7f51\u7ad9\u548c\u5176\u4ed6\u7ec8\u7aef\u8bbf\u95ee\u9700\u6c42\u3002", 
+            "title": "\u529f\u80fd"
+        }, 
+        {
+            "location": "/guideline/JSMS_guide/#_3", 
+            "text": "\u7528\u6237\u6ce8\u518c\uff1b  \u767b\u5f55\u9a8c\u8bc1\uff1b  \u5173\u952e\u4fe1\u606f\u4fee\u6539\uff1b  \u652f\u4ed8\u786e\u8ba4\uff1b  \u4eba\u5458\u8eab\u4efd\u6709\u6548\u6027\u786e\u8ba4\u3002", 
+            "title": "\u4e3b\u8981\u573a\u666f"
+        }, 
+        {
+            "location": "/guideline/JSMS_guide/#_4", 
+            "text": "\u6ce8\u518c\u6210\u4e3a\u6781\u5149\u5f00\u53d1\u8005\u3002  \u901a\u8fc7\u6781\u5149\u540e\u53f0\u521b\u5efa APP \u5f97\u5230 AppKey\uff08\u5982\u679c\u4e4b\u524d\u521b\u5efa\u8fc7\u53ef\u4ee5\u901a\u7528\uff09\u3002", 
+            "title": "\u8bd5\u7528\u6b65\u9aa4"
+        }, 
+        {
+            "location": "/guideline/JSMS_guide/#_5", 
+            "text": "\u76ee\u524d\u6ca1\u6709\u81ea\u52a8\u5145\u503c\u7684\u65b9\u5f0f\uff0c\u5982\u9700\u8981\u5f00\u901a\u6b64\u63a5\u53e3\uff0c\u8bf7\u8054\u7cfb\uff1a \u5546\u52a1\u5ba2\u670d \u3002", 
+            "title": "\u5145\u503c\u548c\u5f00\u901a"
+        }, 
+        {
+            "location": "/guideline/JSMS_guide/#faq", 
+            "text": "\u957f\u5ea6\u8ba1\u7b97  70\u4e2a\u5b57\u8bb0\u4e00\u6761\u77ed\u4fe1\u8d39\uff0c\u5982\u679c\u8d85\u8fc770\u4e2a\u5b57\u5219\u6309\u7167\u6bcf\u676167\u4e2a\u5b57\u62c6\u5206\uff0c\u9010\u6761\u8ba1\u8d39\u3002\u5355\u4e2a\u6c49\u5b57\u3001\u6807\u70b9\u3001\u82f1\u6587\u90fd\u7b97\u4e00\u4e2a\u5b57\u3002", 
+            "title": "FAQ"
+        }, 
+        {
+            "location": "/guideline/JSMS_guide/#_6", 
+            "text": "JSMS Android SDK \u96c6\u6210\u6307\u5357 \u3002  JSMS iOS SDK \u96c6\u6210\u6307\u5357 \u3002  JSMS Rest API \u3002", 
+            "title": "\u96c6\u6210\u6307\u5357"
+        }, 
+        {
+            "location": "/client/Android_SMS_SDK/", 
+            "text": "JSMS Android SDK \u96c6\u6210\u6307\u5357\n\n\nSDK \u8bf4\u660e\n\n\n\u652f\u6301\u7248\u672c\n\n\n\n\n\u76ee\u524d SDK \u53ea\u652f\u6301 Android 2.3 \u53ca\u4ee5\u4e0a\u7248\u672c\u7684\u624b\u673a\u7cfb\u7edf\u3002\n\n\n\n\nSDK \u538b\u7f29\u5305\u5305\u542b\n\n\n\n\nAndroidManifest.xml\uff1a\u5ba2\u6237\u7aef\u5d4c\u5165 SDK \u53c2\u8003\u7684\u914d\u7f6e\u6587\u4ef6\uff1b\n\n\nlibs/jpush-sdk-sms-v1.x.x.jar\uff1aSDK Java \u5f00\u53d1\u5305\uff1b\n\n\nexample\uff1a\u4e00\u4e2a\u5b8c\u6574\u7684 Android \u9879\u76ee\uff0c\u6f14\u793a\u4e86 SMS SDK \u7684\u57fa\u672c\u7528\u6cd5\uff0c\u53ef\u4ee5\u7528\u6765\u505a\u53c2\u8003\u3002\n\n\n\n\n\u96c6\u6210\u6b65\u9aa4\n\n\n\u521b\u5efa\u5e94\u7528\n\n\n\u6ce8\u518c\u6210\u4e3a\u6781\u5149\u5f00\u53d1\u8005\uff0c\u5728\u6781\u5149\u7684 Web Portal \u4e0a\u521b\u5efa\u5e94\u7528\u5f97\u5230 AppKey\u3002\u5982\u679c\u60a8\u5df2\u7ecf\u662f\u662f\u6781\u5149\u5176\u4ed6\u4ea7\u54c1\u7684\u7528\u6237\u5e76\u4e14\u521b\u5efa\u8fc7\u5e94\u7528\uff0c\u90a3\u4e48\u65e0\u9700\u91cd\u590d\u521b\u5efa\u3002\n\n\n\u5bfc\u5165 SDK \u5f00\u53d1\u5305\n\n\n\u89e3\u538b\u538b\u7f29\u5305\uff0c\u5c06 libs/jpush-sdk-sms-v1.x.x.jar \u590d\u5236\u5230\u5de5\u7a0b\u7684 libs \u76ee\u5f55\u4e0b\u9762\u3002\n\n\n\u96c6\u6210 JPush Android SDK \u7684\u6df7\u6dc6\n\n\n-keep class cn.jpush.sms.SMSSDK {*;}\n-keep class cn.jpush.sms.listener.** {*;}\n-keep class cn.jpush.sms.utils.DeviceInfo {*;}\n\n\n#========================gson \n protobuf================================\n-dontwarn com.google.**\n-keep class com.google.gson.jsms.annotations.Until {*;}\n\n#Gson specific classes\n-keep class sun.misc.Unsafe { *; }\n-keep public abstract class com.google.gson.jsms.internal.UnsafeAllocator { *; }\n\n\n\n\n\n\n\u914d\u7f6e AndroidManifest.xml\n\n\n\n\n\n\n\u914d\u7f6e\u6743\u9650\uff1a\n\n\nuses-permission android:name=\"android.permission.INTERNET\"/\n\n\nuses-permission android:name=\"android.permission.READ_PHONE_STATE\"/\n\n\nuses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/\n\n\nuses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/\n\n\n\n\n\n\n\n\n\u914d\u7f6e AppKey\uff1a\n\n\nmeta-data android:name=\"JPUSH_APPKEY\" android:value=\"Your AppKey\"/\n\n\n\n\n\n\n\n\n\u6dfb\u52a0\u4ee3\u7801\n\n\n\u53c2\u8003 Demo \u548c SDK API \u8bf4\u660e\u8fdb\u884c\u6dfb\u52a0\u96c6\u6210\u3002\n\n\nSDK API \u63cf\u8ff0\n\n\n\n\n\n\nSMSSDK \u7c7b\uff1a\u5bf9\u5916\u7684\u7c7b\uff0c\u8be5\u7c7b\u4e3a\u5355\u4f8b\uff0c\u8c03\u7528\u8be5\u7c7b\u7684\u65b9\u6cd5\u90fd\u9700\u8981\u83b7\u53d6\u8be5\u7c7b\u7684\u552f\u4e00\u5b9e\u4f8b\uff0c\u83b7\u5f97\u65b9\u6cd5\u4e3a SMSSDK.getInstance()\u3002\n\n\n\n\n\n\nSmscodeListener\uff1a\u83b7\u53d6\u9a8c\u8bc1\u7801\u7684\u56de\u8c03\u63a5\u53e3\uff0c\u5728\u8c03\u7528 SMSSDK \u7684 getSmsCode \u65f6\u9700\u8981\u4f20\u5165\u63a5\u53e3\u5b9e\u4f8b\u3002\n\n\n\n\n\n\nSmscheckListener\uff1a\u68c0\u67e5\u9a8c\u8bc1\u7801\u7684\u56de\u8c03\u63a5\u53e3\uff0c\u5728\u8c03\u7528 SMSSDK \u7684 checkSmsCode \u65f6\u9700\u8981\u4f20\u5165\u63a5\u53e3\u5b9e\u4f8b\u3002\n\n\n\n\n\n\nSMSSDK.init(Context context)\n\n\n\u63a5\u53e3\u8bf4\u660e\n\n\n\u8be5\u63a5\u53e3\u4e3a\u521d\u59cb\u5316\u63a5\u53e3\uff0c\u4e3b\u8981\u662f\u68c0\u6d4b\u4e00\u4e9b\u914d\u7f6e\u4fe1\u606f\uff0c\u5982\u679c\u914d\u7f6e\u9519\u8bef\u5c06\u4f1a\u521d\u59cb\u5316\u5931\u8d25\uff0c\u5c06\u4f1a\u6253\u5370\u9519\u8bef\u65e5\u5fd7\u3002\u8c03\u7528\u5176\u5b83\u63a5\u53e3\u524d\u5fc5\u987b\u5148\u8c03\u7528\u8be5\u63a5\u53e3\uff0c\u4ec5\u4e14\u4ec5\u9700\u8c03\u7528\u4e00\u6b21\uff0c\u5efa\u8bae\u5728 Application \u6216\u521d\u59cb Activity \u4e2d\u8c03\u7528\u3002\n\n\n\u8c03\u7528\u793a\u4f8b\n\n\nSMSSDK.getInstance().init(this);\n\n\n\nSMSSDK.getSmsCode(String phone, String tempId, SmscodeListener listener)\n\n\n\u63a5\u53e3\u8bf4\u660e\n\n\n\u83b7\u53d6\u9a8c\u8bc1\u7801\u3002\n\n\n\n\n\u6ce8\uff1a\u8be5\u63a5\u53e3\u662f\u5728\u975e UI \u7ebf\u7a0b\u56de\u8c03\uff0c\u9700\u8981\u5728 UI \u7ebf\u7a0b\u56de\u8c03\u53ef\u8c03\u7528 SMSSDK.getSmsCodeAsyn() \u63a5\u53e3\u3002\n\n\n\n\n\u53c2\u6570\u8bf4\u660e\n\n\n\n\nphone\uff1a\u624b\u673a\u53f7\u7801\uff1b\n\n\ntemp_id\uff1a\u77ed\u4fe1\u6a21\u677f\uff1b\n\n\nlistener\uff1a\u56de\u8c03\u63a5\u53e3\u3002\n\n\n\n\n\u8c03\u7528\u793a\u4f8b\n\n\nSMSSDK.getInstance().getSmsCodeAsyn(\"159xxxxxxxx\", \"1\", new SmscodeListener() {\n    @Override\n    public void getCodeSuccess(final String uuid) {\n        // \u83b7\u53d6\u9a8c\u8bc1\u7801\u6210\u529f\uff0cuuid \u4e3a\u6b64\u6b21\u83b7\u53d6\u7684\u552f\u4e00\u6807\u8bc6\u7801\u3002\n    }\n\n    @Override\n    public void getCodeFail(int errCode,final String errmsg) {\n        // \u83b7\u53d6\u9a8c\u8bc1\u7801\u5931\u8d25 errCode \u4e3a\u9519\u8bef\u7801\uff0c\u8be6\u60c5\u8bf7\u89c1\u6587\u6863\u540e\u9762\u7684\u9519\u8bef\u7801\u8868; errmsg \u4e3a\u9519\u8bef\u63cf\u8ff0\u3002\n    }\n});\n\n\n\nSMSSDK.checkSmsCode(String phone, String code, SmscheckListener listener)\n\n\n\u63a5\u53e3\u8bf4\u660e\n\n\n\u9a8c\u8bc1\u7801\u9a8c\u8bc1\u63a5\u53e3\u3002\n\n\n\n\n\u6ce8\uff1a\u8be5\u63a5\u53e3\u662f\u5728\u975e UI \u7ebf\u7a0b\u56de\u8c03\uff0c\u9700\u8981\u5728 UI \u7ebf\u7a0b\u56de\u8c03\u53ef\u8c03\u7528 SMSSDK.checkSmsCodeAsyn() \u63a5\u53e3\u3002\n\n\n\n\n\u53c2\u6570\u8bf4\u660e\n\n\n\n\nphone\uff1a\u624b\u673a\u53f7\u7801\uff1b\n\n\ncode\uff1a\u77ed\u4fe1\u9a8c\u8bc1\u7801\uff1b\n\n\nlistener\uff1a\u56de\u8c03\u63a5\u53e3\u3002\n\n\n\n\n\u8c03\u7528\u793a\u4f8b\n\n\nSMSSDK.getInstance().checkSmsCodeAsyn(\"159xxxxxxxx\", \"123456\", new SmscheckListener() {\n    @Override\n    public void checkCodeSuccess(final String code) {\n        // \u9a8c\u8bc1\u7801\u9a8c\u8bc1\u6210\u529f\uff0ccode \u4e3a\u9a8c\u8bc1\u7801\u4fe1\u606f\u3002\n    }\n\n    @Override\n    public void checkCodeFail(int errCode, final String errmsg) {\n        // \u9a8c\u8bc1\u7801\u9a8c\u8bc1\u5931\u8d25, errCode \u4e3a\u9519\u8bef\u7801\uff0c\u8be6\u60c5\u8bf7\u89c1\u6587\u6863\u540e\u9762\u7684\u9519\u8bef\u7801\u8868\uff1berrmsg \u4e3a\u9519\u8bef\u63cf\u8ff0\u3002\n    }\n});\n\n\n\n\u9519\u8bef\u7801\u63cf\u8ff0\n\n\n\n\n\n\n\n\n\u9519\u8bef\u7801\n\n\n\u9519\u8bef\u7801\u63cf\u8ff0\n\n\n\u5907\u6ce8\n\n\n\n\n\n\n\n\n\n\n3001\n\n\n\u8bf7\u6c42\u8d85\u65f6\n\n\n\n\n\n\n\n\n3002\n\n\n\u65e0\u6548\u7684\u624b\u673a\u53f7\u7801\n\n\n\n\n\n\n\n\n4001\n\n\nbody \u4e3a\u7a7a\n\n\n\n\n\n\n\n\n4002\n\n\n\u65e0\u6548\u7684 AppKey\n\n\n\n\n\n\n\n\n4003\n\n\n\u65e0\u6548\u7684\u6765\u6e90\n\n\n\n\n\n\n\n\n4004\n\n\nbody \u89e3\u5bc6\u5931\u8d25\n\n\n\n\n\n\n\n\n4005\n\n\naes key \u89e3\u5bc6\u5931\u8d25\n\n\n\n\n\n\n\n\n4006\n\n\n\u65f6\u95f4\u6233\u8f6c\u5316\u5931\u8d25\n\n\n\n\n\n\n\n\n4007\n\n\nbody \u683c\u5f0f\u4e0d\u6b63\u786e\n\n\n\n\n\n\n\n\n4008\n\n\n\u65e0\u6548\u65f6\u95f4\u6233\n\n\n\n\n\n\n\n\n4009\n\n\n\u6ca1\u6709\u77ed\u4fe1\u9a8c\u8bc1\u6743\u9650\n\n\n\n\n\n\n\n\n4011\n\n\n\u53d1\u9001\u8d85\u9891\n\n\n\u5355\u4e2a\u8bbe\u5907\u6216\u540c\u4e00\u624b\u673a\u53f7\u6bcf\u5929\u83b7\u53d6\u9a8c\u8bc1\u7801\u9ed8\u8ba410\u6b21\n\n\n\n\n\n\n4013\n\n\n\u6a21\u677f\u4e0d\u5b58\u5728\n\n\n\n\n\n\n\n\n4014\n\n\nextra \u4e3a\u7a7a\n\n\n\n\n\n\n\n\n4015\n\n\n\u9a8c\u8bc1\u7801\u4e0d\u6b63\u786e\n\n\n\n\n\n\n\n\n4016\n\n\n\u6ca1\u6709\u4f59\u989d\n\n\n\n\n\n\n\n\n4017\n\n\n\u9a8c\u8bc1\u7801\u8d85\u65f6\n\n\n\n\n\n\n\n\n4018\n\n\n\u91cd\u590d\u9a8c\u8bc1\n\n\n\n\n\n\n\n\n2993\n\n\n\u9a8c\u8bc1\u7801\u6821\u9a8c\u5931\u8d25\n\n\n\u77ed\u4fe1\u5df2\u4e0b\u53d1\u4f46\u83b7\u53d6 uuid \u5f02\u5e38\n\n\n\n\n\n\n2994\n\n\n\u672c\u5730\u6570\u636e\u6709\u8bef\n\n\n\n\n\n\n\n\n2995\n\n\n\u6570\u636e\u89e3\u6790\u9519\u8bef\n\n\n\n\n\n\n\n\n2996\n\n\n\u4e24\u6b21\u8bf7\u6c42\u4e0d\u8d85\u8fc7 1 \u5206\u949f\n\n\n\u672c\u5730\u6821\u9a8c\n\n\n\n\n\n\n2997\n\n\n\u672a\u83b7\u53d6\u9a8c\u8bc1\u7801\n\n\n\n\n\n\n\n\n2998\n\n\n\u7f51\u7edc\u9519\u8bef\n\n\n\u6ca1\u6709\u7f51\u7edc\u7b49\n\n\n\n\n\n\n2999\n\n\n\u5176\u5b83\u9519\u8bef", 
+            "title": "Android SDK \u6982\u8ff0"
+        }, 
+        {
+            "location": "/client/Android_SMS_SDK/#jsms-android-sdk", 
+            "text": "", 
+            "title": "JSMS Android SDK \u96c6\u6210\u6307\u5357"
+        }, 
+        {
+            "location": "/client/Android_SMS_SDK/#sdk", 
+            "text": "", 
+            "title": "SDK \u8bf4\u660e"
+        }, 
+        {
+            "location": "/client/Android_SMS_SDK/#_1", 
+            "text": "\u76ee\u524d SDK \u53ea\u652f\u6301 Android 2.3 \u53ca\u4ee5\u4e0a\u7248\u672c\u7684\u624b\u673a\u7cfb\u7edf\u3002", 
+            "title": "\u652f\u6301\u7248\u672c"
+        }, 
+        {
+            "location": "/client/Android_SMS_SDK/#sdk_1", 
+            "text": "AndroidManifest.xml\uff1a\u5ba2\u6237\u7aef\u5d4c\u5165 SDK \u53c2\u8003\u7684\u914d\u7f6e\u6587\u4ef6\uff1b  libs/jpush-sdk-sms-v1.x.x.jar\uff1aSDK Java \u5f00\u53d1\u5305\uff1b  example\uff1a\u4e00\u4e2a\u5b8c\u6574\u7684 Android \u9879\u76ee\uff0c\u6f14\u793a\u4e86 SMS SDK \u7684\u57fa\u672c\u7528\u6cd5\uff0c\u53ef\u4ee5\u7528\u6765\u505a\u53c2\u8003\u3002", 
+            "title": "SDK \u538b\u7f29\u5305\u5305\u542b"
+        }, 
+        {
+            "location": "/client/Android_SMS_SDK/#_2", 
+            "text": "", 
+            "title": "\u96c6\u6210\u6b65\u9aa4"
+        }, 
+        {
+            "location": "/client/Android_SMS_SDK/#_3", 
+            "text": "\u6ce8\u518c\u6210\u4e3a\u6781\u5149\u5f00\u53d1\u8005\uff0c\u5728\u6781\u5149\u7684 Web Portal \u4e0a\u521b\u5efa\u5e94\u7528\u5f97\u5230 AppKey\u3002\u5982\u679c\u60a8\u5df2\u7ecf\u662f\u662f\u6781\u5149\u5176\u4ed6\u4ea7\u54c1\u7684\u7528\u6237\u5e76\u4e14\u521b\u5efa\u8fc7\u5e94\u7528\uff0c\u90a3\u4e48\u65e0\u9700\u91cd\u590d\u521b\u5efa\u3002", 
+            "title": "\u521b\u5efa\u5e94\u7528"
+        }, 
+        {
+            "location": "/client/Android_SMS_SDK/#sdk_2", 
+            "text": "\u89e3\u538b\u538b\u7f29\u5305\uff0c\u5c06 libs/jpush-sdk-sms-v1.x.x.jar \u590d\u5236\u5230\u5de5\u7a0b\u7684 libs \u76ee\u5f55\u4e0b\u9762\u3002", 
+            "title": "\u5bfc\u5165 SDK \u5f00\u53d1\u5305"
+        }, 
+        {
+            "location": "/client/Android_SMS_SDK/#jpush-android-sdk", 
+            "text": "-keep class cn.jpush.sms.SMSSDK {*;}\n-keep class cn.jpush.sms.listener.** {*;}\n-keep class cn.jpush.sms.utils.DeviceInfo {*;}\n\n\n#========================gson   protobuf================================\n-dontwarn com.google.**\n-keep class com.google.gson.jsms.annotations.Until {*;}\n\n#Gson specific classes\n-keep class sun.misc.Unsafe { *; }\n-keep public abstract class com.google.gson.jsms.internal.UnsafeAllocator { *; }", 
+            "title": "\u96c6\u6210 JPush Android SDK \u7684\u6df7\u6dc6"
+        }, 
+        {
+            "location": "/client/Android_SMS_SDK/#androidmanifestxml", 
+            "text": "\u914d\u7f6e\u6743\u9650\uff1a  uses-permission android:name=\"android.permission.INTERNET\"/  uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/  uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/  uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/     \u914d\u7f6e AppKey\uff1a  meta-data android:name=\"JPUSH_APPKEY\" android:value=\"Your AppKey\"/", 
+            "title": "\u914d\u7f6e AndroidManifest.xml"
+        }, 
+        {
+            "location": "/client/Android_SMS_SDK/#_4", 
+            "text": "\u53c2\u8003 Demo \u548c SDK API \u8bf4\u660e\u8fdb\u884c\u6dfb\u52a0\u96c6\u6210\u3002", 
+            "title": "\u6dfb\u52a0\u4ee3\u7801"
+        }, 
+        {
+            "location": "/client/Android_SMS_SDK/#sdk-api", 
+            "text": "SMSSDK \u7c7b\uff1a\u5bf9\u5916\u7684\u7c7b\uff0c\u8be5\u7c7b\u4e3a\u5355\u4f8b\uff0c\u8c03\u7528\u8be5\u7c7b\u7684\u65b9\u6cd5\u90fd\u9700\u8981\u83b7\u53d6\u8be5\u7c7b\u7684\u552f\u4e00\u5b9e\u4f8b\uff0c\u83b7\u5f97\u65b9\u6cd5\u4e3a SMSSDK.getInstance()\u3002    SmscodeListener\uff1a\u83b7\u53d6\u9a8c\u8bc1\u7801\u7684\u56de\u8c03\u63a5\u53e3\uff0c\u5728\u8c03\u7528 SMSSDK \u7684 getSmsCode \u65f6\u9700\u8981\u4f20\u5165\u63a5\u53e3\u5b9e\u4f8b\u3002    SmscheckListener\uff1a\u68c0\u67e5\u9a8c\u8bc1\u7801\u7684\u56de\u8c03\u63a5\u53e3\uff0c\u5728\u8c03\u7528 SMSSDK \u7684 checkSmsCode \u65f6\u9700\u8981\u4f20\u5165\u63a5\u53e3\u5b9e\u4f8b\u3002", 
+            "title": "SDK API \u63cf\u8ff0"
+        }, 
+        {
+            "location": "/client/Android_SMS_SDK/#smssdkinitcontext-context", 
+            "text": "", 
+            "title": "SMSSDK.init(Context context)"
+        }, 
+        {
+            "location": "/client/Android_SMS_SDK/#_5", 
+            "text": "\u8be5\u63a5\u53e3\u4e3a\u521d\u59cb\u5316\u63a5\u53e3\uff0c\u4e3b\u8981\u662f\u68c0\u6d4b\u4e00\u4e9b\u914d\u7f6e\u4fe1\u606f\uff0c\u5982\u679c\u914d\u7f6e\u9519\u8bef\u5c06\u4f1a\u521d\u59cb\u5316\u5931\u8d25\uff0c\u5c06\u4f1a\u6253\u5370\u9519\u8bef\u65e5\u5fd7\u3002\u8c03\u7528\u5176\u5b83\u63a5\u53e3\u524d\u5fc5\u987b\u5148\u8c03\u7528\u8be5\u63a5\u53e3\uff0c\u4ec5\u4e14\u4ec5\u9700\u8c03\u7528\u4e00\u6b21\uff0c\u5efa\u8bae\u5728 Application \u6216\u521d\u59cb Activity \u4e2d\u8c03\u7528\u3002", 
+            "title": "\u63a5\u53e3\u8bf4\u660e"
+        }, 
+        {
+            "location": "/client/Android_SMS_SDK/#_6", 
+            "text": "SMSSDK.getInstance().init(this);", 
+            "title": "\u8c03\u7528\u793a\u4f8b"
+        }, 
+        {
+            "location": "/client/Android_SMS_SDK/#smssdkgetsmscodestring-phone-string-tempid-smscodelistener-listener", 
+            "text": "", 
+            "title": "SMSSDK.getSmsCode(String phone, String tempId, SmscodeListener listener)"
+        }, 
+        {
+            "location": "/client/Android_SMS_SDK/#_7", 
+            "text": "\u83b7\u53d6\u9a8c\u8bc1\u7801\u3002   \u6ce8\uff1a\u8be5\u63a5\u53e3\u662f\u5728\u975e UI \u7ebf\u7a0b\u56de\u8c03\uff0c\u9700\u8981\u5728 UI \u7ebf\u7a0b\u56de\u8c03\u53ef\u8c03\u7528 SMSSDK.getSmsCodeAsyn() \u63a5\u53e3\u3002", 
+            "title": "\u63a5\u53e3\u8bf4\u660e"
+        }, 
+        {
+            "location": "/client/Android_SMS_SDK/#_8", 
+            "text": "phone\uff1a\u624b\u673a\u53f7\u7801\uff1b  temp_id\uff1a\u77ed\u4fe1\u6a21\u677f\uff1b  listener\uff1a\u56de\u8c03\u63a5\u53e3\u3002", 
+            "title": "\u53c2\u6570\u8bf4\u660e"
+        }, 
+        {
+            "location": "/client/Android_SMS_SDK/#_9", 
+            "text": "SMSSDK.getInstance().getSmsCodeAsyn(\"159xxxxxxxx\", \"1\", new SmscodeListener() {\n    @Override\n    public void getCodeSuccess(final String uuid) {\n        // \u83b7\u53d6\u9a8c\u8bc1\u7801\u6210\u529f\uff0cuuid \u4e3a\u6b64\u6b21\u83b7\u53d6\u7684\u552f\u4e00\u6807\u8bc6\u7801\u3002\n    }\n\n    @Override\n    public void getCodeFail(int errCode,final String errmsg) {\n        // \u83b7\u53d6\u9a8c\u8bc1\u7801\u5931\u8d25 errCode \u4e3a\u9519\u8bef\u7801\uff0c\u8be6\u60c5\u8bf7\u89c1\u6587\u6863\u540e\u9762\u7684\u9519\u8bef\u7801\u8868; errmsg \u4e3a\u9519\u8bef\u63cf\u8ff0\u3002\n    }\n});", 
+            "title": "\u8c03\u7528\u793a\u4f8b"
+        }, 
+        {
+            "location": "/client/Android_SMS_SDK/#smssdkchecksmscodestring-phone-string-code-smschecklistener-listener", 
+            "text": "", 
+            "title": "SMSSDK.checkSmsCode(String phone, String code, SmscheckListener listener)"
+        }, 
+        {
+            "location": "/client/Android_SMS_SDK/#_10", 
+            "text": "\u9a8c\u8bc1\u7801\u9a8c\u8bc1\u63a5\u53e3\u3002   \u6ce8\uff1a\u8be5\u63a5\u53e3\u662f\u5728\u975e UI \u7ebf\u7a0b\u56de\u8c03\uff0c\u9700\u8981\u5728 UI \u7ebf\u7a0b\u56de\u8c03\u53ef\u8c03\u7528 SMSSDK.checkSmsCodeAsyn() \u63a5\u53e3\u3002", 
+            "title": "\u63a5\u53e3\u8bf4\u660e"
+        }, 
+        {
+            "location": "/client/Android_SMS_SDK/#_11", 
+            "text": "phone\uff1a\u624b\u673a\u53f7\u7801\uff1b  code\uff1a\u77ed\u4fe1\u9a8c\u8bc1\u7801\uff1b  listener\uff1a\u56de\u8c03\u63a5\u53e3\u3002", 
+            "title": "\u53c2\u6570\u8bf4\u660e"
+        }, 
+        {
+            "location": "/client/Android_SMS_SDK/#_12", 
+            "text": "SMSSDK.getInstance().checkSmsCodeAsyn(\"159xxxxxxxx\", \"123456\", new SmscheckListener() {\n    @Override\n    public void checkCodeSuccess(final String code) {\n        // \u9a8c\u8bc1\u7801\u9a8c\u8bc1\u6210\u529f\uff0ccode \u4e3a\u9a8c\u8bc1\u7801\u4fe1\u606f\u3002\n    }\n\n    @Override\n    public void checkCodeFail(int errCode, final String errmsg) {\n        // \u9a8c\u8bc1\u7801\u9a8c\u8bc1\u5931\u8d25, errCode \u4e3a\u9519\u8bef\u7801\uff0c\u8be6\u60c5\u8bf7\u89c1\u6587\u6863\u540e\u9762\u7684\u9519\u8bef\u7801\u8868\uff1berrmsg \u4e3a\u9519\u8bef\u63cf\u8ff0\u3002\n    }\n});", 
+            "title": "\u8c03\u7528\u793a\u4f8b"
+        }, 
+        {
+            "location": "/client/Android_SMS_SDK/#_13", 
+            "text": "\u9519\u8bef\u7801  \u9519\u8bef\u7801\u63cf\u8ff0  \u5907\u6ce8      3001  \u8bf7\u6c42\u8d85\u65f6     3002  \u65e0\u6548\u7684\u624b\u673a\u53f7\u7801     4001  body \u4e3a\u7a7a     4002  \u65e0\u6548\u7684 AppKey     4003  \u65e0\u6548\u7684\u6765\u6e90     4004  body \u89e3\u5bc6\u5931\u8d25     4005  aes key \u89e3\u5bc6\u5931\u8d25     4006  \u65f6\u95f4\u6233\u8f6c\u5316\u5931\u8d25     4007  body \u683c\u5f0f\u4e0d\u6b63\u786e     4008  \u65e0\u6548\u65f6\u95f4\u6233     4009  \u6ca1\u6709\u77ed\u4fe1\u9a8c\u8bc1\u6743\u9650     4011  \u53d1\u9001\u8d85\u9891  \u5355\u4e2a\u8bbe\u5907\u6216\u540c\u4e00\u624b\u673a\u53f7\u6bcf\u5929\u83b7\u53d6\u9a8c\u8bc1\u7801\u9ed8\u8ba410\u6b21    4013  \u6a21\u677f\u4e0d\u5b58\u5728     4014  extra \u4e3a\u7a7a     4015  \u9a8c\u8bc1\u7801\u4e0d\u6b63\u786e     4016  \u6ca1\u6709\u4f59\u989d     4017  \u9a8c\u8bc1\u7801\u8d85\u65f6     4018  \u91cd\u590d\u9a8c\u8bc1     2993  \u9a8c\u8bc1\u7801\u6821\u9a8c\u5931\u8d25  \u77ed\u4fe1\u5df2\u4e0b\u53d1\u4f46\u83b7\u53d6 uuid \u5f02\u5e38    2994  \u672c\u5730\u6570\u636e\u6709\u8bef     2995  \u6570\u636e\u89e3\u6790\u9519\u8bef     2996  \u4e24\u6b21\u8bf7\u6c42\u4e0d\u8d85\u8fc7 1 \u5206\u949f  \u672c\u5730\u6821\u9a8c    2997  \u672a\u83b7\u53d6\u9a8c\u8bc1\u7801     2998  \u7f51\u7edc\u9519\u8bef  \u6ca1\u6709\u7f51\u7edc\u7b49    2999  \u5176\u5b83\u9519\u8bef", 
+            "title": "\u9519\u8bef\u7801\u63cf\u8ff0"
+        }, 
+        {
+            "location": "/client/iOS_SMS_SDK/", 
+            "text": "JSMS iOS SDK\u96c6\u6210\u6307\u5357\n\n\nSDK \u8bf4\u660e\n\n\n\n\n\u76ee\u524dSDK\u652f\u6301iOS7.0\u53ca\u4ee5\u4e0a\u7248\u672c.\n\n\n\n\nSDK \u538b\u7f29\u5305\u5185\u5305\u62ec\n\n\n\n\nlib\u6587\u4ef6\u5939\uff1a\u5305\u542b\u5934\u6587\u4ef6 JSMSSDK.h\u3001JSMSContant.h\uff0c\u9759\u6001\u5e93\u6587\u4ef6libsms-lib.a \uff0c\u652f\u6301\u7684iOS\u7248\u672c\u4e3a 7.0 \u53ca\u4ee5\u4e0a\u7248\u672c\u3002\n\n\npdf\u6587\u4ef6\uff1a\u96c6\u6210\u6307\u5357\n\n\ndemo\u6587\u4ef6\u5939\uff1a\u793a\u4f8b\n\n\n\n\n\u96c6\u6210\u6b65\u9aa4\n\n\n\u521b\u5efa\u5e94\u7528\n\n\n\u6ce8\u518c\u6210\u4e3aJPush\u5f00\u53d1\u8005\u3002\u5728\u6781\u5149\u7684web portal \u4e0a\u521b\u5efa\u5e94\u7528\u5f97\u5230APPkey\uff0c\u5982\u679c\u60a8\u5df2\u7ecf\u662f\u662f\u6781\u5149\u5176\u4ed6\u4ea7\u54c1\u7684\u7528\u6237\u5e76\u4e14\u521b\u5efa\u8fc7\u5e94\u7528\uff0c\u90a3\u4e48\u65e0\u9700\u91cd\u590d\u521b\u5efa\u3002\n\n\n\u5bfc\u5165\u5f00\u53d1\u5305\n\n\n\u5c06SDK\u5305\u89e3\u538b\uff0c\u5c06\u89e3\u538b\u540e\u7684JsmsSDK\u6587\u4ef6\u5939\uff08\u5305\u542b\u5934\u6587\u4ef6 include\uff0c\u9759\u6001\u5e93\u6587\u4ef6libsms-lib.a \u3002\u5934\u6587\u4ef6\u76ee\u5f55\u5305\u542bJSMSSDK.h\u3001JSMSContant.h\u4e24\u4e2a\u5bf9\u5916\u63a5\u53e3\u6587\u4ef6\uff09\u6dfb\u52a0\u5230\u5de5\u7a0b\u76ee\u5f55\u4e2d\u3002 \n\n\nBuild Settings\n\n\n\n\n\u5728\u9879\u76ee\u914d\u7f6e\uff0cBuild Settings\uff0cOther Linker Flags \u91cc\u589e\u52a0  -ObjC ;\n\n\n\u5982\u679c\u4f7f\u7528\u7684\u662fXcode7\u7f16\u8bd1\u65f6\uff0c\u9700\u8981\u5728App\u9879\u76ee\u7684plist\u624b\u52a8\u52a0\u5165\u4ee5\u4e0bSource Code \u4ee5\u652f\u6301iOS 9 \u7684 http\u4f20\u8f93:\n\n\n\n\nkey\nNSAppTransportSecurity\n/key\n\n    \ndict\n\n   \nkey\nNSAllowsArbitraryLoads\n/key\n\n   \ntrue/\n \n \n/dict\n\n\n\u6dfb\u52a0\u4ee3\u7801\n\n\n+ (void)registerWithAppKey:(NSString * __nullable)appkey;\n\n\n\u63a5\u53e3\u8bf4\u660e\n\n\n\u6ce8\u518cSDK\u63a5\u53e3\uff1a\u5728\u5b98\u7f51\u521b\u5efa\u5e94\u7528,\u521b\u5efa\u6210\u529f\u540e\u81ea\u52a8\u751f\u6210 AppKey \u7528\u4ee5\u6807\u8bc6\u8be5\u5e94\u7528\n\n\n\u8c03\u7528\u793a\u4f8b\uff1a\n\n\n- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {\n      // Override point for customization after application launch.\n\n      //\u4ece\u5b98\u7f51\u6ce8\u518c\u83b7\u53d6\n      //\u6ce8\u518c\u77ed\u4fe1\u9a8c\u8bc1\u7684appKey\n      [JSMSSDK registerWithAppKey:kAppKey];\n\n      return YES;\n }\n\n\n\n\n+ (void)getVerificationCodeWithPhoneNumber:(NSString * __nullable)number \n                          andTemplateID:(NSString * __nullable)templateID\n                          completionHandler:(JSMSCompletionHandler __nullable)handler;\n\n\n\n\n\u63a5\u53e3\u8bf4\u660e\n\n\n\u83b7\u53d6\u9a8c\u8bc1\u7801\u63a5\u53e3\uff1a\u521b\u5efa\u83b7\u53d6\u9a8c\u8bc1\u7801\u7684\u6309\u94ae\uff0c\u6216\u8005\u662f\u5728\u81ea\u5df1\u5df2\u6709\u7684\u754c\u9762\u7684\u6309\u94ae\u4e8b\u4ef6\u91cc\u8c03\u7528\u83b7\u53d6\u9a8c\u8bc1\u7801\u7684\u65b9\u6cd5\n\n\n\u53c2\u6570\u8bf4\u660e\uff1a\n\n\n\n\nnumber :\u624b\u673a\u53f7\u7801\n\n\ntempID\uff1a\u77ed\u4fe1\u6a21\u677fID\uff0c\u76ee\u524d\u670d\u52a1\u5668\u53ea\u63d0\u4f9b+ tempID\uff1a@\u201c1\u201d\n\n\nhandler\uff1a\u8bf7\u6c42\u6210\u529f\u6216\u8005\u5931\u8d25\u7684\u56de\u8c03\n\n\n\n\n\u8c03\u7528\u793a\u4f8b\uff1a\n\n\n\n//\u70b9\u51fb\u83b7\u53d6\u9a8c\u8bc1\u7801\n - (IBAction)sendAuthCode:(id)sender {\n\n     [self.view endEditing: YES];\n     [JSMSSDK getVerificationCodeWithPhoneNumber:@\n15220000000\n andTemplateID:@\n1\n completionHandler:^(id resultObject, NSError *error) {\n     if (!error) {\n         NSLog(@\nGet Verification Code success!\n);\n     }else{\n         NSLog(@\nGet Verification Code failure!\n);\n     }];\n }\n\n\n\n\n+ (void)commitWithPhoneNumber:(NSString * __nullable)number\n                     verificationCode:(NSString * __nullable)vCode\n                  completionHandler:(JSMSCompletionHandler __nullable)handler;\n\n\n\n\n\u63a5\u53e3\u8bf4\u660e\n\n\n\u9a8c\u8bc1\u9a8c\u8bc1\u7801\uff1a\u521b\u5efa\u63d0\u4ea4\u9a8c\u8bc1\u7801\u7684\u6309\u94ae\uff0c\u6216\u8005\u662f\u5728\u81ea\u5df1\u5df2\u6709\u7684\u754c\u9762\u7684\u6309\u94ae\u4e8b\u4ef6\u91cc\u8c03\u7528\u63d0\u4ea4\u9a8c\u8bc1\u7801\u7684\u65b9\u6cd5\n\n\n\u53c2\u6570\u8bf4\u660e\uff1a\n\n\n\n\nnumber  \u624b\u673a\u53f7\u7801\n\n\nvCode:\u77ed\u4fe1\u9a8c\u8bc1\u7801\n\n\nhandler:\u8bf7\u6c42\u6210\u529f\u6216\u8005\u5931\u8d25\u7684\u56de\u8c03\n\n\n\n\n\u8c03\u7528\u793a\u4f8b\uff1a\n\n\n//\u9a8c\u8bc1\u9a8c\u8bc1\u7801 \n [JSMSSDK commitWithPhoneNumber:@\n15220000000\n verificationCode:@\n123456\n completionHandler:^(id resultObject, NSError *error) {\n      if (!error) {\n           NSLog(@\nCommit Verification Code success!\n);\n      }else{\n           NSLog(@\n%@\n,error);\n           NSLog(@\nCommit Verification Code failure!\n);\n      }\n }];\n\n\n\n\n\u9519\u8bef\u7801\u63cf\u8ff0\n\n\n\n\n\n\n\n\n\u9519\u8bef\u7801\n\n\n\u9519\u8bef\u7801\u63cf\u8ff0\n\n\n\u5907\u6ce8\n\n\n\n\n\n\n\n\n\n\n2993\n\n\nuuid\u9519\u8bef\uff0c\u9a8c\u8bc1\u7801\u9a8c\u8bc1\u5931\u8d25\n\n\n\n\n\n\n\n\n2996\n\n\n\u4e24\u6b21\u8bf7\u6c42\u5728\u4e00\u5206\u949f\u5185\n\n\n\n\n\n\n\n\n2997\n\n\n\u8bf7\u9996\u5148\u83b7\u53d6\u9a8c\u8bc1\u7801\n\n\n\n\n\n\n\n\n2998\n\n\n\u7f51\u7edc\u9519\u8bef\n\n\n\n\n\n\n\n\n2999\n\n\n\u5176\u4ed6\u9519\u8bef\n\n\n\n\n\n\n\n\n3001\n\n\n\u8bf7\u6c42\u8d85\u65f6\n\n\n\n\n\n\n\n\n3002\n\n\n\u65e0\u6548\u7684\u624b\u673a\u53f7\u7801\n\n\n\n\n\n\n\n\n4001\n\n\nbody\u4e3a\u7a7a\n\n\n\n\n\n\n\n\n4002\n\n\n\u65e0\u6548\u7684appkey\n\n\n\n\n\n\n\n\n4003\n\n\n\u65e0\u6548\u7684\u6765\u6e90\n\n\n\n\n\n\n\n\n4004\n\n\nbody\u89e3\u5bc6\u5931\u8d25\n\n\n\n\n\n\n\n\n4005\n\n\naes key\u89e3\u5bc6\u5931\u8d25\n\n\n\n\n\n\n\n\n4006\n\n\n\u65f6\u95f4\u6233\u8f6c\u5316\u5931\u8d25\n\n\n\n\n\n\n\n\n4007\n\n\nbody\u683c\u5f0f\u4e0d\u6b63\u786e\n\n\n\n\n\n\n\n\n4008\n\n\n\u65e0\u6548\u65f6\u95f4\u6233\n\n\n\n\n\n\n\n\n4009\n\n\n\u6ca1\u6709\u77ed\u4fe1\u9a8c\u8bc1\u6743\u9650\n\n\n\n\n\n\n\n\n4011\n\n\n\u53d1\u9001\u8d85\u9891\n\n\n\u5355\u4e2a\u8bbe\u5907\u6216\u540c\u4e00\u624b\u673a\u53f7\u6bcf\u5929\u83b7\u53d6\u9a8c\u8bc1\u7801\u9ed8\u8ba410\u6b21\n\n\n\n\n\n\n4012\n\n\napi\u4e0d\u5b58\u5728\n\n\n\n\n\n\n\n\n4013\n\n\n\u6a21\u677f\u4e0d\u5b58\u5728\n\n\n\n\n\n\n\n\n4014\n\n\nextra\u4e3a\u7a7a\n\n\n\n\n\n\n\n\n4015\n\n\n\u9a8c\u8bc1\u7801\u4e0d\u6b63\u786e\n\n\n\n\n\n\n\n\n4016\n\n\n\u6ca1\u6709\u4f59\u989d\n\n\n\n\n\n\n\n\n4017\n\n\n\u9a8c\u8bc1\u7801\u8d85\u65f6\n\n\n\n\n\n\n\n\n5000\n\n\n\u670d\u52a1\u7aef\u9519\u8bef", 
+            "title": "iOS SDK \u6982\u8ff0"
+        }, 
+        {
+            "location": "/client/iOS_SMS_SDK/#jsms-ios-sdk", 
+            "text": "", 
+            "title": "JSMS iOS SDK\u96c6\u6210\u6307\u5357"
+        }, 
+        {
+            "location": "/client/iOS_SMS_SDK/#sdk", 
+            "text": "\u76ee\u524dSDK\u652f\u6301iOS7.0\u53ca\u4ee5\u4e0a\u7248\u672c.", 
+            "title": "SDK \u8bf4\u660e"
+        }, 
+        {
+            "location": "/client/iOS_SMS_SDK/#sdk_1", 
+            "text": "lib\u6587\u4ef6\u5939\uff1a\u5305\u542b\u5934\u6587\u4ef6 JSMSSDK.h\u3001JSMSContant.h\uff0c\u9759\u6001\u5e93\u6587\u4ef6libsms-lib.a \uff0c\u652f\u6301\u7684iOS\u7248\u672c\u4e3a 7.0 \u53ca\u4ee5\u4e0a\u7248\u672c\u3002  pdf\u6587\u4ef6\uff1a\u96c6\u6210\u6307\u5357  demo\u6587\u4ef6\u5939\uff1a\u793a\u4f8b", 
+            "title": "SDK \u538b\u7f29\u5305\u5185\u5305\u62ec"
+        }, 
+        {
+            "location": "/client/iOS_SMS_SDK/#_1", 
+            "text": "", 
+            "title": "\u96c6\u6210\u6b65\u9aa4"
+        }, 
+        {
+            "location": "/client/iOS_SMS_SDK/#_2", 
+            "text": "\u6ce8\u518c\u6210\u4e3aJPush\u5f00\u53d1\u8005\u3002\u5728\u6781\u5149\u7684web portal \u4e0a\u521b\u5efa\u5e94\u7528\u5f97\u5230APPkey\uff0c\u5982\u679c\u60a8\u5df2\u7ecf\u662f\u662f\u6781\u5149\u5176\u4ed6\u4ea7\u54c1\u7684\u7528\u6237\u5e76\u4e14\u521b\u5efa\u8fc7\u5e94\u7528\uff0c\u90a3\u4e48\u65e0\u9700\u91cd\u590d\u521b\u5efa\u3002", 
+            "title": "\u521b\u5efa\u5e94\u7528"
+        }, 
+        {
+            "location": "/client/iOS_SMS_SDK/#_3", 
+            "text": "\u5c06SDK\u5305\u89e3\u538b\uff0c\u5c06\u89e3\u538b\u540e\u7684JsmsSDK\u6587\u4ef6\u5939\uff08\u5305\u542b\u5934\u6587\u4ef6 include\uff0c\u9759\u6001\u5e93\u6587\u4ef6libsms-lib.a \u3002\u5934\u6587\u4ef6\u76ee\u5f55\u5305\u542bJSMSSDK.h\u3001JSMSContant.h\u4e24\u4e2a\u5bf9\u5916\u63a5\u53e3\u6587\u4ef6\uff09\u6dfb\u52a0\u5230\u5de5\u7a0b\u76ee\u5f55\u4e2d\u3002", 
+            "title": "\u5bfc\u5165\u5f00\u53d1\u5305"
+        }, 
+        {
+            "location": "/client/iOS_SMS_SDK/#build-settings", 
+            "text": "\u5728\u9879\u76ee\u914d\u7f6e\uff0cBuild Settings\uff0cOther Linker Flags \u91cc\u589e\u52a0  -ObjC ;  \u5982\u679c\u4f7f\u7528\u7684\u662fXcode7\u7f16\u8bd1\u65f6\uff0c\u9700\u8981\u5728App\u9879\u76ee\u7684plist\u624b\u52a8\u52a0\u5165\u4ee5\u4e0bSource Code \u4ee5\u652f\u6301iOS 9 \u7684 http\u4f20\u8f93:   key NSAppTransportSecurity /key \n     dict \n    key NSAllowsArbitraryLoads /key \n    true/  \n  /dict", 
+            "title": "Build Settings"
+        }, 
+        {
+            "location": "/client/iOS_SMS_SDK/#_4", 
+            "text": "", 
+            "title": "\u6dfb\u52a0\u4ee3\u7801"
+        }, 
+        {
+            "location": "/client/iOS_SMS_SDK/#voidregisterwithappkeynsstring-__nullableappkey", 
+            "text": "\u63a5\u53e3\u8bf4\u660e  \u6ce8\u518cSDK\u63a5\u53e3\uff1a\u5728\u5b98\u7f51\u521b\u5efa\u5e94\u7528,\u521b\u5efa\u6210\u529f\u540e\u81ea\u52a8\u751f\u6210 AppKey \u7528\u4ee5\u6807\u8bc6\u8be5\u5e94\u7528  \u8c03\u7528\u793a\u4f8b\uff1a  - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {\n      // Override point for customization after application launch.\n\n      //\u4ece\u5b98\u7f51\u6ce8\u518c\u83b7\u53d6\n      //\u6ce8\u518c\u77ed\u4fe1\u9a8c\u8bc1\u7684appKey\n      [JSMSSDK registerWithAppKey:kAppKey];\n\n      return YES;\n }  + (void)getVerificationCodeWithPhoneNumber:(NSString * __nullable)number \n                          andTemplateID:(NSString * __nullable)templateID\n                          completionHandler:(JSMSCompletionHandler __nullable)handler;  \u63a5\u53e3\u8bf4\u660e  \u83b7\u53d6\u9a8c\u8bc1\u7801\u63a5\u53e3\uff1a\u521b\u5efa\u83b7\u53d6\u9a8c\u8bc1\u7801\u7684\u6309\u94ae\uff0c\u6216\u8005\u662f\u5728\u81ea\u5df1\u5df2\u6709\u7684\u754c\u9762\u7684\u6309\u94ae\u4e8b\u4ef6\u91cc\u8c03\u7528\u83b7\u53d6\u9a8c\u8bc1\u7801\u7684\u65b9\u6cd5  \u53c2\u6570\u8bf4\u660e\uff1a   number :\u624b\u673a\u53f7\u7801  tempID\uff1a\u77ed\u4fe1\u6a21\u677fID\uff0c\u76ee\u524d\u670d\u52a1\u5668\u53ea\u63d0\u4f9b+ tempID\uff1a@\u201c1\u201d  handler\uff1a\u8bf7\u6c42\u6210\u529f\u6216\u8005\u5931\u8d25\u7684\u56de\u8c03   \u8c03\u7528\u793a\u4f8b\uff1a  \n//\u70b9\u51fb\u83b7\u53d6\u9a8c\u8bc1\u7801\n - (IBAction)sendAuthCode:(id)sender {\n\n     [self.view endEditing: YES];\n     [JSMSSDK getVerificationCodeWithPhoneNumber:@ 15220000000  andTemplateID:@ 1  completionHandler:^(id resultObject, NSError *error) {\n     if (!error) {\n         NSLog(@ Get Verification Code success! );\n     }else{\n         NSLog(@ Get Verification Code failure! );\n     }];\n }  + (void)commitWithPhoneNumber:(NSString * __nullable)number\n                     verificationCode:(NSString * __nullable)vCode\n                  completionHandler:(JSMSCompletionHandler __nullable)handler;  \u63a5\u53e3\u8bf4\u660e  \u9a8c\u8bc1\u9a8c\u8bc1\u7801\uff1a\u521b\u5efa\u63d0\u4ea4\u9a8c\u8bc1\u7801\u7684\u6309\u94ae\uff0c\u6216\u8005\u662f\u5728\u81ea\u5df1\u5df2\u6709\u7684\u754c\u9762\u7684\u6309\u94ae\u4e8b\u4ef6\u91cc\u8c03\u7528\u63d0\u4ea4\u9a8c\u8bc1\u7801\u7684\u65b9\u6cd5  \u53c2\u6570\u8bf4\u660e\uff1a   number  \u624b\u673a\u53f7\u7801  vCode:\u77ed\u4fe1\u9a8c\u8bc1\u7801  handler:\u8bf7\u6c42\u6210\u529f\u6216\u8005\u5931\u8d25\u7684\u56de\u8c03   \u8c03\u7528\u793a\u4f8b\uff1a  //\u9a8c\u8bc1\u9a8c\u8bc1\u7801 \n [JSMSSDK commitWithPhoneNumber:@ 15220000000  verificationCode:@ 123456  completionHandler:^(id resultObject, NSError *error) {\n      if (!error) {\n           NSLog(@ Commit Verification Code success! );\n      }else{\n           NSLog(@ %@ ,error);\n           NSLog(@ Commit Verification Code failure! );\n      }\n }];", 
+            "title": "+ (void)registerWithAppKey:(NSString * __nullable)appkey;"
+        }, 
+        {
+            "location": "/client/iOS_SMS_SDK/#_5", 
+            "text": "\u9519\u8bef\u7801  \u9519\u8bef\u7801\u63cf\u8ff0  \u5907\u6ce8      2993  uuid\u9519\u8bef\uff0c\u9a8c\u8bc1\u7801\u9a8c\u8bc1\u5931\u8d25     2996  \u4e24\u6b21\u8bf7\u6c42\u5728\u4e00\u5206\u949f\u5185     2997  \u8bf7\u9996\u5148\u83b7\u53d6\u9a8c\u8bc1\u7801     2998  \u7f51\u7edc\u9519\u8bef     2999  \u5176\u4ed6\u9519\u8bef     3001  \u8bf7\u6c42\u8d85\u65f6     3002  \u65e0\u6548\u7684\u624b\u673a\u53f7\u7801     4001  body\u4e3a\u7a7a     4002  \u65e0\u6548\u7684appkey     4003  \u65e0\u6548\u7684\u6765\u6e90     4004  body\u89e3\u5bc6\u5931\u8d25     4005  aes key\u89e3\u5bc6\u5931\u8d25     4006  \u65f6\u95f4\u6233\u8f6c\u5316\u5931\u8d25     4007  body\u683c\u5f0f\u4e0d\u6b63\u786e     4008  \u65e0\u6548\u65f6\u95f4\u6233     4009  \u6ca1\u6709\u77ed\u4fe1\u9a8c\u8bc1\u6743\u9650     4011  \u53d1\u9001\u8d85\u9891  \u5355\u4e2a\u8bbe\u5907\u6216\u540c\u4e00\u624b\u673a\u53f7\u6bcf\u5929\u83b7\u53d6\u9a8c\u8bc1\u7801\u9ed8\u8ba410\u6b21    4012  api\u4e0d\u5b58\u5728     4013  \u6a21\u677f\u4e0d\u5b58\u5728     4014  extra\u4e3a\u7a7a     4015  \u9a8c\u8bc1\u7801\u4e0d\u6b63\u786e     4016  \u6ca1\u6709\u4f59\u989d     4017  \u9a8c\u8bc1\u7801\u8d85\u65f6     5000  \u670d\u52a1\u7aef\u9519\u8bef", 
+            "title": "\u9519\u8bef\u7801\u63cf\u8ff0"
+        }, 
+        {
+            "location": "/server/rest_api_jsms/", 
+            "text": "SMS Code API \nv1\n\n\n\n\n\n\n\u53d1\u9001\u77ed\u4fe1\u9a8c\u8bc1\u7801\n\n\n\u9a8c\u8bc1\u77ed\u4fe1\u9a8c\u8bc1\u7801\n\n\n\u4f7f\u7528 HTTP Basic Authentication \u7684\u65b9\u5f0f\u505a\u8bbf\u95ee\u6388\u6743\u3002\u8fd9\u6837\u6574\u4e2a API \u8bf7\u6c42\u53ef\u4ee5\u4f7f\u7528\u5e38\u89c1\u7684 HTTP \u5de5\u5177\u6765\u5b8c\u6210\uff0c\u6bd4\u5982\uff1acurl\uff0c\u6d4f\u89c8\u5668\u63d2\u4ef6\u7b49\uff1b\n\n\n\u5185\u5bb9\u5b8c\u5168\u4f7f\u7528 JSON \u7684\u683c\u5f0f\uff1b\n\n\n\n\n\n\n\n\n\u53d1\u9001\u9a8c\u8bc1\u7801API\n\n\n\u529f\u80fd\u8bf4\u660e\n\n\n\n\n\u5411\u624b\u673a\u53f7\u4e0b\u53d1\u77ed\u4fe1\u9a8c\u8bc1\u7801\u3002\n\n\n\n\n\u8c03\u7528\u5730\u5740\n\n\n\n\nPOST https://api.sms.jpush.cn/v1/codes\n\n\n\n\n\u8bf7\u6c42\u793a\u4f8b\n\n\ncurl --insecure -X POST -v https://api.sms.jpush.cn/v1/codes -H \nContent-Type: application/json\n -u \n7d431e42dfa6a6d693ac2d04:5e987ac6d2e04d95a9d8f0d1\n -d '{\nmobile\n:\nxxxxxxxxxxx\n,\ntemp_id\n:1}'\n\n\n\n\n\n\u53c2\u6570\n\n\n\n\n\n\n\n\nKEY\n\n\nREQUIRE\n\n\nDESCRIPTION\n\n\n\n\n\n\n\n\n\n\nmobile\n\n\nTRUE\n\n\n\u624b\u673a\u53f7\u7801\n\n\n\n\n\n\ntemp_id\n\n\nTRUE\n\n\n\u6a21\u677fID\n\n\n\n\n\n\n\n\n\u8fd4\u56de\u793a\u4f8b\n\n\n HTTP/1.1 200 OK\n\n Content-Type: application/json\n{\nmsg_id\n:\n06890980-6789-4054-bba9-90fb66ab2fce\n}\n\n\n\n\n\n\u8c03\u7528\u9a8c\u8bc1\n\n\nHTTP Header\uff08\u5934\uff09\u91cc\u52a0\u4e00\u4e2a\u5b57\u6bb5\uff08Key/Value\u5bf9\uff09\uff1a\n\n\nAuthorization: Basic base64_auth_string\n\n\n\n\n\u5176\u4e2d base64_auth_string \u7684\u751f\u6210\u7b97\u6cd5\u4e3a\uff1abase64(appKey:masterSecret)\n\n\n\u5373:\u5bf9 appKey \u52a0\u4e0a\u5192\u53f7\uff0c\u52a0\u4e0a masterSecret \u62fc\u88c5\u8d77\u6765\u7684\u5b57\u7b26\u4e32\uff0c\u518d\u505a base64 \u8f6c\u6362\u3002\n\n\n\u9a8c\u8bc1API\n\n\n\u529f\u80fd\u8bf4\u660e\n\n\n\n\n\u9a8c\u8bc1\u77ed\u4fe1\u9a8c\u8bc1\u7801\u662f\u5426\u6709\u6548\u3002\n\n\n\n\n\u8c03\u7528\u5730\u5740\n\n\n\n\nPOST https://api.sms.jpush.cn/v1/codes/{msg_id}/valid\n(\u6ce8:msg_id\u4e3a\u8c03\u7528\u53d1\u9001\u9a8c\u8bc1\u7801API\u7684\u8fd4\u56de\u503c)\n\n\n\n\n\u8bf7\u6c42\u793a\u4f8b\n\n\ncurl --insecure -X POST -v https://api.sms.jpush.cn/v1/codes/06890980-6789-4054-bba9-90fb66ab2fce/valid -d '{\ncode\n:\n123456\n}'\n\n\n\n\n\n\u53c2\u6570\n\n\n\n\n\n\n\n\nKEY\n\n\nREQUIRE\n\n\nDESCRIPTION\n\n\n\n\n\n\n\n\n\n\ncode\n\n\nTRUE\n\n\n\u9a8c\u8bc1\u7801\n\n\n\n\n\n\n\n\n\u8fd4\u56de\u793a\u4f8b\n\n\n\n\n\u9a8c\u8bc1\u901a\u8fc7\n\n\n\n\n    {\n        \nis_valid\n:true\n    }\n\n\n\n\n\n\n\n\u9a8c\u8bc1\u4e0d\u901a\u8fc7\n\n\n\n\n    {\n        \nis_valid\n:false,\n        \nerror\n:{\n            \ncode\n:***,//\u5177\u4f53\u5bf9\u7167\u8fd4\u56de\u7801\u8868\n            \nmessage\n:\n***\n\n        }\n    }\n\n\n\n\n\u8fd4\u56de\u7801\n\n\n\n\n\n\n\n\nHTTP CODE\n\n\nCODE\n\n\nCONTENT\n\n\nDESC\n\n\n\n\n\n\n\n\n\n\n200\n\n\n50000\n\n\nsuccess\n\n\n\u8bf7\u6c42\u6210\u529f\n\n\n\n\n\n\n400\n\n\n50001\n\n\nmissing auth\n\n\nauth\u4e3a\u7a7a\n\n\n\n\n\n\n401\n\n\n50002\n\n\nauth failed\n\n\nauth\u9274\u6743\u5931\u8d25\n\n\n\n\n\n\n400\n\n\n50003\n\n\nmissing body\n\n\nbody\u4e3a\u7a7a\n\n\n\n\n\n\n400\n\n\n50004\n\n\nmissing mobile\n\n\nmobile\u4e3a\u7a7a\n\n\n\n\n\n\n400\n\n\n50005\n\n\nmissing  temp_id\n\n\ntemp_id\u4e3a\u7a7a\n\n\n\n\n\n\n403\n\n\n50006\n\n\ninvalid mobile\n\n\nmobile\u65e0\u6548\n\n\n\n\n\n\n403\n\n\n50007\n\n\ninvalid body\n\n\nbody\u65e0\u6548\n\n\n\n\n\n\n403\n\n\n50008\n\n\nno sms code auth\n\n\n\u6ca1\u6709\u77ed\u4fe1\u9a8c\u8bc1\u6743\u9650\n\n\n\n\n\n\n403\n\n\n50009\n\n\nout of freq\n\n\n\u53d1\u9001\u8d85\u9891\n\n\n\n\n\n\n403\n\n\n50010\n\n\ninvalid code\n\n\n\u9a8c\u8bc1\u7801\u65e0\u6548\n\n\n\n\n\n\n403\n\n\n50011\n\n\nexpired code\n\n\n\u9a8c\u8bc1\u7801\u8fc7\u671f\n\n\n\n\n\n\n403\n\n\n50012\n\n\nverified code\n\n\n\u9a8c\u8bc1\u7801\u5df2\u9a8c\u8bc1\u8fc7\n\n\n\n\n\n\n403\n\n\n50013\n\n\ninvalid temp_id\n\n\n\u65e0\u6548temp_id\n\n\n\n\n\n\n403\n\n\n50014\n\n\nno money\n\n\n\u4f59\u989d\u4e0d\u8db3\n\n\n\n\n\n\n400\n\n\n50015\n\n\nmissing code\n\n\n\u9a8c\u8bc1\u7801\u4e3a\u7a7a\n\n\n\n\n\n\n404\n\n\n50016\n\n\napi not found\n\n\napi\u4e0d\u5b58\u5728\n\n\n\n\n\n\n415\n\n\n50017\n\n\nmedia not supported\n\n\n\u5a92\u4f53\u7c7b\u578b\u4e0d\u652f\u6301\n\n\n\n\n\n\n405\n\n\n50018\n\n\nrequest method not support\n\n\n\u8bf7\u6c42\u65b9\u6cd5\u4e0d\u652f\u6301\n\n\n\n\n\n\n500\n\n\n50019\n\n\nserver error\n\n\n\u670d\u52a1\u7aef\u5f02\u5e38", 
+            "title": "REST API \u6982\u8ff0"
+        }, 
+        {
+            "location": "/server/rest_api_jsms/#sms-code-api-v1", 
+            "text": "\u53d1\u9001\u77ed\u4fe1\u9a8c\u8bc1\u7801  \u9a8c\u8bc1\u77ed\u4fe1\u9a8c\u8bc1\u7801  \u4f7f\u7528 HTTP Basic Authentication \u7684\u65b9\u5f0f\u505a\u8bbf\u95ee\u6388\u6743\u3002\u8fd9\u6837\u6574\u4e2a API \u8bf7\u6c42\u53ef\u4ee5\u4f7f\u7528\u5e38\u89c1\u7684 HTTP \u5de5\u5177\u6765\u5b8c\u6210\uff0c\u6bd4\u5982\uff1acurl\uff0c\u6d4f\u89c8\u5668\u63d2\u4ef6\u7b49\uff1b  \u5185\u5bb9\u5b8c\u5168\u4f7f\u7528 JSON \u7684\u683c\u5f0f\uff1b", 
+            "title": "SMS Code API v1"
+        }, 
+        {
+            "location": "/server/rest_api_jsms/#api", 
+            "text": "", 
+            "title": "\u53d1\u9001\u9a8c\u8bc1\u7801API"
+        }, 
+        {
+            "location": "/server/rest_api_jsms/#_1", 
+            "text": "\u5411\u624b\u673a\u53f7\u4e0b\u53d1\u77ed\u4fe1\u9a8c\u8bc1\u7801\u3002", 
+            "title": "\u529f\u80fd\u8bf4\u660e"
+        }, 
+        {
+            "location": "/server/rest_api_jsms/#_2", 
+            "text": "POST https://api.sms.jpush.cn/v1/codes", 
+            "title": "\u8c03\u7528\u5730\u5740"
+        }, 
+        {
+            "location": "/server/rest_api_jsms/#_3", 
+            "text": "curl --insecure -X POST -v https://api.sms.jpush.cn/v1/codes -H  Content-Type: application/json  -u  7d431e42dfa6a6d693ac2d04:5e987ac6d2e04d95a9d8f0d1  -d '{ mobile : xxxxxxxxxxx , temp_id :1}'", 
+            "title": "\u8bf7\u6c42\u793a\u4f8b"
+        }, 
+        {
+            "location": "/server/rest_api_jsms/#_4", 
+            "text": "KEY  REQUIRE  DESCRIPTION      mobile  TRUE  \u624b\u673a\u53f7\u7801    temp_id  TRUE  \u6a21\u677fID", 
+            "title": "\u53c2\u6570"
+        }, 
+        {
+            "location": "/server/rest_api_jsms/#_5", 
+            "text": "HTTP/1.1 200 OK  Content-Type: application/json\n{ msg_id : 06890980-6789-4054-bba9-90fb66ab2fce }", 
+            "title": "\u8fd4\u56de\u793a\u4f8b"
+        }, 
+        {
+            "location": "/server/rest_api_jsms/#_6", 
+            "text": "HTTP Header\uff08\u5934\uff09\u91cc\u52a0\u4e00\u4e2a\u5b57\u6bb5\uff08Key/Value\u5bf9\uff09\uff1a  Authorization: Basic base64_auth_string  \u5176\u4e2d base64_auth_string \u7684\u751f\u6210\u7b97\u6cd5\u4e3a\uff1abase64(appKey:masterSecret)  \u5373:\u5bf9 appKey \u52a0\u4e0a\u5192\u53f7\uff0c\u52a0\u4e0a masterSecret \u62fc\u88c5\u8d77\u6765\u7684\u5b57\u7b26\u4e32\uff0c\u518d\u505a base64 \u8f6c\u6362\u3002", 
+            "title": "\u8c03\u7528\u9a8c\u8bc1"
+        }, 
+        {
+            "location": "/server/rest_api_jsms/#api_1", 
+            "text": "", 
+            "title": "\u9a8c\u8bc1API"
+        }, 
+        {
+            "location": "/server/rest_api_jsms/#_7", 
+            "text": "\u9a8c\u8bc1\u77ed\u4fe1\u9a8c\u8bc1\u7801\u662f\u5426\u6709\u6548\u3002", 
+            "title": "\u529f\u80fd\u8bf4\u660e"
+        }, 
+        {
+            "location": "/server/rest_api_jsms/#_8", 
+            "text": "POST https://api.sms.jpush.cn/v1/codes/{msg_id}/valid\n(\u6ce8:msg_id\u4e3a\u8c03\u7528\u53d1\u9001\u9a8c\u8bc1\u7801API\u7684\u8fd4\u56de\u503c)", 
+            "title": "\u8c03\u7528\u5730\u5740"
+        }, 
+        {
+            "location": "/server/rest_api_jsms/#_9", 
+            "text": "curl --insecure -X POST -v https://api.sms.jpush.cn/v1/codes/06890980-6789-4054-bba9-90fb66ab2fce/valid -d '{ code : 123456 }'", 
+            "title": "\u8bf7\u6c42\u793a\u4f8b"
+        }, 
+        {
+            "location": "/server/rest_api_jsms/#_10", 
+            "text": "KEY  REQUIRE  DESCRIPTION      code  TRUE  \u9a8c\u8bc1\u7801", 
+            "title": "\u53c2\u6570"
+        }, 
+        {
+            "location": "/server/rest_api_jsms/#_11", 
+            "text": "\u9a8c\u8bc1\u901a\u8fc7       {\n         is_valid :true\n    }   \u9a8c\u8bc1\u4e0d\u901a\u8fc7       {\n         is_valid :false,\n         error :{\n             code :***,//\u5177\u4f53\u5bf9\u7167\u8fd4\u56de\u7801\u8868\n             message : *** \n        }\n    }", 
+            "title": "\u8fd4\u56de\u793a\u4f8b"
+        }, 
+        {
+            "location": "/server/rest_api_jsms/#_12", 
+            "text": "HTTP CODE  CODE  CONTENT  DESC      200  50000  success  \u8bf7\u6c42\u6210\u529f    400  50001  missing auth  auth\u4e3a\u7a7a    401  50002  auth failed  auth\u9274\u6743\u5931\u8d25    400  50003  missing body  body\u4e3a\u7a7a    400  50004  missing mobile  mobile\u4e3a\u7a7a    400  50005  missing  temp_id  temp_id\u4e3a\u7a7a    403  50006  invalid mobile  mobile\u65e0\u6548    403  50007  invalid body  body\u65e0\u6548    403  50008  no sms code auth  \u6ca1\u6709\u77ed\u4fe1\u9a8c\u8bc1\u6743\u9650    403  50009  out of freq  \u53d1\u9001\u8d85\u9891    403  50010  invalid code  \u9a8c\u8bc1\u7801\u65e0\u6548    403  50011  expired code  \u9a8c\u8bc1\u7801\u8fc7\u671f    403  50012  verified code  \u9a8c\u8bc1\u7801\u5df2\u9a8c\u8bc1\u8fc7    403  50013  invalid temp_id  \u65e0\u6548temp_id    403  50014  no money  \u4f59\u989d\u4e0d\u8db3    400  50015  missing code  \u9a8c\u8bc1\u7801\u4e3a\u7a7a    404  50016  api not found  api\u4e0d\u5b58\u5728    415  50017  media not supported  \u5a92\u4f53\u7c7b\u578b\u4e0d\u652f\u6301    405  50018  request method not support  \u8bf7\u6c42\u65b9\u6cd5\u4e0d\u652f\u6301    500  50019  server error  \u670d\u52a1\u7aef\u5f02\u5e38", 
+            "title": "\u8fd4\u56de\u7801"
+        }, 
+        {
+            "location": "/updates/", 
+            "text": "\u6700\u8fd1\u66f4\u65b0\n\n\nJSMS Android SDK 1.0.0\n\n\n\u66f4\u65b0\u65f6\u95f4\n\n\n\n\n2016-06-27\n\n\n\n\nChange Log\n\n\n\n\n\u529f\u80fd\uff1a\u63d0\u4f9b android \u77ed\u4fe1\u9a8c\u8bc1\u7801\n\n\n\n\n\u5347\u7ea7\u63d0\u793a\n\n\n\n\n\u5efa\u8bae\u5347\u7ea7\uff01\n\n\n\n\n\u5347\u7ea7\u6307\u5357\n\n\n\n\n\u9996\u5148\u89e3\u538b\u60a8\u83b7\u53d6\u5230\u7684zip\u538b\u7f29\u5305\n\n\n\u5bfc\u5165 SDK \u5f00\u53d1\u5305\n\n\n\u914d\u7f6e AndroidManifest.xml\n\n\n\n\nJSMS iOS SDK 1.1.0\n\n\n\u66f4\u65b0\u65f6\u95f4\n\n\n\n\n2016-06-13\n\n\n\n\nChange Log\n\n\n\n\n\u4f18\u5316\uff1a\u4e0eJPush \u96c6\u6210\u51fa\u73b0\u7684\u51b2\u7a81\u3002\n\n\n\n\n\u5347\u7ea7\u63d0\u793a\n\n\n\n\n\u5efa\u8bae\u5347\u7ea7\uff01\n\n\n\n\n\u5347\u7ea7\u6307\u5357\n\n\n\n\n\u9996\u5148\u89e3\u538b\u60a8\u83b7\u53d6\u5230\u7684zip\u538b\u7f29\u5305\n\n\n\u66f4\u65b0\u5e93\u6587\u4ef6", 
+            "title": "\u6700\u8fd1\u66f4\u65b0"
+        }, 
+        {
+            "location": "/updates/#_1", 
+            "text": "", 
+            "title": "\u6700\u8fd1\u66f4\u65b0"
+        }, 
+        {
+            "location": "/updates/#jsms-android-sdk-100", 
+            "text": "", 
+            "title": "JSMS Android SDK 1.0.0"
+        }, 
+        {
+            "location": "/updates/#_2", 
+            "text": "2016-06-27", 
+            "title": "\u66f4\u65b0\u65f6\u95f4"
+        }, 
+        {
+            "location": "/updates/#change-log", 
+            "text": "\u529f\u80fd\uff1a\u63d0\u4f9b android \u77ed\u4fe1\u9a8c\u8bc1\u7801", 
+            "title": "Change Log"
+        }, 
+        {
+            "location": "/updates/#_3", 
+            "text": "\u5efa\u8bae\u5347\u7ea7\uff01", 
+            "title": "\u5347\u7ea7\u63d0\u793a"
+        }, 
+        {
+            "location": "/updates/#_4", 
+            "text": "\u9996\u5148\u89e3\u538b\u60a8\u83b7\u53d6\u5230\u7684zip\u538b\u7f29\u5305  \u5bfc\u5165 SDK \u5f00\u53d1\u5305  \u914d\u7f6e AndroidManifest.xml", 
+            "title": "\u5347\u7ea7\u6307\u5357"
+        }, 
+        {
+            "location": "/updates/#jsms-ios-sdk-110", 
+            "text": "", 
+            "title": "JSMS iOS SDK 1.1.0"
+        }, 
+        {
+            "location": "/updates/#_5", 
+            "text": "2016-06-13", 
+            "title": "\u66f4\u65b0\u65f6\u95f4"
+        }, 
+        {
+            "location": "/updates/#change-log_1", 
+            "text": "\u4f18\u5316\uff1a\u4e0eJPush \u96c6\u6210\u51fa\u73b0\u7684\u51b2\u7a81\u3002", 
+            "title": "Change Log"
+        }, 
+        {
+            "location": "/updates/#_6", 
+            "text": "\u5efa\u8bae\u5347\u7ea7\uff01", 
+            "title": "\u5347\u7ea7\u63d0\u793a"
+        }, 
+        {
+            "location": "/updates/#_7", 
+            "text": "\u9996\u5148\u89e3\u538b\u60a8\u83b7\u53d6\u5230\u7684zip\u538b\u7f29\u5305  \u66f4\u65b0\u5e93\u6587\u4ef6", 
+            "title": "\u5347\u7ea7\u6307\u5357"
+        }, 
+        {
+            "location": "/resources/", 
+            "text": "\u8d44\u6e90\u4e0b\u8f7d\n\n\n\u5ba2\u6237\u7aef SDK \u4e0b\u8f7d\n\n\n\n    \n\n        \n\n            \n\n                \n\n                    \n\n                \n\n            \n\n            \n\n                \n\n                    \nAndroid - SDK\u4e0b\u8f7d\n\n                \n\n                \n\n                    \n\u8bf7\u53c2\u8003\u5982\u4e0b\u6587\u6863\u6765\u96c6\u6210SDK\uff1a\n\n                    \n\n                        \nAndroid SDK\u96c6\u6210\u6307\u5357\n\n                        \n\n                    \n\n                    \n\n                    \n\n                        \n\u4e0b\u8f7d\n\n                    \n\n                \n\n                \n\n                \n\n                \n\n        \n\n        \n\n            \n\n                \n\n                    \n\n                \n\n            \n\n            \n\n                \n\n                    \niOS - SDK\u4e0b\u8f7d\n\n                \n\n                \n\n                    \n\u8bf7\u53c2\u8003\u5982\u4e0b\u6587\u6863\u6765\u96c6\u6210SDK\uff1a\n\n                    \n\n                        \niOS SDK \u96c6\u6210\u6307\u5357\n\n                        \n\n                    \n\n                    \n\n                    \n\n                        \n\u4e0b\u8f7d", 
+            "title": "\u8d44\u6e90\u4e0b\u8f7d"
+        }, 
+        {
+            "location": "/resources/#_1", 
+            "text": "", 
+            "title": "\u8d44\u6e90\u4e0b\u8f7d"
+        }, 
+        {
+            "location": "/resources/#sdk", 
+            "text": "Android - SDK\u4e0b\u8f7d \n                 \n                 \n                     \u8bf7\u53c2\u8003\u5982\u4e0b\u6587\u6863\u6765\u96c6\u6210SDK\uff1a \n                     \n                         Android SDK\u96c6\u6210\u6307\u5357 \n                         \n                     \n                     \n                     \n                         \u4e0b\u8f7d \n                     \n                 \n                 \n                 \n                 \n         \n         \n             \n                 \n                     \n                 \n             \n             \n                 \n                     iOS - SDK\u4e0b\u8f7d \n                 \n                 \n                     \u8bf7\u53c2\u8003\u5982\u4e0b\u6587\u6863\u6765\u96c6\u6210SDK\uff1a \n                     \n                         iOS SDK \u96c6\u6210\u6307\u5357 \n                         \n                     \n                     \n                     \n                         \u4e0b\u8f7d", 
+            "title": "\u5ba2\u6237\u7aef SDK \u4e0b\u8f7d"
+        }
+    ]
+}

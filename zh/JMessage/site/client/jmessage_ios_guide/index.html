@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+  <html class="no-js lt-ie9" lang="en">
+  <![endif]-->
+<!--[if gt IE 8]>
+    <!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="author" content="JPush Offical"> 
+    <title>JMessage iOS SDK 集成指南 - 极光文档</title> 
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <script src="../../js/jquery-2.1.4.js"></script>
+
+    <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+    <script src="../../js/bootstrap/js/bootstrap.js"></script>
+
+    <link href="../../js/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+    
+    <script>
+    // Current page data
+    var mkdocs_page_name = "JMessage iOS SDK 集成指南";
+    var mkdocs_page_input_path = "client/jmessage_ios_guide.md";
+    var mkdocs_page_url = "/client/jmessage_ios_guide/";
+    </script>
+    
+    <script src="../../js/jpush.js"></script> 
+</head>
+
+<body data-spy="scroll" data-target="#navbar-right">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3  col-md-3  col-sm-3 ">
+                    <div id="doc-icon">
+                        <a href="/"><img src="/img/icon/logo.png"></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-8  col-sm-8">
+                    <div class="header">
+                        <ul class="nav nav-tabs">
+                            <li role="presentation" >
+                                <a href="/jpush/guideline/intro/" id="jpush-top">JPush</a></li>
+                            <li role="presentation" >
+                                <a href="/jmessage/guideline/jmessage_guide/" id="jmessage-top">JMessage</a></li>
+                            <li role="presentation" >
+                                <a href="/jsms/guideline/JSMS_guide/" id="jsms-top">短信验证码</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2  col-md-1 col-sm-1">
+                    <div>
+                        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3  col-md-3 col-sm-4">
+                <div id="navbar-left">
+                    <ul class="wy-menu">
+                        
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    入门指南 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../guideline/jmessage_guide/">JMessage 产品简介</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    Android 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../im_sdk_android/">Android SDK 概述</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../jmessage_android_guide/">JMessage Android SDK 集成指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../im_errorcode_android/">IM SDK ErrorCode 定义</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    iOS 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../im_sdk_ios/">iOS SDK 概述</a>
+    </li>
+                                
+                                    <li class="toctree-l1 current">
+        <a class="current" href="./">JMessage iOS SDK 集成指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../im_errorcode_ios/">IM SDK ErrorCode 定义</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    JS 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../im_sdk_js/">JMessage WEB SDK 开发文档</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    REST API 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../server/rest_api_im/">IM REST API</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../server/rest_api_im_report/">IM REST Report</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../im_errorcode_server/">Server ErrorCode 定义</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    高级 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../advanced/im_message_protocol/">IM 消息协议</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../advanced/im_objects/">IM 业务对象</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../advanced/jmessage_callback/">实时消息回调</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../advanced/jmessage_topics/">极光IM高级话题</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                                <ul class="subnavul">
+                                    <li class="subnavli_single " >
+                                        <span>
+                          <a href="../../updates/" class="">最近更新</a></span>
+                                    </li>
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                                <ul class="subnavul">
+                                    <li class="subnavli_single " >
+                                        <span>
+                          <a href="../../resources/" class="">资源下载</a></span>
+                                    </li>
+                                </ul>
+                                <li></ul>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-8  col-md-9  col-sm-8">
+                <div id="content-top"></div>
+                <section >
+                    <div class="rst-content"><div id="breadcrumbs" role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../guideline/jmessage_guide/">极光文档</a>></li>
+    
+      
+        
+          <li><a href="../im_sdk_ios/">iOS</a> ></li>
+        
+      
+    
+    <li>
+    JMessage iOS SDK 集成指南
+    <!--
+    <a href="./">JMessage iOS SDK 集成指南</a>
+    -->
+    </li>
+  </ul>
+</div>
+                        <div role="main">
+                            <div class="section"> <h1 id="jmessage-ios-sdk">JMessage iOS SDK 集成指南</h1>
+<style>
+img[alt=jmessage_ios] { width: 800px; }
+</style>
+
+<h3 id="_1">文档说明</h3>
+<p>本文是极光IM iOS SDK 的集成指南文档。</p>
+<p>在你看到本文档时，可能最新的 SDK版本与本文已经不是很适配，建议关注在线文档：</p>
+<ul>
+<li><a href="http://docs.jpush.io/">极光文档</a>网站上，有极光推送相关的所有指南、API、教程等全部的文档。包括本文档的更新版本，都会及时地发布到该网站上。</li>
+<li><a href="https://community.jiguang.cn/latest">极光问答</a>网站：大家除了文档之外，还有问题与疑问，会到这里来提问题，以及时地得到解答。</li>
+<li>如果您看到本文档时，但还未下载 JMessage SDK，请访问<a href="../../../resources_jmessage">SDK下载页面</a>下载。</li>
+</ul>
+<h3 id="_2">功能说明</h3>
+<p>极光IM（JMessage）是一个端到端的即时通讯（IM）云服务，使得多个集成 SDK 的客户端之间可以互发即时消息，让开发者可以轻松地在 App 里集成 IM 的功能，为 App 加上社交功能，从而有效地提升 App 活跃度。极光IM 客户端支持 Android, iOS, Web 三个平台。</p>
+<p>本 iOS SDK 方便开发者基于 JMessage 来快捷地为 iOS App 增加 IM 功能。支持的版本≥iOS7。</p>
+<h4 id="_3">主要功能</h4>
+<ul>
+<li>保证消息及时下发，并且不丢失消息；</li>
+<li>单聊，群聊；</li>
+<li>消息类型：文本、语音、图片；</li>
+<li>用户未在线时保存离线消息；</li>
+<li>基于 JPush 原有的大容量稳定的长连接、大容量消息并发能力；</li>
+</ul>
+<h4 id="_4">主要特点</h4>
+<ul>
+<li>服务器大容量、稳定；</li>
+<li>SDK 提供丰富的接口；</li>
+<li>同时支持 APNs 通知；</li>
+</ul>
+<h4 id="_5">系统要求与开发环境</h4>
+<p>JMessage iOS SDK 支持 iOS 7 以上系统版本。</p>
+<h4 id="jmessage-sdk-ioszip">jmessage-sdk-ios.zip 集成压缩包</h4>
+<ul>
+<li>lib文件夹：包含一个文件，JMessage.framework；</li>
+<li>Guideline.md：本开发指南；</li>
+<li>demo文件夹：示例。</li>
+</ul>
+<h4 id="jpush-sdk">包括 JPush SDK</h4>
+<p>如果你的 App 之前未集成过 JPush，请忽略本节，参考下节的 “SDK集成步骤”。</p>
+<p>JMessage SDK 包含 JPush SDK 的全部功能。</p>
+<p>如果您原来代码里集成过 JPush iOS SDK，则可大部分保持不变。变更部分如下：</p>
+<ul>
+<li>集成到项目工程里的 JPush SDK 的文件删除掉，包括头文件：APService.h，库文件 libPushSDK.a。JMessage.framework 里已经包含 Push 部分，不删除掉会冲突。</li>
+<li>配置文件 PushConfig.plist 文件删除掉。不再使用配置文件，而是用代码调用提供基本参数。</li>
+<li>原来调用 APService 里 setupWithOption 做初始化，现在要换成 JMessage 里相应的方法。</li>
+</ul>
+<p>JMessage 新增的依赖、配置、初始化方面，请继续参考下节。</p>
+<h3 id="sdk">SDK集成步骤</h3>
+<h4 id="1-web">1、在极光 Web控制台上创建应用</h4>
+<ul>
+<li>登录<a href="https://www.jpush.cn/common/apps">极光Web控制台</a>，创建应用，上传 APNs 证书。如果对 Apple APNs 证书不太了解，请参考<a href="../../client/ios_tutorials/#ios_1">iOS 证书设置指南</a>。</li>
+</ul>
+<p><img alt="jmessage_ios" src="../image/create_ios_app.png" /></p>
+<ul>
+<li>创建成功后自动生成 AppKey 用以标识该应用。这个后续要用到。</li>
+</ul>
+<p><img alt="jmessage_ios" src="../image/Screenshot_13-4_2_create.png" /></p>
+<h4 id="2-sdk">2、导入 SDK 到应用程序项目里</h4>
+<ul>
+<li>把 JMessage.framework 文件加入到项目里。</li>
+</ul>
+<h4 id="3">3、必要的框架</h4>
+<ul>
+<li>CoreFoundation.framework</li>
+<li>CoreTelephony.framework</li>
+<li>CoreAudioFramework</li>
+<li>CoreGraphics.framework</li>
+<li>Foundation.framework</li>
+<li>SystemConfiguration.framework</li>
+<li>CFNetwork.framework</li>
+<li>UIKit.framework</li>
+<li>Security.framework</li>
+<li>AudioToolboxFramework</li>
+<li>MobileCoreServices.framework</li>
+<li>libz.dylib</li>
+<li>libsqlite3.0.dylib</li>
+</ul>
+<h4 id="4build-settings">4、Build Settings</h4>
+<ul>
+<li>在项目配置，Build Settings，Other Linker Flags 里增加如下 2 项：</li>
+</ul>
+<pre><code>    -ObjC
+    -all_load
+</code></pre>
+
+<ul>
+<li>设置 Search Paths 下的 User Header Search Paths 和 Library Search Paths，比如SDK文件夹（默认为lib）与工程文件在同一级目录下，则都设置为"$(SRCROOT)/[文件夹名称]"即可。</li>
+</ul>
+<h4 id="6">6、添加代码</h4>
+<h5 id="api-model">API 与 Model</h5>
+<p>JMessage.framework 里的 Headers 目录下，是 SDK 对外可用的所有头文件定义。这里有详细的注释，可以作为文档使用。基于这些 Headers，我们也使用 Appledoc 生成了在线文档与 docet。</p>
+<p>在 App 里，引用 JMessage SDK 的头文件，只需要引用这一个就够了: JMessage.h</p>
+<table>
+<thead>
+<tr>
+<th>头文件</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>JMessage.h</td>
+<td>SDK 核心类，提供启动方法，以及全局的定义与方法。这个类导入了其他所有的必需的头文件</td>
+</tr>
+<tr>
+<td>JMSGConstants.h</td>
+<td>全局常量定义</td>
+</tr>
+<tr>
+<td>JMSGUser.h</td>
+<td>用户 Model，以及用户相关的接口定义</td>
+</tr>
+<tr>
+<td>JMSGGroup.h</td>
+<td>群组 Model，以及群组相关的接口定义</td>
+</tr>
+<tr>
+<td>JMSGMessage.h</td>
+<td>消息 Model，以及消息相关的接口定义</td>
+</tr>
+<tr>
+<td>JMSGConversation.h</td>
+<td>会话 Model，以及会话相关的接口定义</td>
+</tr>
+<tr>
+<td>JPUSHService.h</td>
+<td>JPush 接口类</td>
+</tr>
+<tr>
+<td>JMSGAbstractContent</td>
+<td>内容类型的父类</td>
+</tr>
+<tr>
+<td>JMSGTextContent</td>
+<td>文本内容 Model</td>
+</tr>
+<tr>
+<td>JMSGCustomContent</td>
+<td>自定义内容 Model</td>
+</tr>
+<tr>
+<td>JMSGAbstractMediaContent</td>
+<td>媒体内容类型的父类，也继承自 JMSGAbstractContent</td>
+</tr>
+<tr>
+<td>JMSGVoiceContent</td>
+<td>语音内容 Model</td>
+</tr>
+<tr>
+<td>JMSGImageContent</td>
+<td>图片内容 Model</td>
+</tr>
+<tr>
+<td>JMSGEventContent.h</td>
+<td>事件通知内容 Model</td>
+</tr>
+<tr>
+<td>Delegate/JMessageDelegate</td>
+<td>全局的 Delegate，包含其他所有 Delegates</td>
+</tr>
+<tr>
+<td>Delegate/JMSGConversationDelegate</td>
+<td>会话相关 Delegate</td>
+</tr>
+<tr>
+<td>Delegate/JMSGMessageDelegate</td>
+<td>消息相关 Delegate</td>
+</tr>
+<tr>
+<td>Delegate/JMSGGroupDelegate</td>
+<td>群组相关 Delegate</td>
+</tr>
+<tr>
+<td>Delegate/JMSGUserDelegate</td>
+<td>用户相关 Delegate</td>
+</tr>
+<tr>
+<td>Delegate/JMSGDBMigrateDelegate</td>
+<td>数据迁移相关 Delegate</td>
+</tr>
+</tbody>
+</table>
+<h5 id="_6">调用代码</h5>
+<p>监听系统事件，相应地调用 JPush SDK 提供的 API 来实现功能。</p>
+<p>以下 ３ 个事件监听与调用 JPush SDK API 都是必须的。请直接复制如下代码块里，注释为 "Required" 的行，到你的应用程序代理类里相应的监听方法里。</p>
+<pre><code>/// AppDelegate.m 里的启动方法
+- (BOOL)application:(UIApplication *)application
+didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
+  /// Required - 添加 JMessage SDK 监听。这个动作放在启动前
+  [JMessage addDelegate:self withConversation:nil];
+
+  /// Required - 启动 JMessage SDK
+  [JMessage setupJMessage:launchOptions
+                   appKey:JMSSAGE_APPKEY
+                  channel:CHANNEL 
+         apsForProduction:NO
+                 category:nil];
+
+  /// Required - 注册 APNs 通知
+  if ([[UIDevice currentDevice].systemVersion floatValue] &gt;= 8.0) {
+    /// 可以添加自定义categories
+    [JPUSHService registerForRemoteNotificationTypes:(UIUserNotificationTypeBadge |
+                                                   UIUserNotificationTypeSound |
+                                                   UIUserNotificationTypeAlert)
+                                       categories:nil];
+  } else {
+    /// categories 必须为nil
+    [JPUSHService registerForRemoteNotificationTypes:(UIRemoteNotificationTypeBadge |
+                                                   UIRemoteNotificationTypeSound |
+                                                   UIRemoteNotificationTypeAlert)
+                                       categories:nil];
+  }
+  return YES;
+}
+
+- (void)application:(UIApplication *)application 
+didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
+
+  /// Required - 注册 DeviceToken
+  [JPUSHService registerDeviceToken:deviceToken];
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
+
+  // Required - 处理收到的通知
+  [JPUSHService handleRemoteNotification:userInfo];
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
+
+
+  // IOS 7 Support Required
+  [JPUSHService handleRemoteNotification:userInfo];
+  completionHandler(UIBackgroundFetchResultNewData);
+}
+
+- (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error {
+
+  //Optional
+  NSLog(@&quot;did Fail To Register For Remote Notifications With Error: %@&quot;, error);
+}
+
+</code></pre>
+
+<h5 id="jpush">JPush 监听通知</h5>
+<p>JPush 提供了下面 6 种类型的通知，可以注册 NSNotificationCenter 来监听，以做进一步的逻辑处理。这些是可选的。</p>
+<pre><code>extern NSString * const kJPFNetworkIsConnectingNotification;       // 正在连接中
+extern NSString * const kJPFNetworkDidSetupNotification;           // 建立连接
+extern NSString * const kJPFNetworkDidCloseNotification;           // 关闭连接
+extern NSString * const kJPFNetworkDidRegisterNotification;        // 注册成功
+extern NSString * const kJPFNetworkDidLoginNotification;           // 登录成功
+extern NSString * const kJPFNetworkDidReceiveMessageNotification;  // 收到消息(自定义消息，非 APNs)
+</code></pre>
+
+<p>其中，kJPFNetworkDidReceiveMessageNotification 通知是有传递数据的，可以通过NSNotification中 的 userInfo方法获取，包括标题、内容、内容类型、扩展信息等。</p>
+<h5 id="jmessage">JMessage 监听通知</h5>
+<p>从 2.0.0 版本开始，JMessage SDK 向 App 发的消息，改变之前类似于 JPush 发 Notification 的方式，调整为实现 Delegate 协议。</p>
+<p>以下代码片断节选自 JChat 项目。</p>
+<pre><code>extern NSString *const JMSGNotification_ReceiveMessage;          // 收到聊天消息
+extern NSString *const JMSGNotification_EventMessage;            // 收到事件
+extern NSString *const JMSGNotification_SendMessageResult;       // 发送消息结果返回
+extern NSString *const JMSGNotification_ConversationInfoChanged; // 会话更新
+extern NSString *const JMSGNotification_GroupChange;             // 群组更新
+</code></pre>
+
+<h4 id="jmessage_1">JMessage 代码样例</h4>
+<p>请参考 <a href="http://github.com/jpush/jchat-ios">JChat iOS 项目源代码</a>，开源放在 Github 上。随着 SDK 下载的压缩包里，也有 JChat 整个的源代码项目。</p>
+<h3 id="_7">技术支持</h3>
+<p>邮件联系：<a href="mailto:support@jpush.cn">support@jpush.cn</a></p>
+<p>问答社区：<a href="http://www.jpush.cn/qa/">https://community.jiguang.cn/latest</a></p> </div>
+                        </div> <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../im_errorcode_ios/" class="btn btn-neutral float-right" title="IM SDK ErrorCode 定义">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../im_sdk_ios/" class="btn btn-neutral float-left" title="iOS SDK 概述"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>Copyright 2011-2016, jiguang.cn, All Rights Reserved. <br />粤ICP备12056275号-13 深圳市和讯华谷信息技术有限公司</p>
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer> </div>
+                </section>
+            </div>
+            <div class="col-lg-1">
+                <div class="visible-lg">
+                    <div id="tocright">
+                        <div id="navbar-right">
+                            <div>
+                            <p>目录</p>
+                            </div>
+                            <ul class="nav" >
+    
+        
+            <li><a href="#_1">文档说明</a></li>
+        
+            <li><a href="#_2">功能说明</a></li>
+        
+            <li><a href="#sdk">SDK集成步骤</a></li>
+        
+            <li><a href="#_7">技术支持</a></li>
+        
+    
+    </ul>
+    
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

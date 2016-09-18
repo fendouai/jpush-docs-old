@@ -1,0 +1,1490 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+  <html class="no-js lt-ie9" lang="en">
+  <![endif]-->
+<!--[if gt IE 8]>
+    <!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="author" content="JPush Offical"> 
+    <title>IM REST API - 极光文档</title> 
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <script src="../../js/jquery-2.1.4.js"></script>
+
+    <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+    <script src="../../js/bootstrap/js/bootstrap.js"></script>
+
+    <link href="../../js/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+    
+    <script>
+    // Current page data
+    var mkdocs_page_name = "IM REST API";
+    var mkdocs_page_input_path = "server/rest_api_im.md";
+    var mkdocs_page_url = "/server/rest_api_im/";
+    </script>
+    
+    <script src="../../js/jpush.js"></script> 
+</head>
+
+<body data-spy="scroll" data-target="#navbar-right">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3  col-md-3  col-sm-3 ">
+                    <div id="doc-icon">
+                        <a href="/"><img src="/img/icon/logo.png"></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-8  col-sm-8">
+                    <div class="header">
+                        <ul class="nav nav-tabs">
+                            <li role="presentation" >
+                                <a href="/jpush/guideline/intro/" id="jpush-top">JPush</a></li>
+                            <li role="presentation" >
+                                <a href="/jmessage/guideline/jmessage_guide/" id="jmessage-top">JMessage</a></li>
+                            <li role="presentation" >
+                                <a href="/jsms/guideline/JSMS_guide/" id="jsms-top">短信验证码</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2  col-md-1 col-sm-1">
+                    <div>
+                        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3  col-md-3 col-sm-4">
+                <div id="navbar-left">
+                    <ul class="wy-menu">
+                        
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    入门指南 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../guideline/jmessage_guide/">JMessage 产品简介</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    Android 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../client/im_sdk_android/">Android SDK 概述</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../client/jmessage_android_guide/">JMessage Android SDK 集成指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../client/im_errorcode_android/">IM SDK ErrorCode 定义</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    iOS 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../client/im_sdk_ios/">iOS SDK 概述</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../client/jmessage_ios_guide/">JMessage iOS SDK 集成指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../client/im_errorcode_ios/">IM SDK ErrorCode 定义</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    JS 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../client/im_sdk_js/">JMessage WEB SDK 开发文档</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    REST API 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 current">
+        <a class="current" href="./">IM REST API</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../rest_api_im_report/">IM REST Report</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../client/im_errorcode_server/">Server ErrorCode 定义</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    高级 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../advanced/im_message_protocol/">IM 消息协议</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../advanced/im_objects/">IM 业务对象</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../advanced/jmessage_callback/">实时消息回调</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../advanced/jmessage_topics/">极光IM高级话题</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                                <ul class="subnavul">
+                                    <li class="subnavli_single " >
+                                        <span>
+                          <a href="../../updates/" class="">最近更新</a></span>
+                                    </li>
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                                <ul class="subnavul">
+                                    <li class="subnavli_single " >
+                                        <span>
+                          <a href="../../resources/" class="">资源下载</a></span>
+                                    </li>
+                                </ul>
+                                <li></ul>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-8  col-md-9  col-sm-8">
+                <div id="content-top"></div>
+                <section >
+                    <div class="rst-content"><div id="breadcrumbs" role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../guideline/jmessage_guide/">极光文档</a>></li>
+    
+      
+        
+          <li><a href="./">REST API</a> ></li>
+        
+      
+    
+    <li>
+    IM REST API
+    <!--
+    <a href="./">IM REST API</a>
+    -->
+    </li>
+  </ul>
+</div>
+                        <div role="main">
+                            <div class="section"> <h1>IM REST API</h1>
+
+<p>极光IM API 为开发者提供 IM 相关功能的 HTTP API。</p>
+<p>这类 API 地址统一为（注意与 Push API 不同）：https://api.im.jpush.cn</p>
+<p><strong>HTTP 验证</strong></p>
+<p>验证采用 HTTP Basic 机制，即 HTTP Header（头）里加一个字段（Key/Value对）：</p>
+<p>Authorization: Basic base64_auth_string</p>
+<p>其中 base64_auth_string 的生成算法为：base64(appKey:masterSecret)</p>
+<p>即，对 appKey 加上冒号，加上 masterSecret 拼装起来的字符串，再做 base64 转换。</p>
+<h3 id="user">User对象字段总览</h3>
+<div class="table-d" align="center" >
+    <table border="1" width = "100%">
+        <tr  bgcolor="#D3D3D3" >
+            <th >参数</th>
+            <th >含义</th>
+            <th >字符长度限制</th>
+        </tr>
+        <tr >
+            <td>username</td>
+            <td>用户登录名</td>
+            <td>Byte(4~128)</td>
+        </tr>
+        <tr >
+            <td>password</td>
+            <td>登陆密码</td>
+            <td>Byte(4~128)</td>
+        </tr>
+        <tr >
+            <td>appkey</td>
+            <td>用户所属于的应用的appkey</td>
+            <td></td>
+        </tr>
+        <tr >
+            <td>nickname</td>
+            <td>用户昵称</td>
+            <td>Byte(0~64)</td>
+        </tr>
+        <tr >
+            <td>birthday</td>
+            <td>生日</td>
+            <td>yyyy-MM-dd HH:mm:ss</td>
+        </tr>
+        <tr >
+            <td>gender</td>
+            <td>性别 0 - 未知， 1 - 男 ，2 - 女 </td>
+            <td></td>
+        </tr>
+        <tr >
+            <td>signature</td>
+            <td>用户签名</td>
+            <td>Byte(0~250)</td>
+        </tr>
+        <tr >
+            <td>region</td>
+            <td>用户所属地区</td>
+            <td>Byte(0~250)</td>
+        </tr>
+        <tr >
+            <td>address</td>
+            <td>用户详细地址</td>
+            <td>Byte(0~250)</td>
+        </tr>
+        <tr >
+            <td>ctime</td>
+            <td>用户创建时间</td>
+            <td></td>
+        </tr>
+        <tr >
+            <td>mtime</td>
+            <td>用户最后修改时间</td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+
+<h3 id="_1">用户注册</h3>
+<h4 id="_2">注册用户</h4>
+<p>批量注册用户到极光IM 服务器，一次批量注册最多支持500个用户。</p>
+<pre><code>POST /v1/users/
+</code></pre>
+<h5 id="example-request">Example Request</h5>
+<pre><code>[{&quot;username&quot;: &quot;dev_fang&quot;, &quot;password&quot;: &quot;password&quot;}, 
+ {&quot;username&quot;: &quot;dev_fang_&quot;, &quot;password&quot;: &quot;password&quot;}
+] 
+</code></pre>
+
+<h5 id="request-params">Request Params</h5>
+<p>JSON Array.</p>
+<ul>
+<li>username（必填）用户名<ul>
+<li>开头：字母或者数字</li>
+<li>字母、数字、下划线</li>
+<li>英文点、减号、@</li>
+</ul>
+</li>
+<li>password（必填）用户密码。极光IM服务器会MD5加密保存。</li>
+</ul>
+<h5 id="example-response">Example Response</h5>
+<pre><code>&lt; HTTP/1.1 201 Created
+&lt; Content-Type: application/json
+&lt; 
+[{&quot;username&quot;: &quot;dev_fang&quot;  }, 
+ {&quot;username&quot;: &quot;dev_javen&quot;,  &quot;error&quot;:{&quot;code&quot;:899001,&quot;message&quot;:&quot;The user  already exists&quot;}}
+] 
+</code></pre>
+
+<h5 id="response-params">Response Params</h5>
+<p>JSON Array.</p>
+<ul>
+<li>username</li>
+<li>error 某个用户注册出错时，该对象里会有 error 对象，说明错误原因。<ul>
+<li>899003   参数错误，Request Body参数不符合要求</li>
+<li>899001   用户已存在</li>
+</ul>
+</li>
+</ul>
+<h4 id="admin">Admin</h4>
+<h5 id="admin-register"><strong>Admin Register 管理员注册</strong></h5>
+<pre><code>POST /v1/admins/
+</code></pre>
+
+<h5 id="example-request_1">Example Request</h5>
+<pre><code>{&quot;username&quot;: &quot;dev_fang&quot;, &quot;password&quot;: &quot;password&quot;}
+</code></pre>
+
+<h5 id="request-params_1">Request Params</h5>
+<ul>
+<li>
+<p>username Byte(4-128) 支持字符</p>
+<ul>
+<li>开头：字母或者数字</li>
+<li>字母、数字、下划线</li>
+<li>英文点、减号, @</li>
+</ul>
+</li>
+<li>
+<p>password Byte(4-128) 字符不限</p>
+</li>
+</ul>
+<h5 id="example-response_1">Example Response</h5>
+<pre><code>HTTP/1.1 201 Created
+Content-Type: application/json; charset=utf-8 
+</code></pre>
+
+<h5 id="getadminslistbyappkey"><strong>GetAdminsListByAppkey  获取应用管理员列表</strong></h5>
+<pre><code>GET /v1/admins?start={start}&amp;count={count}
+</code></pre>
+
+<h5 id="example-request_2">Example Request</h5>
+<h6 id="request-header">Request Header</h6>
+<pre><code>GET /admins?start=1&amp;count=30
+Accept: application/json
+</code></pre>
+
+<h6 id="request-body">Request Body</h6>
+<pre><code>N/A
+</code></pre>
+
+<h5 id="request-params_2">request params</h5>
+<ul>
+<li>start    起始记录位置 从0开始</li>
+<li>count  查询条数 最多支持500条</li>
+</ul>
+<h5 id="example-response_2">Example Response</h5>
+<h6 id="response-header">Response Header</h6>
+<pre><code>HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+</code></pre>
+
+<h6 id="response-data">Response Data</h6>
+<pre><code>{
+  &quot;total&quot;:1233, 
+  &quot;start&quot;:1100,
+  &quot;count&quot;:3,
+  &quot;users&quot;:
+    [{&quot;username&quot; : &quot;cai&quot;, &quot;nickname&quot; : &quot;hello&quot;, &quot;mtime&quot; : &quot;2015-01-01 00:00:00&quot;, &quot;ctime&quot; : &quot;2015-01-01 00:00:00&quot;},
+      {&quot;username&quot; : &quot;yi&quot;, &quot;nickname&quot; : &quot;hello&quot;, &quot;mtime&quot; : &quot;2015-01-01 00:00:00&quot;, &quot;ctime&quot; : &quot;2015-01-01 00:00:00&quot;},
+      {&quot;username&quot; : &quot;huang&quot;, &quot;nickname&quot; : &quot;hello&quot;, &quot;mtime&quot; : &quot;2015-01-01 00:00:00&quot;, &quot;ctime&quot; : &quot;2015-01-01 00:00:00&quot;} ]
+}
+</code></pre>
+
+<h3 id="_3">用户维护</h3>
+<h4 id="_4">获取用户信息</h4>
+<pre><code>GET /v1/users/{username}
+</code></pre>
+<h5 id="request-params_3">Request Params</h5>
+<ul>
+<li>username 用户名。填充到请求路径上。</li>
+</ul>
+<h5 id="example-response_3">Example Response</h5>
+<pre><code>{
+    &quot;username&quot; : &quot;javen&quot;, 
+    &quot;nickname&quot; : &quot;hello&quot;, 
+    &quot;avatar&quot; : &quot;/avatar&quot;, 
+    &quot;birthday&quot; : &quot;1990-01-24 00:00:00&quot;, 
+    &quot;gender&quot; : 0, 
+    &quot;signature&quot; : &quot;orz&quot;, 
+    &quot;region&quot; : &quot;shenzhen&quot;, 
+    &quot;address&quot; : &quot;shenzhen&quot;, 
+    &quot;mtime&quot; : &quot;2015-01-01 00:00:00&quot;, 
+    &quot;ctime&quot; : &quot;2015-01-01 00:00:00&quot;}
+</code></pre>
+
+<p>说明</p>
+<p>除了username mtime ctime这三个子段之外，其余字段如果没存json中就有没有相应的key</p>
+<h4 id="_5">更新用户信息</h4>
+<pre><code>PUT /v1/users/{username}
+</code></pre>
+<h5 id="example-request_3">Example Request</h5>
+<pre><code>{
+    &quot;nickname&quot;: &quot;Hello JMessage&quot;
+}
+</code></pre>
+
+<h5 id="request-params_4">Request Params</h5>
+<ul>
+<li>nickname  （选填）用户昵称<ul>
+<li>不支持的字符：英文字符： \n \r\n </li>
+</ul>
+</li>
+<li>avatar  （选填）头像<ul>
+<li>目前暂不支持服务更新头像  </li>
+</ul>
+</li>
+<li>birthday    （选填）生日 example: 1990-01-24<ul>
+<li>yyyy-MM-dd </li>
+</ul>
+</li>
+<li>signature  （选填）签名<ul>
+<li>支持的字符：全部，包括 Emoji</li>
+</ul>
+</li>
+<li>gender    （选填） 性别<ul>
+<li>0 - 未知， 1 - 男 ，2 - 女 </li>
+</ul>
+</li>
+<li>region      （选填）地区<ul>
+<li>支持的字符：全部，包括 Emoji</li>
+</ul>
+</li>
+<li>address   （选填）地址<ul>
+<li>支持的字符：全部，包括 Emoji</li>
+</ul>
+</li>
+<li>avatar    （选填）头像<ul>
+<li>文件上传后得到的mediaId   </li>
+</ul>
+</li>
+</ul>
+<h5 id="example-response_4">Example Response</h5>
+<pre><code>&lt; HTTP/1.1 204 
+&lt; Content-Type: application/json; charset=utf-8
+
+</code></pre>
+
+<h4 id="_6">用户在线状态查询</h4>
+<pre><code>Get /v1/users/{username}/userstat
+</code></pre>
+
+<h5 id="example-request_4">Example Request</h5>
+<p>Request Header </p>
+<pre><code>Get /v1/users/caiyh/userstat
+Content-Type: application/json; charset=utf-8 
+</code></pre>
+
+<p>Request Params</p>
+<ul>
+<li>username 用户名 </li>
+</ul>
+<p>Request Body</p>
+<p>N/A</p>
+<h5 id="example-response_5">Example Response</h5>
+<p>Response Header</p>
+<pre><code>HTTP/1.1 200 NO Content
+Content-Type: application/json; charset=utf-8
+</code></pre>
+
+<p>Response Data</p>
+<pre><code>{&quot;login&quot;:true, &quot;online&quot;: false}
+</code></pre>
+
+<h5 id="error-code">Error Code</h5>
+<p>错误码</p>
+<ul>
+<li>899003 username不合法</li>
+<li>899002 用户不存在</li>
+</ul>
+<h4 id="_7">修改密码</h4>
+<pre><code>PUT /v1/users/{username}/password
+</code></pre>
+
+<h5 id="request-header_1">Request Header</h5>
+<pre><code>PUT /v1/users/javen/password
+</code></pre>
+
+<h5 id="example-request_5">Example Request</h5>
+<pre><code>{
+     &quot;new_password&quot;: &quot;654321&quot; 
+}
+</code></pre>
+
+<h5 id="request-params_5">Request Params</h5>
+<ul>
+<li>new_password （必填）新密码</li>
+</ul>
+<h5 id="example-response_6">Example Response</h5>
+<pre><code>HTTP/1.1 204 NO Content
+Content-Type: application/json; charset=utf-8
+</code></pre>
+
+<h5 id="response-data_1">Response Data</h5>
+<ul>
+<li>N/A</li>
+</ul>
+<h4 id="_8">删除用户</h4>
+<pre><code>DELETE /v1/users/{username}
+</code></pre>
+<p>Request Params</p>
+<ul>
+<li>username 用户名。</li>
+</ul>
+<p>Example Response</p>
+<pre><code>&lt; HTTP/1.1 204 NO CONTENT
+&lt; Content-Type: application/json; charset=utf-8   
+</code></pre>
+
+<h4 id="_9">添加黑名单</h4>
+<pre><code>Put /v1/users/{username}/blacklist
+</code></pre>
+
+<p>Example Request</p>
+<p>Request Header </p>
+<pre><code>Put /v1/users/{username}/blacklist
+Content-Type: application/json; charset=utf-8  
+</code></pre>
+
+<p>Request Params </p>
+<ul>
+<li>JsonArray<ul>
+<li>username的JsonArray</li>
+</ul>
+</li>
+</ul>
+<p>Request Body</p>
+<pre><code>[
+ &quot;test1&quot;,
+ &quot;test2&quot;
+ ]
+</code></pre>
+
+<p>Example Response </p>
+<p>Response Header </p>
+<pre><code>HTTP/1.1 204 NO Content
+Content-Type: application/json; charset=utf-8 
+</code></pre>
+
+<p>Response Data</p>
+<p>N/A</p>
+<h4 id="_10">移除黑名单</h4>
+<pre><code>Delete /v1/users/{username}/blacklist
+</code></pre>
+
+<p>Example Request</p>
+<p>Request Header </p>
+<pre><code>Delete /v1/users/{username}/blacklist
+Content-Type: application/json; charset=utf-8  
+</code></pre>
+
+<p>Request Params</p>
+<ul>
+<li>JsonArray<ul>
+<li>username的JsonArray</li>
+</ul>
+</li>
+</ul>
+<p>Request Body</p>
+<pre><code>[
+ &quot;test1&quot;,
+ &quot;test2&quot;
+ ]
+</code></pre>
+
+<p>Example Response</p>
+<p>Response Header</p>
+<pre><code>HTTP/1.1 204 NO Content
+Content-Type: application/json; charset=utf-8   
+</code></pre>
+
+<p>Response Data</p>
+<p>N/A</p>
+<h4 id="_11">黑名单列表</h4>
+<pre><code>Get /v1/users/{username}/blacklist
+</code></pre>
+
+<p>Example Request</p>
+<p>Request Header </p>
+<pre><code>Put /v1/users/{username}/blacklist
+Content-Type: application/json; charset=utf-8 
+</code></pre>
+
+<p>Request Params</p>
+<ul>
+<li>username 用户名</li>
+</ul>
+<p>Request Body</p>
+<p>N/A</p>
+<p>Example Response</p>
+<p>Response Header </p>
+<pre><code>HTTP/1.1 200 NO Content
+Content-Type: application/json; charset=utf-8   
+</code></pre>
+
+<p>Response Data</p>
+<pre><code>[{&quot;username&quot; : &quot;javen&quot;, &quot;nickname&quot; : &quot;hello&quot;, &quot;avatar&quot; = &quot;/avatar&quot;, &quot;birthday&quot; : &quot;1990-01-24 00:00:00&quot;, &quot;gender&quot; : 0, &quot;signature&quot; : &quot;orz&quot;, &quot;region&quot; : &quot;shenzhen&quot;, &quot;address&quot; : &quot;shenzhen&quot;, &quot;mtime&quot; : &quot;2015-01-01 00:00:00&quot;, &quot;ctime&quot; : &quot;2015-01-01 00:00:00&quot;}]
+</code></pre>
+
+<h4 id="_12">获取用户列表</h4>
+<pre><code>GET /v1/users/?start={start}&amp;count={count}
+</code></pre>
+<p>Request Params</p>
+<ul>
+<li>start 开始的记录数</li>
+<li>count 要获取的记录个数</li>
+</ul>
+<p>Example Response</p>
+<pre><code>&lt; HTTP/1.1 204 NO CONTENT
+&lt; Content-Type: application/json
+
+{
+    &quot;total&quot;: 12580,
+    &quot;start&quot;: 1100,
+    &quot;count&quot;: 100,
+    &quot;users&quot;:
+    [{&quot;username&quot; : &quot;cai&quot;, &quot;nickname&quot; : &quot;hello&quot;, &quot;mtime&quot; : &quot;2015-01-01 00:00:00&quot;, &quot;ctime&quot; : &quot;2015-01-01 00:00:00&quot;},
+      {&quot;username&quot; : &quot;yi&quot;, &quot;nickname&quot; : &quot;hello&quot;, &quot;mtime&quot; : &quot;2015-01-01 00:00:00&quot;, &quot;ctime&quot; : &quot;2015-01-01 00:00:00&quot;},
+      {&quot;username&quot; : &quot;huang&quot;, &quot;nickname&quot; : &quot;hello&quot;, &quot;mtime&quot; : &quot;2015-01-01 00:00:00&quot;, &quot;ctime&quot; : &quot;2015-01-01 00:00:00&quot;} ]
+}
+</code></pre>
+
+<h3 id="_13">消息相关</h3>
+<h4 id="_14">发送消息</h4>
+<pre><code>POST /v1/messages
+</code></pre>
+
+<div class="table-d" align="center" >
+    <table border="1" width = "100%">
+        <tr  bgcolor="#D3D3D3" >
+            <th >参数</th>
+            <th >含义</th>
+        </tr>
+        <tr >
+            <td>version</td>
+            <td>版本号</td>
+        </tr>
+        <tr >
+            <td>target_type</td>
+            <td>发送目标类型 single - 个人，group - 群组</td>
+        </tr>
+        <tr >
+            <td>from_type</td>
+            <td>发送消息者身份 当前只限admin用户，必须先注册admin用户</td>
+        </tr>
+        <tr >
+            <td>msg_type</td>
+            <td>发消息类型 text - 文本，image - 图片, custom - 自定义消息（msg_body为json对象即可，服务端不做校验）</td>
+        </tr>
+        <tr >
+            <td>target_id</td>
+            <td>目标id single填username group 填Group id</td>
+        </tr>
+        <tr >
+            <td>from_id</td>
+            <td>发送者的username</td>
+        </tr>
+        <tr >
+            <td>from_name</td>
+            <td>发送者展示名（选填）</td>
+        </tr>
+        <tr >
+            <td>target_name</td>
+            <td>接受者展示名（选填）</td>
+        </tr>
+        <tr >
+            <td>msg_body</td>
+            <td>Json对象的消息体</td>
+        </tr>
+        <tr >
+            <td>msg_body-> extras</td>
+            <td>选填的json对象 开发者可以自定义extras里面的key value    </td>
+        </tr>
+        <tr>
+        <td colspan="2" ><font  color="red">msg_type为text时，msg_body的格式如下 </font></td>
+        </tr>
+        <tr >
+            <td>msg_body -> text</td>
+            <td>消息内容</td>
+        </tr>
+
+        <tr>
+        <td colspan="2" ><font  color="red">msg_type为image时,msg_body为File Upload api返回的json，格式如下 </td>
+        </tr>
+        <tr>
+        <td>msg_body->media_id</td>
+        <td>String 文件上传之后服务器端所返回的key，用于之后生成下载的url（必填）</td>
+        </tr>
+        <tr>
+        <td>msg_body->media_crc32</td>
+        <td>long 文件的crc32校验码，用于下载大图的校验 （必填）</td>
+        </tr>
+        <tr>
+        <td>msg_body->width</td>
+        <td>int 图片原始宽度（必填）</td>
+        </tr>
+        <tr>
+        <td>msg_body->height</td>
+        <td>int 图片原始高度（必填）</td>
+        </tr>
+        <tr>
+        <td>msg_body->format </td>
+        <td>String 图片格式（必填）</td>
+        </tr>
+        <tr>
+        <td>msg_body->fsize</td>
+        <td>int 文件大小（字节数）（必填）</td>
+        </tr>
+
+    </table>
+</div>
+
+<h5 id="example-request_6">Example Request</h5>
+<pre><code>msg_type:text
+{
+    &quot;version&quot;: 1, 
+    &quot;target_type&quot;: &quot;single&quot;,
+    &quot;target_id&quot;: &quot;javen&quot;,
+    &quot;from_type&quot;: &quot;admin&quot;,
+    &quot;from_id&quot;: &quot;fang&quot;, 
+    &quot;msg_type&quot;: &quot;text&quot;,
+    &quot;msg_body&quot;: {
+        &quot;extras&quot;: {},
+        &quot;text&quot;: &quot;Hello, JMessage!&quot;  
+    }
+}
+
+msg_type:image
+{
+    &quot;version&quot;: 1, 
+    &quot;target_type&quot;: &quot;single&quot;,
+    &quot;target_id&quot;: &quot;javen&quot;,
+    &quot;from_type&quot;: &quot;admin&quot;,
+    &quot;from_id&quot;: &quot;fang&quot;, 
+    &quot;msg_type&quot;: &quot;text&quot;,
+    &quot;msg_body&quot;: {
+    &quot;media_id&quot;: &quot;qiniu/image/CE0ACD035CBF71F8&quot;,
+    &quot;media_crc32&quot;:2778919613,
+    &quot;width&quot;:3840,
+    &quot;height&quot;:2160,
+    &quot;fsize&quot;:3328738,
+    &quot;format&quot;:&quot;jpg&quot;,
+    &quot;extras&quot;: {}
+    }
+}
+</code></pre>
+
+<h5 id="request-params_6">Request Params</h5>
+<ul>
+<li>
+<p>JSON Object.</p>
+</li>
+<li>
+<p>遵循协议文档：<a href="../../../advanced/im_message_protocol/">IM 消息协议</a></p>
+</li>
+<li>
+<p>此api只能用admin用户发送</p>
+</li>
+</ul>
+<h5 id="example-response_7">Example Response</h5>
+<pre><code>&lt; HTTP/1.1 200 OK
+&lt; Content-Type: application/json
+&lt; 
+{&quot;msg_id&quot;: 43143728109  }
+</code></pre>
+
+<p>Error Code</p>
+<ul>
+<li>899003    参数错误，Request Body参数不符合要求</li>
+<li>899002   用户不存在，target_id或者from_id不存在</li>
+<li>899016   from_id 没有权限发送message</li>
+</ul>
+<h3 id="_15">媒体文件下载与上传</h3>
+<h4 id="file-download">File Download</h4>
+<pre><code>GET /v1/resource?mediaId={mediaId}
+</code></pre>
+
+<h5 id="example-request_7">Example Request</h5>
+<p>Request Header </p>
+<pre><code>GET /v1/resource?mediaId={mediaId}
+</code></pre>
+
+<p>Request Body</p>
+<p>N/A</p>
+<p>Request Params</p>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>含义</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>mediaId</td>
+<td>资源的mediaId，包括用户的avatar字段</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h5 id="example-response_8">Example Response</h5>
+<p>Response Header</p>
+<pre><code>HTTP/1.1 200 no content
+Content-Type: application/json; charset=utf-8 
+</code></pre>
+
+<p>Response Data</p>
+<pre><code>{&quot;url&quot;:&quot;http://.........&quot;}
+</code></pre>
+
+<h4 id="file-upload">File Upload</h4>
+<pre><code>POST /resource?type=image
+</code></pre>
+
+<h5 id="example-request_8">Example Request</h5>
+<p>curl   -F "filename=@/home/test.jpg" https://api.im.jpush.cn/v1/resource?type=image -u "appkey:secret"</p>
+<p>注：文件大小限制8m，暂时只支持图片格式 jpg bmp gif png等</p>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>含义</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>filename</td>
+<td>磁盘本地文件路径</td>
+<td></td>
+</tr>
+<tr>
+<td>type</td>
+<td>文件类型 暂时只能是"image"</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Response Header  </p>
+<h5 id="example-response_9">Example Response</h5>
+<pre><code>HTTP/1.1 200
+Content-Type: application/json; charset=utf-8 
+</code></pre>
+
+<p>Response Data</p>
+<p>{"media_id":"qiniu/image/F39AA12204DAB6A2","media_crc32":1338734977,"width":720,"height":1280,"format":"jpg","fsize":52468}</p>
+<ul>
+<li>media_id String  文件上传之后服务器端所返回的key</li>
+<li>media_crc32 long 文件的crc32校验码</li>
+<li>width int  图片原始宽度</li>
+<li>height  int  图片原始高度</li>
+<li>format String 图片格式</li>
+<li>fsize int 文件大小（字节数</li>
+</ul>
+<h3 id="group">Group对象字段总览</h3>
+<div class="table-d" align="center" >
+    <table border="1" width = "100%">
+        <tr  bgcolor="#D3D3D3" >
+            <th >参数</th>
+            <th >含义</th>
+            <th >字符长度限制</th>
+        </tr>
+        <tr >
+            <td>name</td>
+            <td>群组名称</td>
+            <td>Byte(0~64)</td>
+        </tr>
+        <tr >
+            <td>desc</td>
+            <td>群组描述</td>
+            <td>Byte(0~250)</td>
+        </tr>
+        <tr >
+            <td>owner_username</td>
+            <td>群主的username</td>
+            <td>Byte(4-128)</td>
+        </tr>
+        <tr >
+            <td>MaxMemberCount</td>
+            <td>群组默认500人</td>
+            <td></td>
+        </tr>
+        <tr >
+            <td>ctime</td>
+            <td>创建时间</td>
+            <td></td>
+        </tr>
+        <tr >
+            <td>mtime</td>
+            <td>最后修改时间</td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+
+<p><br></p>
+<h3 id="_16">群组维护</h3>
+<h4 id="_17">创建群组</h4>
+<pre><code>POST /v1/groups/
+</code></pre>
+<p>群组MaxMemberCount（人数限制）定义</p>
+<p>Example Request</p>
+<pre><code>{
+    &quot;owner_username&quot;: &quot;tom&quot;, 
+    &quot;name&quot;: &quot;群聊天室&quot;, 
+    &quot;members_username&quot;: [&quot;eddie&quot;, &quot;annie&quot;], 
+    &quot;desc&quot;: &quot;运动&quot;
+}
+</code></pre>
+
+<p>Request Params</p>
+<ul>
+<li>owner_username     （必填）群主username</li>
+<li>name               （必填）群组名字<ul>
+<li>支持的字符：全部，包括 Emoji。</li>
+</ul>
+</li>
+<li>members_username 成员 username</li>
+<li>desc               （必填） 群描述 <ul>
+<li>支持的字符：全部，包括 Emoji。</li>
+</ul>
+</li>
+</ul>
+<p>Example Response</p>
+<pre><code>&lt; HTTP/1.1 201 Created
+&lt; Content-Type: application/json
+&lt; 
+
+{
+    &quot;gid&quot;:12345, 
+    &quot;owner_username&quot;: 123456, 
+    &quot;name&quot;: &quot;display_name&quot;, 
+    &quot;members_username&quot;: [], 
+    &quot;desc&quot;:&quot;doubi&quot;,
+    &quot;MaxMemberCount&quot; = 500, 
+    &quot;mtime&quot; = &quot;2014-07-01 00:00:00&quot;, 
+    &quot;ctime&quot;=&quot;2014-06-05 00:00:00&quot;
+}
+</code></pre>
+
+<h4 id="_18">获取群组详情</h4>
+<pre><code>GET /v1/groups/{Group id}
+</code></pre>
+<p>Request Params</p>
+<ul>
+<li>Group id 群组ID。由创建群组时分配。</li>
+</ul>
+<p>Example Response</p>
+<pre><code>&lt; HTTP/1.1 200 OK
+&lt; Content-Type: application/json
+&lt; 
+
+{
+      &quot;gid&quot;: 12345, 
+      &quot;name&quot; : &quot;jpush&quot;, 
+      &quot;desc&quot; : &quot;push&quot;, 
+      &quot;appkey&quot; : &quot;dcf71ef5082057832bd44fbd&quot;, 
+      &quot;MaxMemberCount&quot; : 500,  
+      &quot;mtime&quot; : &quot;2014-07-01 00:00:00&quot;, 
+      &quot;ctime&quot; : &quot;2014-06-05 00:00:00&quot;
+}
+</code></pre>
+
+<h4 id="_19">更新群组信息</h4>
+<pre><code>PUT /v1/groups/{Group id}
+</code></pre>
+
+<p>Request Params</p>
+<ul>
+<li>name 群名称</li>
+<li>desc 群描述</li>
+</ul>
+<pre><code>PUT /v1/groups/{Group id}
+</code></pre>
+
+<p>Request Body</p>
+<pre><code>{ &quot;the key you want to update&quot; : &quot;the value you want to update&quot; }
+</code></pre>
+
+<p>Example Response</p>
+<pre><code>HTTP/1.1 204 NO Content
+</code></pre>
+
+<h4 id="_20">删除群组</h4>
+<p>删除某  的群组。</p>
+<p>该群组的所有成员都会收到群组被解散通知。</p>
+<pre><code>DELETE /v1/groups/{Group id}
+</code></pre>
+<p>Request Params</p>
+<ul>
+<li>Group id 群组ID。</li>
+</ul>
+<p>Example Response</p>
+<pre><code>&lt; HTTP/1.1 204 NO CONTENT
+&lt; Content-Type: application/json
+</code></pre>
+
+<h4 id="_21">更新群组成员</h4>
+<p>批量增加与删除某 gid 群组的成员。</p>
+<p>群组成员将收到增加与删除成员的通知。</p>
+<pre><code>POST /v1/groups/{Group id}/members
+</code></pre>
+<p>Request Params</p>
+<ul>
+<li>gid 群组ID</li>
+<li>add        json数组 表示要添加到群组的用户(可选)</li>
+<li>remove   json数组 表示要从群组删除的用户（可选）</li>
+<li>两者至少要有一个</li>
+</ul>
+<p>Example Request </p>
+<pre><code>{    
+    &quot;add&quot;:[
+        &quot;test1&quot;, &quot;test2&quot;
+    ],
+    &quot;remove&quot;:[
+        &quot;test3&quot;, &quot;test4&quot;
+    ]
+}
+</code></pre>
+
+<p>Example Response</p>
+<pre><code>&lt; HTTP/1.1 204 NO CONTENT
+&lt; Content-Type: application/json
+</code></pre>
+
+<h4 id="_22">获取群组成员列表</h4>
+<pre><code>GET /v1/groups/{Group id}/members/
+</code></pre>
+<p>Request Params</p>
+<ul>
+<li>Group id 群组ID。</li>
+</ul>
+<p>Example Response</p>
+<ul>
+<li>JsonObject UID数组</li>
+</ul>
+<pre><code>&lt; HTTP/1.1 200 OK
+&lt; Content-Type: application/json; charset=utf-8
+
+[ 
+    {&quot;username&quot; : &quot;javen&quot;, &quot;nickname&quot; : &quot;hello&quot;, &quot;avatar&quot; = &quot;/avatar&quot;, &quot;birthday&quot; : &quot;1990-01-24 00:00:00&quot;, &quot;gender&quot; : 0, &quot;signature&quot; : &quot;orz&quot;, &quot;region&quot; : &quot;shenzhen&quot;, &quot;address&quot; : &quot;shenzhen&quot;, &quot;flag&quot;:0} 
+]
+</code></pre>
+
+<ul>
+<li>flag<ul>
+<li>0 - 普通群成员</li>
+<li>1 - 群主</li>
+</ul>
+</li>
+</ul>
+<h4 id="_23">获取某用户的群组列表</h4>
+<pre><code>GET /v1/users/{username}/groups/
+</code></pre>
+<p>Request Params</p>
+<ul>
+<li>username 用户名。</li>
+</ul>
+<p>Example Response</p>
+<ul>
+<li>ctime  群组创建时间</li>
+<li>mtime 群组最后修改时间 </li>
+</ul>
+<pre><code>&lt; HTTP/1.1 200 OK
+&lt; Content-Type: application/json
+
+[ { &quot;gid&quot;: 12345, &quot;name&quot; : &quot;jpush&quot;, &quot;desc&quot; : &quot;push&quot;, &quot;appkey&quot; : &quot;dcf71ef5082057832bd44fbd&quot;, &quot;MaxMemberCount&quot; : 500, &quot;mtime&quot; : &quot;2014-07-01 00:00:00&quot;, &quot;ctime&quot; : &quot;2014-06-05 00:00:00&quot;}]
+</code></pre>
+
+<h4 id="_24">获取当前应用的群组列表</h4>
+<pre><code>GET /v1/groups/?start={start}&amp;count={count}
+</code></pre>
+<p>Request Params</p>
+<ul>
+<li>start 开始的记录数。</li>
+<li>count 本次读取的记录数量。最大值为500</li>
+</ul>
+<p>Example Response</p>
+<pre><code>&lt; HTTP/1.1 200 OK
+&lt; Content-Type: application/json
+
+{ &quot;total&quot;:1233, 
+  &quot;start&quot;:1100, 
+  &quot;count&quot;:1, 
+  &quot;groups&quot;: 
+ [ { &quot;gid&quot;: 12345, &quot;name&quot; : &quot;jpush&quot;, &quot;desc&quot; : &quot;push&quot;, &quot;appkey&quot; : &quot;dcf71ef5082057832bd44fbd&quot;, &quot;MaxMemberCount&quot; : 500, &quot;mtime&quot; : &quot;2014-07-01 00:00:00&quot;, &quot;ctime&quot; : &quot;2014-06-05 00:00:00&quot;}] } 
+
+</code></pre>
+
+<h3 id="api">跨应用API</h3>
+<h4 id="_25">跨应用管理群组成员</h4>
+<pre><code>POST  /v1/cross/groups/{gid}/members
+</code></pre>
+<p>Request Params</p>
+<ul>
+<li>add  json数组 表示要添加到群组的用户(可选)</li>
+<li>remove  json数组 表示要从群组删除的用户（可选）</li>
+<li>appkey 管理用户所属的appkey 必填</li>
+</ul>
+<p>add remove两者至少要有一个</p>
+<p>Example Request </p>
+<pre><code>[{ 
+ &quot;appkey&quot;:&quot; 4f7aef34fb361292c566a1cd&quot;,
+ &quot;add&quot;: [
+ &quot;test1&quot;,
+ &quot;test2&quot;
+ ],
+ &quot;remove&quot;: [
+ &quot;name3&quot;,
+ &quot;name4&quot;
+ ]
+}]
+</code></pre>
+
+<p>Example Response</p>
+<pre><code>&lt; HTTP/1.1 204 NO Content
+&lt; Content-Type: application/json; charset=utf-8 
+</code></pre>
+
+<p>Response Data
+N/A</p>
+<p>备注：当群组没有成员的时候 群会被删除 
+Error Code</p>
+<ul>
+<li>899003  Request Body json格式不符合要求，json参数不符合要求；</li>
+<li>899002  用户不存在；</li>
+<li>899012  没有足够的位置添加群成员；</li>
+<li>899014  用户不存在于群组；</li>
+<li>899011  用户已经存在于群组；</li>
+</ul>
+<h4 id="_26">跨应用获取群组成员列表</h4>
+<pre><code>GET /v1/cross/groups/{Group id}/members/
+</code></pre>
+<p>Request Params</p>
+<ul>
+<li>Group id 群组ID。</li>
+</ul>
+<p>Example Response</p>
+<ul>
+<li>JsonObject UID数组</li>
+</ul>
+<pre><code>&lt; HTTP/1.1 200 OK
+&lt; Content-Type: application/json; charset=utf-8
+
+[ 
+    {&quot;username&quot; : &quot;javen&quot;, &quot;nickname&quot; : &quot;hello&quot;, &quot;avatar&quot; = &quot;/avatar&quot;, &quot;birthday&quot; : &quot;1990-01-24 00:00:00&quot;, &quot;gender&quot; : 0, &quot;signature&quot; : &quot;orz&quot;, &quot;region&quot; : &quot;shenzhen&quot;, &quot;address&quot; : &quot;shenzhen&quot;, &quot;flag&quot;:0, &quot;appkey&quot;:&quot;appkey&quot;} 
+]
+</code></pre>
+
+<ul>
+<li>flag<ul>
+<li>0 - 普通群成员</li>
+<li>1 - 群主</li>
+</ul>
+</li>
+</ul>
+<h4 id="_27">跨应用添加黑名单</h4>
+<pre><code>Put /v1/cross/users/{username}/blacklist
+</code></pre>
+
+<p>Example Request</p>
+<p>Request Header </p>
+<pre><code>Put /v1/cross/users/{username}/blacklist
+Content-Type: application/json; charset=utf-8  
+</code></pre>
+
+<p>Request Params </p>
+<ul>
+<li>username 添加的用户的数组</li>
+<li>appkey   用户所属的appkey</li>
+</ul>
+<p>Request Body</p>
+<pre><code> [{
+ &quot;appkey&quot;:&quot;appkey&quot;,
+ &quot;usernames&quot;:[ &quot;test1&quot;, &quot;test2&quot;]
+
+ } ] 
+</code></pre>
+
+<p>Example Response </p>
+<p>Response Header </p>
+<pre><code>HTTP/1.1 204 NO Content
+Content-Type: application/json; charset=utf-8 
+</code></pre>
+
+<p>Response Data</p>
+<p>N/A</p>
+<h4 id="_28">跨应用移除黑名单</h4>
+<pre><code>Delete /v1/cross/users/{username}/blacklist
+</code></pre>
+
+<p>Example Request</p>
+<p>Request Header </p>
+<pre><code>Delete /v1/cross/users/{username}/blacklist
+Content-Type: application/json; charset=utf-8  
+</code></pre>
+
+<p>Request Params </p>
+<ul>
+<li>username 移除的用户的数组</li>
+<li>appkey   用户所属的appkey</li>
+</ul>
+<p>Request Body</p>
+<pre><code> [{
+ &quot;appkey&quot;:&quot;appkey&quot;,
+ &quot;usernames&quot;:[ &quot;test1&quot;, &quot;test2&quot;]
+
+ } ] 
+</code></pre>
+
+<p>Example Response</p>
+<p>Response Header</p>
+<pre><code>HTTP/1.1 204 NO Content
+Content-Type: application/json; charset=utf-8   
+</code></pre>
+
+<p>Response Data</p>
+<p>N/A</p>
+<h4 id="_29">跨应用黑名单列表</h4>
+<pre><code>Get /v1/cross/users/{username}/blacklist
+</code></pre>
+
+<p>Example Request</p>
+<p>Request Header </p>
+<pre><code>Put /v1/cross/users/{username}/blacklist
+Content-Type: application/json; charset=utf-8 
+</code></pre>
+
+<p>Request Params</p>
+<ul>
+<li>username 用户名</li>
+</ul>
+<p>Request Body</p>
+<p>N/A</p>
+<p>Example Response</p>
+<p>Response Header </p>
+<pre><code>HTTP/1.1 200 
+Content-Type: application/json; charset=utf-8   
+</code></pre>
+
+<p>Response Data</p>
+<pre><code>[{&quot;username&quot; : &quot;javen&quot;, &quot;nickname&quot; : &quot;hello&quot;, &quot;avatar&quot; = &quot;/avatar&quot;, &quot;birthday&quot; : &quot;1990-01-24 00:00:00&quot;, &quot;gender&quot; : 0, &quot;signature&quot; : &quot;orz&quot;, &quot;region&quot; : &quot;shenzhen&quot;, &quot;address&quot; : &quot;shenzhen&quot;, &quot;mtime&quot; : &quot;2015-01-01 00:00:00&quot;, &quot;ctime&quot; : &quot;2015-01-01 00:00:00&quot;, &quot;appkey&quot;:&quot;appkey&quot;}]
+</code></pre>
+
+<h3 id="http">HTTP 返回</h3>
+<p>HTTP 返回码参考文档：<a href="../../server/http_status_code">HTTP-Status-Code</a></p>
+<h4 id="example-error-response">Example Error Response</h4>
+<pre><code>&lt; HTTP/1.1 401 Unauthorized
+&lt; Content-Type: application/json
+&lt;
+{ 
+  &quot;error&quot;: {
+        &quot;code&quot;: 899008, 
+        &quot;message&quot;: &quot;Basic authentication failed&quot;
+     }
+}
+</code></pre>
+
+<h4 id="_30">业务错误码定义</h4>
+<p><a href="../../../client/im_errorcode/#server-error">IM Server ErrorCode</a></p>
+<h3 id="_31">相关文档</h3>
+<ul>
+<li><a href="../../guideline/jmessage_guide/">极光IM 指南</a></li>
+<li><a href="../../advanced/im_message_protocol/">IM 消息协议</a></li>
+<li><a href="../../client/im_sdk_android/">IM SDK for Android</a></li>
+<li><a href="../../client/im_sdk_ios/">IM SDK for iOS</a></li>
+</ul> </div>
+                        </div> <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../rest_api_im_report/" class="btn btn-neutral float-right" title="IM REST Report">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../../client/im_sdk_js/" class="btn btn-neutral float-left" title="JMessage WEB SDK 开发文档"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>Copyright 2011-2016, jiguang.cn, All Rights Reserved. <br />粤ICP备12056275号-13 深圳市和讯华谷信息技术有限公司</p>
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer> </div>
+                </section>
+            </div>
+            <div class="col-lg-1">
+                <div class="visible-lg">
+                    <div id="tocright">
+                        <div id="navbar-right">
+                            <div>
+                            <p>目录</p>
+                            </div>
+                            <ul class="nav" >
+    
+        
+    
+        
+            <li><a href="#_2">注册用户</a></li>
+        
+            <li><a href="#admin">Admin</a></li>
+        
+    
+        
+            <li><a href="#_4">获取用户信息</a></li>
+        
+            <li><a href="#_5">更新用户信息</a></li>
+        
+            <li><a href="#_6">用户在线状态查询</a></li>
+        
+            <li><a href="#_7">修改密码</a></li>
+        
+            <li><a href="#_8">删除用户</a></li>
+        
+            <li><a href="#_9">添加黑名单</a></li>
+        
+            <li><a href="#_10">移除黑名单</a></li>
+        
+            <li><a href="#_11">黑名单列表</a></li>
+        
+            <li><a href="#_12">获取用户列表</a></li>
+        
+    
+        
+            <li><a href="#_14">发送消息</a></li>
+        
+    
+        
+            <li><a href="#file-download">File Download</a></li>
+        
+            <li><a href="#file-upload">File Upload</a></li>
+        
+    
+        
+    
+        
+            <li><a href="#_17">创建群组</a></li>
+        
+            <li><a href="#_18">获取群组详情</a></li>
+        
+            <li><a href="#_19">更新群组信息</a></li>
+        
+            <li><a href="#_20">删除群组</a></li>
+        
+            <li><a href="#_21">更新群组成员</a></li>
+        
+            <li><a href="#_22">获取群组成员列表</a></li>
+        
+            <li><a href="#_23">获取某用户的群组列表</a></li>
+        
+            <li><a href="#_24">获取当前应用的群组列表</a></li>
+        
+    
+        
+            <li><a href="#_25">跨应用管理群组成员</a></li>
+        
+            <li><a href="#_26">跨应用获取群组成员列表</a></li>
+        
+            <li><a href="#_27">跨应用添加黑名单</a></li>
+        
+            <li><a href="#_28">跨应用移除黑名单</a></li>
+        
+            <li><a href="#_29">跨应用黑名单列表</a></li>
+        
+    
+        
+            <li><a href="#example-error-response">Example Error Response</a></li>
+        
+            <li><a href="#_30">业务错误码定义</a></li>
+        
+    
+        
+    
+    </ul>
+    
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

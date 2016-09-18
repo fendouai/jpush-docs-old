@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+  <html class="no-js lt-ie9" lang="en">
+  <![endif]-->
+<!--[if gt IE 8]>
+    <!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="author" content="JPush Offical"> 
+    <title>实时消息回调 - 极光文档</title> 
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <script src="../../js/jquery-2.1.4.js"></script>
+
+    <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+    <script src="../../js/bootstrap/js/bootstrap.js"></script>
+
+    <link href="../../js/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+    
+    <script>
+    // Current page data
+    var mkdocs_page_name = "实时消息回调";
+    var mkdocs_page_input_path = "advanced/jmessage_callback.md";
+    var mkdocs_page_url = "/advanced/jmessage_callback/";
+    </script>
+    
+    <script src="../../js/jpush.js"></script> 
+</head>
+
+<body data-spy="scroll" data-target="#navbar-right">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3  col-md-3  col-sm-3 ">
+                    <div id="doc-icon">
+                        <a href="/"><img src="/img/icon/logo.png"></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-8  col-sm-8">
+                    <div class="header">
+                        <ul class="nav nav-tabs">
+                            <li role="presentation" >
+                                <a href="/jpush/guideline/intro/" id="jpush-top">JPush</a></li>
+                            <li role="presentation" >
+                                <a href="/jmessage/guideline/jmessage_guide/" id="jmessage-top">JMessage</a></li>
+                            <li role="presentation" >
+                                <a href="/jsms/guideline/JSMS_guide/" id="jsms-top">短信验证码</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2  col-md-1 col-sm-1">
+                    <div>
+                        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3  col-md-3 col-sm-4">
+                <div id="navbar-left">
+                    <ul class="wy-menu">
+                        
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    入门指南 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../guideline/jmessage_guide/">JMessage 产品简介</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    Android 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../client/im_sdk_android/">Android SDK 概述</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../client/jmessage_android_guide/">JMessage Android SDK 集成指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../client/im_errorcode_android/">IM SDK ErrorCode 定义</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    iOS 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../client/im_sdk_ios/">iOS SDK 概述</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../client/jmessage_ios_guide/">JMessage iOS SDK 集成指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../client/im_errorcode_ios/">IM SDK ErrorCode 定义</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    JS 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../client/im_sdk_js/">JMessage WEB SDK 开发文档</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    REST API 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../server/rest_api_im/">IM REST API</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../server/rest_api_im_report/">IM REST Report</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../client/im_errorcode_server/">Server ErrorCode 定义</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    高级 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../im_message_protocol/">IM 消息协议</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../im_objects/">IM 业务对象</a>
+    </li>
+                                
+                                    <li class="toctree-l1 current">
+        <a class="current" href="./">实时消息回调</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../jmessage_topics/">极光IM高级话题</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                                <ul class="subnavul">
+                                    <li class="subnavli_single " >
+                                        <span>
+                          <a href="../../updates/" class="">最近更新</a></span>
+                                    </li>
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                                <ul class="subnavul">
+                                    <li class="subnavli_single " >
+                                        <span>
+                          <a href="../../resources/" class="">资源下载</a></span>
+                                    </li>
+                                </ul>
+                                <li></ul>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-8  col-md-9  col-sm-8">
+                <div id="content-top"></div>
+                <section >
+                    <div class="rst-content"><div id="breadcrumbs" role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../guideline/jmessage_guide/">极光文档</a>></li>
+    
+      
+        
+          <li><a href="../im_message_protocol/">高级</a> ></li>
+        
+      
+    
+    <li>
+    实时消息回调
+    <!--
+    <a href="./">实时消息回调</a>
+    -->
+    </li>
+  </ul>
+</div>
+                        <div role="main">
+                            <div class="section"> <h1 id="_1">实时消息回调</h1>
+<h2 id="_2">极光可以帮助开发者实现以下场景：</h2>
+<ol>
+<li>在 APP 自己的服务端实时保存聊天历史</li>
+<li>开发者可以实现针对客户消息的内容进行自动回复</li>
+</ol>
+<p>如需要开通此功能，请联系：<a href="https://www.jiguang.cn/accounts/business/form">商务客服</a>；如果开发者没有实时性需求，建议使用免费的IM REST Report拉取历史消息。</p>
+<h3 id="https">目前服务只支持https回调</h3>
+<p>关于开发者鉴权的问题，为了防止开发者服务被随意调用，开发者服务验证采用 HTTP Basic 机制，即 HTTP Header（头）里加一个字段（Key/Value对）：</p>
+<p>Authorization: Basic base64_auth_string</p>
+<p>其中 base64_auth_string 的生成算法为：base64(appKey:masterSecret)</p>
+<p>即，对 appKey 加上冒号，加上 masterSecret 拼装起来的字符串，再做 base64 转换。</p>
+<p>msg callback在请求的时候会带上Authorization: Basic base64_auth_string让开发者服务进行验证</p>
+<h4 id="https-post">https 接口采用post方法</h4>
+<p>Request header</p>
+<pre><code>  Content-Type: application/json; charset=utf-8
+</code></pre>
+
+<p>Request Body</p>
+<pre><code> { 
+ &quot;total&quot;:1,
+ &quot;messages&quot;:[ 
+ { 
+  &quot;target_type&quot;:&quot;single&quot;,
+  &quot;msg_type&quot;:&quot;text&quot;,
+  &quot;target_name&quot;:&quot;JMessage&quot;,
+  &quot;target_id&quot;:&quot;10000002&quot;,
+  &quot;from_id&quot;:&quot;10000001&quot;,
+  &quot;from_name&quot;:&quot;JPush&quot;,
+  &quot;from_type&quot;:&quot;user&quot;,
+  &quot;from_platform&quot;:&quot;a&quot;,
+  &quot;msg_body&quot;:{ 
+   &quot;text&quot;:&quot;text&quot;,
+   &quot;extras&quot;:{ 
+   }
+  },
+ &quot;create_time&quot;:1446016259,
+ &quot;version&quot;:1,
+ &quot;msgid&quot;:12345678,
+ &quot;msg_level&quot;: 0,
+ &quot;msg_ctime&quot; : 1466866468352 // 服务器接收到消息的时间，单位毫秒  
+ }
+ ]
+}
+
+</code></pre>
+
+<p>与REST Report历史消息获取的消息格式相同</p>
+<h4 id="msg-callback">msg callback 所需的成功响应</h4>
+<p>Response</p>
+<pre><code>  HTTP/1.1 200  
+  Content-Type: application/json; charset=utf-8
+
+</code></pre> </div>
+                        </div> <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../jmessage_topics/" class="btn btn-neutral float-right" title="极光IM高级话题">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../im_objects/" class="btn btn-neutral float-left" title="IM 业务对象"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>Copyright 2011-2016, jiguang.cn, All Rights Reserved. <br />粤ICP备12056275号-13 深圳市和讯华谷信息技术有限公司</p>
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer> </div>
+                </section>
+            </div>
+            <div class="col-lg-1">
+                <div class="visible-lg">
+                    <div id="tocright">
+                        <div id="navbar-right">
+                            <div>
+                            <p>目录</p>
+                            </div>
+                            <ul class="nav" >
+    
+        
+            <li><a href="#_2">极光可以帮助开发者实现以下场景：</a></li>
+        
+    
+    </ul>
+    
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

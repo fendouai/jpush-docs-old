@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+  <html class="no-js lt-ie9" lang="en">
+  <![endif]-->
+<!--[if gt IE 8]>
+    <!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="author" content="JPush Offical"> 
+    <title>iOS SDK FAQ - 极光文档</title> 
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <script src="../../../js/jquery-2.1.4.js"></script>
+
+    <link rel="stylesheet" href="../../../css/theme.css" type="text/css" />
+    <script src="../../../js/bootstrap/js/bootstrap.js"></script>
+
+    <link href="../../../js/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../css/theme_extra.css" type="text/css" />
+    
+    <script>
+    // Current page data
+    var mkdocs_page_name = "iOS SDK FAQ";
+    var mkdocs_page_input_path = "client/iOS/ios_faq.md";
+    var mkdocs_page_url = "/client/iOS/ios_faq/";
+    </script>
+    
+    <script src="../../../js/jpush.js"></script> 
+</head>
+
+<body data-spy="scroll" data-target="#navbar-right">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3  col-md-3  col-sm-3 ">
+                    <div id="doc-icon">
+                        <a href="/"><img src="/img/icon/logo.png"></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-8  col-sm-8">
+                    <div class="header">
+                        <ul class="nav nav-tabs">
+                            <li role="presentation" >
+                                <a href="/jpush/guideline/intro/" id="jpush-top">JPush</a></li>
+                            <li role="presentation" >
+                                <a href="/jmessage/guideline/jmessage_guide/" id="jmessage-top">JMessage</a></li>
+                            <li role="presentation" >
+                                <a href="/jsms/guideline/JSMS_guide/" id="jsms-top">短信验证码</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2  col-md-1 col-sm-1">
+                    <div>
+                        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3  col-md-3 col-sm-4">
+                <div id="navbar-left">
+                    <ul class="wy-menu">
+                        
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    入门指南 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../guideline/intro/">JPush产品简介</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../console/Instructions/">控制台使用指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../guideline/push-SMS-intro/">JPush短信补充</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../advanced/rich_push/">Rich Push 开发指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../guideline/faq/">常见问题</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    Android 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../Android/android_sdk/">Android SDK 概述</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../Android/android_3m/">3 分钟 Demo</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../Android/android_guide/">Android SDK 集成指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../Android/android_debug_guide/">Android SDK 调试指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../Android/android_senior/">Android SDK 进阶教程</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../Android/android_api/">Android SDK API</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../Android/android_faq/">Android SDK FAQ</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    iOS 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../ios_sdk/">iOS SDK 概述</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../ios_guide_new/">iOS SDK 集成指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../ios_debug_guide/">iOS SDK 调试指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../ios_cer_guide/">iOS 证书设置指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../ios_new_fetures/">iOS 新特性汇总</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../ios_api/">iOS SDK API</a>
+    </li>
+                                
+                                    <li class="toctree-l1 current">
+        <a class="current" href="./">iOS SDK FAQ</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    WindowsPhone 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../Windows Phone/winphone_sdk/">Windows Phone SDK 概述</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../Windows Phone/winphone_3m/">Windows Phone 3分钟 Demo</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../Windows Phone/winphone_guide/">Windows Phone SDK 集成指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../Windows Phone/winphone_api/">Windows Phone API</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    REST API 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/push/server_overview/">REST API 概述</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/push/rest_api_v3_push/">Push API v3</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/push/rest_api_v3_report/">Report API v3</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/push/rest_api_v3_device/">Device API v3</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/push/rest_api_push_schedule/">Schedule API v3</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/push/http_status_code/">HTTP 状态码</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    高级 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../advanced/scenes/">JPush应用场景</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../advanced/topics/">JPush高级话题</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                                <ul class="subnavul">
+                                    <li class="subnavli_single " >
+                                        <span>
+                          <a href="../../client_plugins/" class="">客户端集成插件</a></span>
+                                    </li>
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    服务端SDK 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/3rd/java_sdk/">Java SDK</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/3rd/python_sdk/">Python SDK</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/3rd/php_sdk/">PHP SDK</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/3rd/ruby_sdk/">Ruby SDK</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/3rd/csharp_sdk/">C# SDK</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/3rd/nodejs_sdk/">Node.js SDK</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    旧文档 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/old/rest_api_v2_push/">REST API v2 - Push</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/old/rest_api_v2_report/">REST API v2 - Report</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                                <ul class="subnavul">
+                                    <li class="subnavli_single " >
+                                        <span>
+                          <a href="../../../updates/" class="">最近更新</a></span>
+                                    </li>
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                                <ul class="subnavul">
+                                    <li class="subnavli_single " >
+                                        <span>
+                          <a href="../../../resources/" class="">资源下载</a></span>
+                                    </li>
+                                </ul>
+                                <li></ul>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-8  col-md-9  col-sm-8">
+                <div id="content-top"></div>
+                <section >
+                    <div class="rst-content"><div id="breadcrumbs" role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../../guideline/intro/">极光文档</a>></li>
+    
+      
+        
+          <li><a href="../ios_sdk/">iOS</a> ></li>
+        
+      
+    
+    <li>
+    iOS SDK FAQ
+    <!--
+    <a href="./">iOS SDK FAQ</a>
+    -->
+    </li>
+  </ul>
+</div>
+                        <div role="main">
+                            <div class="section"> <h1 id="ios-sdk">iOS SDK 常见问题</h1>
+<style>
+img[alt=jpush_ios] { width: 800px; }
+img[alt=jpush_ios_5] { width: 500px; }## 
+</style>
+
+<h2 id="ios-9">iOS 9集成</h2>
+<h3 id="ios-9sdk">iOS 9变动影响SDK部分:</h3>
+<ul>
+<li>增加了bitCode编码格式,当SDK不支持bitCode时，用户集成时无法开启bitCode选项.<ul>
+<li>现象:用户集成SDK后无法编译通过，错误日志里包含了bitCode的相关错误信息</li>
+</ul>
+</li>
+<li>默认使用https连接,如果请求为http,需要手动配置plist来支持http服务，当前我们的服务器请求都走http服务。<ul>
+<li>现象:用户集成SDK后，所有JPush相关的http服务都提示连接错误或者连接超时,可能是此问题。</li>
+</ul>
+</li>
+</ul>
+<h3 id="bitcode">bitCode解决方式</h3>
+<p>JPush iOS SDK v1.8.7 及以上版本的SDK,已经增加对 iOS 9 新特性 bitCode 的支持.JMessage iOS SDK v2.0.0 及以上版本支持bitCode。</p>
+<h3 id="https">Https解决方式</h3>
+<p>SDK未提供https地址版本时</p>
+<ul>
+<li>需要用户主动在当前项目的Info.plist中添加NSAppTransportSecurity类型Dictionary。</li>
+<li>在NSAppTransportSecurity下添加NSAllowsArbitraryLoads类型Boolean,值设为YES</li>
+</ul>
+<h2 id="ios">iOS 如何推送自定义声音</h2>
+<p>客户端需要将声音文件导入工程里，选中工程Target -&gt; Build Phrases -&gt; Copy Bundle Resources
+<img alt="jpush_ios_v" src="../../image/ios_voice.png" /></p>
+<p>服务端推送时，需要指定iOS 平台下的sound参数，具体传入的值是声音文件名＋后缀。</p>
+<h2 id="ios_1">为什么iOS收不到推送消息？</h2>
+<p>如果你确认 appKey 在 SDK 客户端与 Portal 上设置是一致，其他环节也按照文档正确地操作。但还是收不到推送消息。那么，有一定的可能性，是你在 Portal 上上传的证书，不是 APNs (Push) 证书。推送时指定的iOS推送环境和应用证书是同一个环境。</p>
+<p>请参考<a href="../ios_faq">iOS 证书设置指南</a>再次检查证书选择是否正确。</p>
+<p>请注意：iOS能接受消息的必要条件是：应用程序的证书要和你上传到jpush portal上的证书对应，如果你的程序是直接在xcode上运行的，你的应用部署环境必须是开发状态才能收到APNS消息。</p>
+<p>温馨提示：目前api推送的时候可以通过参数apns_production可以指定推送环境，false为开发环境，true为生产环境。V3 api不带此参数则默认为生产环境，V3 api封装的sdk 默认为开发环境。如果api有传apns_production则以此值为准，否则以应用详情的部署环境为准。</p>
+<h2 id="did-fail-to-register-for-remote-notifications-with-error">为什么启动的时候出现 Did Fail To Register For Remote Notifications With Error的错误</h2>
+<p>程序运行的时候出现下面的错误信息：</p>
+<pre><code>did Fail To Register For Remote Notifications With Error: Error Domain=NSCocoaErrorDomain Code=3000 "未找到应用程序的“aps-environment”的权利字符串" UserInfo=0x1c55e000 {NSLocalizedDescription=未找到应用程序的“aps-environment”的权利字符串}
+</code></pre>
+<p>这个是由于你的Provisioning Profile文件，不具备APNS功能导致的。请登陆Apple Developer 网站设置好证书，更新Provisioning Profile，重新导入Xcode。</p>
+<p>或参考：<a href="http://blog.csdn.net/stefzeus/article/details/7418552">http://blog.csdn.net/stefzeus/article/details/7418552</a></p>
+<h2 id="apn-apn">如何在接收到 APN 的时候获取 APN 消息内容并进行跳转或做出响应处理？</h2>
+<p><a href="../ios_api">获取 APNs 推送内容</a></p>
+<h2 id="apn">如何关闭 APN  推送？</h2>
+<p>可通过调用代码 </p>
+<pre><code>[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@&quot;prefs:root=NOTIFICATIONS_ID&amp;&amp;path=当前应用的bundleid&quot;]] 
+</code></pre>
+
+<p>进入您的应用的通知设置页面，引导用户手动变更“允许通知”的状态。</p>
+<h2 id="app-badge-number">App badge number（角标）如何更改与清空？</h2>
+<p>JPush 网站上推送 iOS 通知时，可在［可选设置］里面指定 badge 参数的值，如：1或"+1"。<br />
+api上指定badge的参数请看：<a href="../../../server/push/rest_api_v3_push/#notification">Push API</a><br />
+客户端上报badge到JPush服务器的接口请看:<a href="../ios_api/#badge">设置badge</a></p>
+<p>关于badge ＋1的介绍，请看<a href="http://blog.jiguang.cn/ios_apns_badge_plus/">APNs Notification badge</a></p>
+<h2 id="icon-badge-number">Icon Badge number 的清空方法：</h2>
+<ul>
+<li>APN 推送内容指定 badge number 为 0；</li>
+<li>在代码中使用如下代码清空 badge number：  [[UIApplication sharedApplication] setApplicationIconBadgeNumber:0];</li>
+</ul>
+<p><strong>注意</strong>：</p>
+<p>badge累加只能通过v3 api推送，且只有1.7.4版本以上才能支持。</p>
+<p><br /></p>
+<h2 id="apn-apn-app-apn">为何推送一条 APN 后，点击通知中心的 APN 通知打开 App，可是 APN 通知在通知中心依然存在而未被删除？</h2>
+<p>如果推送 APN 时，Badge number 被指定为0 ，则可能出现 APN 消息在通知中心被点击后，尽管调用了   [[UIApplication sharedApplication] setApplicationIconBadgeNumber:0]; 但 APN 消息在通知中心不会被删除的情况。 这种情况可以按如下代码调用以清除通知中心的 APN 通知。</p>
+<pre><code>[[UIApplication sharedApplication] setApplicationIconBadgeNumber:1];
+[[UIApplication sharedApplication] setApplicationIconBadgeNumber:0];
+</code></pre>
+<p>如果仍有其他消息，则考虑清除 local notification 通知。（ [[UIApplication sharedApplication] cancelAllLocalNotifications] ）</p>
+<h2 id="not-get-devicetoken-yet-maybe-your-certificate-not-configured-apns">出现Not get deviceToken yet. Maybe: your certificate not configured APNs?...错误日志时如何排除问题?</h2>
+<p>如果出现上述日志，则说明一段时间内都无法获取device token，那么：</p>
+<ul>
+<li>确认你的app配置了apns权限，如果未配置apns权限，则应该会出现此错误提示。</li>
+<li>确认你的app运行在ios真机而非模拟器上，且通知中心中对应app的通知权限没有完全关闭（alert/sound/badge至少有一个权限是打开的）。</li>
+<li>
+<p>确认你的网络状况，与apple的服务器的连接是通过tcp的 5223端口连接，确认你网络的对应端口是否可用，可通过下列命令来确认这点：</p>
+<pre><code>telnet 1-courier.push.apple.com 5223
+</code></pre>
+</li>
+<li>
+<p>在代码中可在以下两个函数中断点以确认device token的获取状态。</p>
+<pre><code>- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken;
+- (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error;
+</code></pre>
+<p>如果app运行进入   didFailToRegisterForRemoteNotificationsWithError 则说明app的APNS权限问题或者app运行在模拟器，参考 证书设置文档。</p>
+<p>如果app运行进入didRegisterForRemoteNotificationsWithDeviceToken 则说明运行正常，请确认你在此函数中的代码中有将token传递给jpush的调用：</p>
+<pre><code>[JPUSHService registerDeviceToken:deviceToken];
+</code></pre>
+</li>
+<li>
+<p>如果以上两个registerRemoteNotification的函数都未进入， 请确认你的代码中有注册申请apns的函数调用：</p>
+<pre><code>[JPUSHService registerForRemoteNotificationTypes:];
+</code></pre>
+</li>
+<li>
+<p>如果上述情况都已确认且未进入第4步的任意回调函数，则可以判断无法获取token的原因在于设备与apple的网络连通性问题（注：一个设备只有在未申请过token的情况下才会需要与apple的网络交互来获取token，已经获取过某一环境token的设备在无网络的情况下也能获取到对应环境的token（环境分为 开发/生产）），这种情况下切换网络能够在大部分情况下解决此问题。</p>
+</li>
+<li>
+<p>如果仍然有问题，请将上述步骤的结果以邮件附件的形式发送到JPush支持邮箱，我们将协助你解决此问题。</p>
+</li>
+</ul>
+<h2 id="appstore">上传到appStore的版本为什么收不到推送？</h2>
+<ul>
+<li>请确认xcode选择的生产证书和上传的证书的bundleid一致；</li>
+<li>如果是在jpush网站上推送，请确认新建通知时推送对象是否选择了生产环境；</li>
+<li>如果是v3 api推送，请确认是否使用了apns_production参数，值是否为：true；如果没有使用apns_production参数请确认jpush网站上该应用的部署环境是否已经切换到生产环境。</li>
+</ul>
+<h2 id="ios_2">iOS 平台上传证书一直为未通过状态</h2>
+<p>证书上传未通过的原因一般有：</p>
+<ul>
+<li>密码错误；</li>
+<li>上传的apns证书环境不一致；</li>
+<li>上传到控制台必须是apns证书，非apns证书会带来错误，还有其他的原因可能是开发者证书也可能是apns证书那里导出来的私钥</li>
+</ul>
+<p>具体请看上传后显示的错误输出内容。</p>
+<h2 id="youve-implemented-uiapplicationdelegate62-applicationdidreceiveremotenotificationfetchcompletionhandler-but-you-still-need-to-add-remote-notification-to-the-list-of-your-supported-uibackgroundmodes-in-your-infoplist">为什么日志里面会打印：You've implemented -[ &lt;UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.</h2>
+<p>这个主要是提示开发者如果要支持UIBackgroundModes，需要开启Remote notifications，具体操作可以看：<a href="../ios_new_features/#ios-7-background-remote-notification">iOS 7 Background Remote Notification</a></p> </div>
+                        </div> <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../../Windows Phone/winphone_sdk/" class="btn btn-neutral float-right" title="Windows Phone SDK 概述">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../ios_api/" class="btn btn-neutral float-left" title="iOS SDK API"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>Copyright 2011-2016, jiguang.cn, All Rights Reserved. <br />粤ICP备12056275号-13 深圳市和讯华谷信息技术有限公司</p>
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer> </div>
+                </section>
+            </div>
+            <div class="col-lg-1">
+                <div class="visible-lg">
+                    <div id="tocright">
+                        <div id="navbar-right">
+                            <div>
+                            <p>目录</p>
+                            </div>
+                            <ul class="nav" >
+    
+        
+            <li><a href="#ios-9">iOS 9集成</a></li>
+        
+            <li><a href="#ios">iOS 如何推送自定义声音</a></li>
+        
+            <li><a href="#ios_1">为什么iOS收不到推送消息？</a></li>
+        
+            <li><a href="#did-fail-to-register-for-remote-notifications-with-error">为什么启动的时候出现 Did Fail To Register For Remote Notifications With Error的错误</a></li>
+        
+            <li><a href="#apn-apn">如何在接收到 APN 的时候获取 APN 消息内容并进行跳转或做出响应处理？</a></li>
+        
+            <li><a href="#apn">如何关闭 APN  推送？</a></li>
+        
+            <li><a href="#app-badge-number">App badge number（角标）如何更改与清空？</a></li>
+        
+            <li><a href="#icon-badge-number">Icon Badge number 的清空方法：</a></li>
+        
+            <li><a href="#apn-apn-app-apn">为何推送一条 APN 后，点击通知中心的 APN 通知打开 App，可是 APN 通知在通知中心依然存在而未被删除？</a></li>
+        
+            <li><a href="#not-get-devicetoken-yet-maybe-your-certificate-not-configured-apns">出现Not get deviceToken yet. Maybe: your certificate not configured APNs?...错误日志时如何排除问题?</a></li>
+        
+            <li><a href="#appstore">上传到appStore的版本为什么收不到推送？</a></li>
+        
+            <li><a href="#ios_2">iOS 平台上传证书一直为未通过状态</a></li>
+        
+            <li><a href="#youve-implemented-uiapplicationdelegate62-applicationdidreceiveremotenotificationfetchcompletionhandler-but-you-still-need-to-add-remote-notification-to-the-list-of-your-supported-uibackgroundmodes-in-your-infoplist">为什么日志里面会打印：You've implemented -[ &lt;UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.</a></li>
+        
+    
+    </ul>
+    
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

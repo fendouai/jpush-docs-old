@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
+        
+    <url>
+     <loc>http://docs.jpush.io/guideline/JSMS_guide/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>http://docs.jpush.io/client/Android_SMS_SDK/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>http://docs.jpush.io/client/iOS_SMS_SDK/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>http://docs.jpush.io/server/rest_api_jsms/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+    <url>
+     <loc>http://docs.jpush.io/updates/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>http://docs.jpush.io/resources/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+</urlset>

@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+  <html class="no-js lt-ie9" lang="en">
+  <![endif]-->
+<!--[if gt IE 8]>
+    <!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="author" content="JPush Offical"> 
+    <title>Report API v3 - 极光文档</title> 
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <script src="../../../js/jquery-2.1.4.js"></script>
+
+    <link rel="stylesheet" href="../../../css/theme.css" type="text/css" />
+    <script src="../../../js/bootstrap/js/bootstrap.js"></script>
+
+    <link href="../../../js/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../css/theme_extra.css" type="text/css" />
+    
+    <script>
+    // Current page data
+    var mkdocs_page_name = "Report API v3";
+    var mkdocs_page_input_path = "server/push/rest_api_v3_report.md";
+    var mkdocs_page_url = "/server/push/rest_api_v3_report/";
+    </script>
+    
+    <script src="../../../js/jpush.js"></script> 
+</head>
+
+<body data-spy="scroll" data-target="#navbar-right">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3  col-md-3  col-sm-3 ">
+                    <div id="doc-icon">
+                        <a href="/"><img src="/img/icon/logo.png"></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-8  col-sm-8">
+                    <div class="header">
+                        <ul class="nav nav-tabs">
+                            <li role="presentation" >
+                                <a href="/jpush/guideline/intro/" id="jpush-top">JPush</a></li>
+                            <li role="presentation" >
+                                <a href="/jmessage/guideline/jmessage_guide/" id="jmessage-top">JMessage</a></li>
+                            <li role="presentation" >
+                                <a href="/jsms/guideline/JSMS_guide/" id="jsms-top">短信验证码</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2  col-md-1 col-sm-1">
+                    <div>
+                        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3  col-md-3 col-sm-4">
+                <div id="navbar-left">
+                    <ul class="wy-menu">
+                        
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    入门指南 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../guideline/intro/">JPush产品简介</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../console/Instructions/">控制台使用指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../guideline/push-SMS-intro/">JPush短信补充</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../advanced/rich_push/">Rich Push 开发指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../guideline/faq/">常见问题</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    Android 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../client/Android/android_sdk/">Android SDK 概述</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../client/Android/android_3m/">3 分钟 Demo</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../client/Android/android_guide/">Android SDK 集成指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../client/Android/android_debug_guide/">Android SDK 调试指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../client/Android/android_senior/">Android SDK 进阶教程</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../client/Android/android_api/">Android SDK API</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../client/Android/android_faq/">Android SDK FAQ</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    iOS 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../client/iOS/ios_sdk/">iOS SDK 概述</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../client/iOS/ios_guide_new/">iOS SDK 集成指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../client/iOS/ios_debug_guide/">iOS SDK 调试指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../client/iOS/ios_cer_guide/">iOS 证书设置指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../client/iOS/ios_new_fetures/">iOS 新特性汇总</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../client/iOS/ios_api/">iOS SDK API</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../client/iOS/ios_faq/">iOS SDK FAQ</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    WindowsPhone 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../client/Windows Phone/winphone_sdk/">Windows Phone SDK 概述</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../client/Windows Phone/winphone_3m/">Windows Phone 3分钟 Demo</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../client/Windows Phone/winphone_guide/">Windows Phone SDK 集成指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../client/Windows Phone/winphone_api/">Windows Phone API</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    REST API 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../server_overview/">REST API 概述</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../rest_api_v3_push/">Push API v3</a>
+    </li>
+                                
+                                    <li class="toctree-l1 current">
+        <a class="current" href="./">Report API v3</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../rest_api_v3_device/">Device API v3</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../rest_api_push_schedule/">Schedule API v3</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../http_status_code/">HTTP 状态码</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    高级 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../advanced/scenes/">JPush应用场景</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../advanced/topics/">JPush高级话题</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                                <ul class="subnavul">
+                                    <li class="subnavli_single " >
+                                        <span>
+                          <a href="../../../client/client_plugins/" class="">客户端集成插件</a></span>
+                                    </li>
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    服务端SDK 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../3rd/java_sdk/">Java SDK</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../3rd/python_sdk/">Python SDK</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../3rd/php_sdk/">PHP SDK</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../3rd/ruby_sdk/">Ruby SDK</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../3rd/csharp_sdk/">C# SDK</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../3rd/nodejs_sdk/">Node.js SDK</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    旧文档 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../old/rest_api_v2_push/">REST API v2 - Push</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../old/rest_api_v2_report/">REST API v2 - Report</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                                <ul class="subnavul">
+                                    <li class="subnavli_single " >
+                                        <span>
+                          <a href="../../../updates/" class="">最近更新</a></span>
+                                    </li>
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                                <ul class="subnavul">
+                                    <li class="subnavli_single " >
+                                        <span>
+                          <a href="../../../resources/" class="">资源下载</a></span>
+                                    </li>
+                                </ul>
+                                <li></ul>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-8  col-md-9  col-sm-8">
+                <div id="content-top"></div>
+                <section >
+                    <div class="rst-content"><div id="breadcrumbs" role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../../guideline/intro/">极光文档</a>></li>
+    
+      
+        
+          <li><a href="../server_overview/">REST API</a> ></li>
+        
+      
+    
+    <li>
+    Report API v3
+    <!--
+    <a href="./">Report API v3</a>
+    -->
+    </li>
+  </ul>
+</div>
+                        <div role="main">
+                            <div class="section"> <h1 id="report-api-v3">Report API V3</h1>
+<p>JPush Report API V3 提供各类统计数据查询功能。<br />
+这类 API 地址统一为（注意与 Push API 不同）：https://report.jpush.cn</p>
+<h3 id="_1">送达统计</h3>
+<p>Received API 以 msg_id 作为参数，去获取该 msg_id 的送达统计数据。<br />
+如果一次 API 调用推送有很多对象（比如广播推送），则此 API 返回的统计数据会因为持续有客户端送达而持续增加。</p>
+<p>每条推送消息的送达统计数据最多保留一个月。即发起推送请求后从最后一个推送送达记录时间点开始保留一个月，如果保留期间有新的送达，将在这个新送达的时间点起再往后保留一个月。</p>
+<h4 id="resource">Resource</h4>
+<p>GET /v3/received</p>
+<h4 id="example-request">Example Request</h4>
+<pre><code>curl -v https://report.jpush.cn/v3/received?msg_ids=1613113584,1229760629 -u &quot;7d431e42dfa6a6d693ac2d04:5e987ac6d2e04d95a9d8f0d1&quot;
+
+&lt; GET /v3/received?msg_ids=1613113584,1229760629 HTTP/1.1
+&lt; Authorization: Basic N2Q0MzFlNDJkZmE2YTZkNjkzYWMyZDA0OjVlOTg3YWM2ZDJlMDRkOTVhOWQ4ZjBkMQ==
+</code></pre>
+
+<h4 id="request-params">Request Params</h4>
+<ul>
+<li>msg_ids 推送API返回的 msg_id 列表，多个 msg_id 用逗号隔开，最多支持100个msg_id。</li>
+</ul>
+<h4 id="example-response">Example Response</h4>
+<pre><code>&lt; HTTP/1.1 200 OK 
+&lt; Content-Type: application/json
+&lt; 
+[  {&quot;msg_id&quot;:1613113584,
+    &quot;android_received&quot;:62,
+    &quot;ios_apns_sent&quot;:11,
+    &quot;ios_msg_received&quot;: 3, 
+    &quot;wp_mpns_sent&quot; : 3},
+
+   {&quot;msg_id&quot;:1229760629
+    &quot;android_received&quot;:56,
+    &quot;ios_apns_sent&quot;:33,
+    &quot;ios_msg_received&quot;: 3,  
+    &quot;wp_mpns_sent&quot; : null}
+]
+</code></pre>
+
+<h4 id="response-params">Response Params</h4>
+<p>JSON Array.</p>
+<ul>
+<li>android_received Android 送达。如果无此项数据则为 null。</li>
+<li>ios_apns_sent iOS 推送成功。如果无此项数据则为 null。</li>
+<li>ios_msg_received  iOS 自定义消息送达数。如果无此项数据则为null。</li>
+<li>wp_mpns_sent       winphone通知送达。如果无此项数据则为 null。</li>
+</ul>
+<h3 id="vip">消息统计（VIP专属接口）</h3>
+<p>与“送达统计” API 不同的是，该 API 提供更多的针对一个 msgid 的统计数据。</p>
+<p>如需要开通此接口，请联系：<a href="https://www.jiguang.cn/accounts/business/form">商务客服</a></p>
+<h4 id="resource_1">Resource</h4>
+<p>GET /v3/messages</p>
+<h4 id="example-request_1">Example Request</h4>
+<pre><code>curl -v https://report.jpush.cn/v3/messages?msg_ids=269978303 -u &quot;7d431e42dfa6a6d693ac2d04:5e987ac6d2e04d95a9d8f0d1&quot;
+
+&gt; GET /v3/messages?msg_ids=269978303 HTTP/1.1
+&gt; Authorization: Basic N2Q0MzFlNDJkZmE2YTZkNjkzYWMyZDA0OjVlOTg3YWM2ZDJlMDRkOTVhOWQ4ZjBkMQ==
+</code></pre>
+
+<h4 id="request-params_1">Request Params</h4>
+<ul>
+<li>msg_ids 多个 msg_id 用逗号隔开，最多支持100个msg_id。</li>
+</ul>
+<h4 id="example-response_1">Example Response</h4>
+<pre><code>&lt; HTTP/1.1 200 OK
+&lt; Content-Type: application/json
+&lt;
+[
+  {
+   &quot;android&quot;:
+      {&quot;received&quot;:1,&quot;target&quot;:4,&quot;online_push&quot;:1,&quot;click&quot;:null,&quot;msg_click&quot;:null},
+
+   &quot;ios&quot;:
+      {&quot;apns_sent&quot;:2,&quot;apns_target&quot;:2,&quot;click&quot;:null,&quot;target&quot;:10,&quot;received&quot;:8,&quot;msg_click&quot;:5},
+
+   &quot;winphone&quot;:
+      {&quot;mpns_target&quot;: 100,&quot;mpns_sent&quot;: 100,&quot;click&quot;: 100,},
+
+   &quot;msg_id&quot;:269978303
+  }
+]
+
+</code></pre>
+
+<h4 id="response-params_1">Response Params</h4>
+<p>JSON Array</p>
+<ul>
+<li>
+<p>msg_id 查询的消息ID</p>
+</li>
+<li>
+<p>android Android统计数据</p>
+<ul>
+<li>target 推送目标数</li>
+<li>online_push 在线推送数</li>
+<li>received 推送送达数</li>
+<li>click 用户点击数</li>
+<li>msg_click 自定义消息点击数</li>
+</ul>
+</li>
+<li>
+<p>ios iOS统计数据</p>
+<ul>
+<li>apns_target APNs通知推送目标数</li>
+<li>apns_sent APNS通知成功推送数</li>
+<li>click 用户点击数</li>
+<li>target 自定义消息目标数</li>
+<li>received 自定义消息送达数</li>
+<li>msg_click 自定义消息点击数</li>
+</ul>
+</li>
+<li>
+<p>winphone Winphone统计数据</p>
+<ul>
+<li>mpns_target MPNs通知推送目标数</li>
+<li>mpns_sent    MPNS通知成功推送数</li>
+<li>click 用户点击数</li>
+</ul>
+</li>
+</ul>
+<h3 id="vip_1">用户统计（VIP专属接口）</h3>
+<p>提供近2个月内某时间段的用户相关统计数据：新增用户、在线用户、活跃用户。<br />
+时间单位支持：HOUR（小时）、DAY（天）、MONTH（月）。</p>
+<p>如需要开通此接口，请联系：<a href="https://www.jiguang.cn/accounts/business/form">商务客服</a> </p>
+<h4 id="resource_2">Resource</h4>
+<p>GET /v3/users</p>
+<h4 id="example-request_2">Example Request</h4>
+<pre><code>curl -v &quot;https://report.jpush.cn/v3/users?time_unit=DAY&amp;start=2014-06-10&amp;duration=3&quot; -u &quot;dd1066407b044738b6479275:2b38ce69b1de2a7fa95706ea&quot;
+
+&gt; GET /v3/users?time_unit=DAY&amp;start=2014-06-10&amp;duration=3 HTTP/1.1
+&gt; Authorization: Basic ZGQxMDY2NDA3YjA0NDczOGI2NDc5Mjc1OjJiMzhjZTY5YjFkZTJhN2ZhOTU3MDZlYQ==
+</code></pre>
+
+<h4 id="request-params_2">Request Params</h4>
+<ul>
+<li>time_unit 时间单位。有三个取值：<ul>
+<li>HOUR 小时</li>
+<li>DAY 天</li>
+<li>MONTH 月</li>
+</ul>
+</li>
+<li>start 起始时间。<ul>
+<li>如果单位是小时，则起始时间是小时（包含天），格式例：2014-06-11 09</li>
+<li>如果单位是天，则起始时间是日期（天），格式例：2014-06-11</li>
+<li>如果单位是月，则起始时间是日期（月），格式例：2014-06</li>
+</ul>
+</li>
+<li>duration 持续时长。<ul>
+<li>如果单位是天，则是持续的天数。以此类推。</li>
+<li>只支持查询60天以内的用户信息，对于time_unit为HOUR的，只支持输出当天的统计结果。</li>
+</ul>
+</li>
+</ul>
+<h4 id="example-response_2">Example Response</h4>
+<pre><code>&lt; HTTP/1.1 200 OK
+&lt;
+{&quot;time_unit&quot;:&quot;DAY&quot;,&quot;start&quot;:&quot;2014-06-10&quot;,&quot;duration&quot;:3,&quot;items&quot;:[{&quot;time&quot;:&quot;2014-06-10&quot;},{&quot;time&quot;:&quot;2014-06-11&quot;,&quot;android&quot;:{&quot;active&quot;:1}},{&quot;time&quot;:&quot;2014-06-12&quot;,&quot;android&quot;:{&quot;active&quot;:1,&quot;online&quot;:2}}]}
+</code></pre>
+
+<h4 id="response-params_2">Response Params</h4>
+<p>JSON Object</p>
+<ul>
+<li>time_unit 请求时的时间单位。</li>
+<li>start 请求时的起始时间。</li>
+<li>duration 请求时的持续时长。</li>
+<li>items 获取到的统计数据项。是一个 JSON Array。<ul>
+<li>new 新增用户</li>
+<li>online 在线用户</li>
+<li>active 活跃用户</li>
+</ul>
+</li>
+</ul>
+<h3 id="_2">错误码</h3>
+<h4 id="_3">错误码定义</h4>
+<div class="table-d" align="center" >
+  <table border="1" width = "100%">
+    <tr  bgcolor="#D3D3D3" >
+      <th >Code</th>
+      <th >描述</th>
+      <th >详细解释</th>
+    </tr>
+    <tr >
+      <td>10</td>
+      <td>系统内部错误</td>
+      <td>系统内部错误</a></td>
+    </tr>
+    <tr >
+      <td>2003</td>
+      <td>无权使用此接口</td>
+      <td>必须改正</td>
+    </tr>
+    <tr >
+      <td>3001</td>
+      <td>HTTP Basic authorization 失败。</td>
+      <td>请参考 API 文档相关说明</td>
+    </tr>
+    <tr >
+      <td>3004</td>
+      <td>time_unit与start参数值不匹配</td>
+      <td>必须修正</td>
+    </tr>
+    <tr >
+      <td>3005</td>
+      <td>只支持查询60天以内的用户信息</td>
+      <td></td>
+    </tr>
+  </table>
+</div>
+
+<h4 id="example-response_3">Example Response</h4>
+<pre><code>&lt; HTTP/1.1 401 Unauthorized
+&lt; Content-Type: application/json
+&lt;
+{ 
+  &quot;error&quot;: {
+        &quot;code&quot;: 3001, 
+        &quot;message&quot;: &quot;Basic authentication failed&quot;
+     }
+}
+</code></pre>
+
+<p>参考文档：<a href="../http_status_code">HTTP-Status-Code</a></p> </div>
+                        </div> <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../rest_api_v3_device/" class="btn btn-neutral float-right" title="Device API v3">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../rest_api_v3_push/" class="btn btn-neutral float-left" title="Push API v3"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>Copyright 2011-2016, jiguang.cn, All Rights Reserved. <br />粤ICP备12056275号-13 深圳市和讯华谷信息技术有限公司</p>
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer> </div>
+                </section>
+            </div>
+            <div class="col-lg-1">
+                <div class="visible-lg">
+                    <div id="tocright">
+                        <div id="navbar-right">
+                            <div>
+                            <p>目录</p>
+                            </div>
+                            <ul class="nav" >
+    
+        
+            <li><a href="#_1">送达统计</a></li>
+        
+            <li><a href="#vip">消息统计（VIP专属接口）</a></li>
+        
+            <li><a href="#vip_1">用户统计（VIP专属接口）</a></li>
+        
+            <li><a href="#_2">错误码</a></li>
+        
+    
+    </ul>
+    
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

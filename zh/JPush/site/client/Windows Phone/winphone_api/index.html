@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+  <html class="no-js lt-ie9" lang="en">
+  <![endif]-->
+<!--[if gt IE 8]>
+    <!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="author" content="JPush Offical"> 
+    <title>Windows Phone API - 极光文档</title> 
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <script src="../../../js/jquery-2.1.4.js"></script>
+
+    <link rel="stylesheet" href="../../../css/theme.css" type="text/css" />
+    <script src="../../../js/bootstrap/js/bootstrap.js"></script>
+
+    <link href="../../../js/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../css/theme_extra.css" type="text/css" />
+    
+    <script>
+    // Current page data
+    var mkdocs_page_name = "Windows Phone API";
+    var mkdocs_page_input_path = "client/Windows Phone/winphone_api.md";
+    var mkdocs_page_url = "/client/Windows Phone/winphone_api/";
+    </script>
+    
+    <script src="../../../js/jpush.js"></script> 
+</head>
+
+<body data-spy="scroll" data-target="#navbar-right">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3  col-md-3  col-sm-3 ">
+                    <div id="doc-icon">
+                        <a href="/"><img src="/img/icon/logo.png"></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-8  col-sm-8">
+                    <div class="header">
+                        <ul class="nav nav-tabs">
+                            <li role="presentation" >
+                                <a href="/jpush/guideline/intro/" id="jpush-top">JPush</a></li>
+                            <li role="presentation" >
+                                <a href="/jmessage/guideline/jmessage_guide/" id="jmessage-top">JMessage</a></li>
+                            <li role="presentation" >
+                                <a href="/jsms/guideline/JSMS_guide/" id="jsms-top">短信验证码</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2  col-md-1 col-sm-1">
+                    <div>
+                        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3  col-md-3 col-sm-4">
+                <div id="navbar-left">
+                    <ul class="wy-menu">
+                        
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    入门指南 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../guideline/intro/">JPush产品简介</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../console/Instructions/">控制台使用指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../guideline/push-SMS-intro/">JPush短信补充</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../advanced/rich_push/">Rich Push 开发指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../guideline/faq/">常见问题</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    Android 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../Android/android_sdk/">Android SDK 概述</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../Android/android_3m/">3 分钟 Demo</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../Android/android_guide/">Android SDK 集成指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../Android/android_debug_guide/">Android SDK 调试指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../Android/android_senior/">Android SDK 进阶教程</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../Android/android_api/">Android SDK API</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../Android/android_faq/">Android SDK FAQ</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    iOS 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../iOS/ios_sdk/">iOS SDK 概述</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../iOS/ios_guide_new/">iOS SDK 集成指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../iOS/ios_debug_guide/">iOS SDK 调试指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../iOS/ios_cer_guide/">iOS 证书设置指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../iOS/ios_new_fetures/">iOS 新特性汇总</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../iOS/ios_api/">iOS SDK API</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../iOS/ios_faq/">iOS SDK FAQ</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    WindowsPhone 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../winphone_sdk/">Windows Phone SDK 概述</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../winphone_3m/">Windows Phone 3分钟 Demo</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../winphone_guide/">Windows Phone SDK 集成指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 current">
+        <a class="current" href="./">Windows Phone API</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    REST API 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/push/server_overview/">REST API 概述</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/push/rest_api_v3_push/">Push API v3</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/push/rest_api_v3_report/">Report API v3</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/push/rest_api_v3_device/">Device API v3</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/push/rest_api_push_schedule/">Schedule API v3</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/push/http_status_code/">HTTP 状态码</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    高级 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../advanced/scenes/">JPush应用场景</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../advanced/topics/">JPush高级话题</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                                <ul class="subnavul">
+                                    <li class="subnavli_single " >
+                                        <span>
+                          <a href="../../client_plugins/" class="">客户端集成插件</a></span>
+                                    </li>
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    服务端SDK 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/3rd/java_sdk/">Java SDK</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/3rd/python_sdk/">Python SDK</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/3rd/php_sdk/">PHP SDK</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/3rd/ruby_sdk/">Ruby SDK</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/3rd/csharp_sdk/">C# SDK</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/3rd/nodejs_sdk/">Node.js SDK</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    旧文档 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/old/rest_api_v2_push/">REST API v2 - Push</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../../server/old/rest_api_v2_report/">REST API v2 - Report</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                                <ul class="subnavul">
+                                    <li class="subnavli_single " >
+                                        <span>
+                          <a href="../../../updates/" class="">最近更新</a></span>
+                                    </li>
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                                <ul class="subnavul">
+                                    <li class="subnavli_single " >
+                                        <span>
+                          <a href="../../../resources/" class="">资源下载</a></span>
+                                    </li>
+                                </ul>
+                                <li></ul>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-8  col-md-9  col-sm-8">
+                <div id="content-top"></div>
+                <section >
+                    <div class="rst-content"><div id="breadcrumbs" role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../../guideline/intro/">极光文档</a>></li>
+    
+      
+        
+          <li><a href="../winphone_sdk/">WindowsPhone</a> ></li>
+        
+      
+    
+    <li>
+    Windows Phone API
+    <!--
+    <a href="./">Windows Phone API</a>
+    -->
+    </li>
+  </ul>
+</div>
+                        <div role="main">
+                            <div class="section"> <h1 id="windows-phone-api">Windows Phone API</h1>
+<h3 id="api">API概述</h3>
+<p>APIs 主要都集中在名空间JPushSDK的类JServer中</p>
+<h4 id="property-isdebug">Property-IsDebug</h4>
+<p>开启调试模式，帮助了解集成的情况，打印相关log，发布商店时，<code>请关闭调试模式，否则会导致无法通过微软应用商店的审核</code></p>
+<h4 id="_1">支持版本</h4>
+<p>开始支持v1.0.0</p>
+<pre><code>public static  bool  IsDebug{get;set;}
+</code></pre>
+<h5 id="_2">参数说明</h5>
+<ul>
+<li>IsDebug=true  开启调试模式</li>
+<li>IsDebug=false 关闭调试模式</li>
+</ul>
+<h4 id="method-setup">Method - Setup</h4>
+<p>调用此API将APP_KEY上报给JPush后台</p>
+<h5 id="_3">支持的版本</h5>
+<p>开始支持v1.0.0</p>
+<h5 id="_4">接口定义</h5>
+<pre><code>public  static void  Setup(string APP_KEY, string CHANNEL,Action&lt;string&gt; action)
+</code></pre>
+<h5 id="_5">参数说明</h5>
+<ul>
+<li>APP_KEY<ul>
+<li>JPush Portal上注册应用后生成的 appkey</li>
+</ul>
+</li>
+<li>CHANNEL<ul>
+<li>作为应用程序的发布去发，可自行定义</li>
+</ul>
+</li>
+<li>action<ul>
+<li>成功获取RegistrationID后调用该回调函数               <br />
+void registationIDCallback(string registrationID)
+{
+  Debug.WriteLine(registrationID);
+} </li>
+</ul>
+</li>
+</ul>
+<h4 id="method-activated">Method -Activated</h4>
+<p>应用程序进入Activated状态的调用，以正确的处理Tomstoning状态</p>
+<h5 id="_6">支持版本</h5>
+<p>开始支持v1.0.0</p>
+<h5 id="_7">接口定义</h5>
+<pre><code>public  static void Activated()
+</code></pre>
+<h4 id="method-deactiveted">Method-Deactiveted</h4>
+<p>应用程序进入Deactivated状态调用，用来正确的保存应用程序的退出状态</p>
+<h5 id="_8">支持版本</h5>
+<p>开始支持v1.0.0</p>
+<h5 id="_9">接口定义</h5>
+<pre><code>public  static void Deactivated()
+</code></pre>
+<h3 id="jpush-sdkmpns">JPush SDK的状态和MPNs的通知</h3>
+<p>注册JPush SDK中的事件，用来监听JPush SDK的运行情况和接收MPNs发送的信息</p>
+<h4 id="_10">支持版本</h4>
+<p>开始支持v1.0.0</p>
+<h4 id="_11">接口定义</h4>
+<pre><code>public static void AddNotification(string name, Action&lt;Dictionary&lt;string, string&gt;&gt; selector)
+</code></pre>
+<h4 id="_12">参数说明</h4>
+<ul>
+<li>name<ul>
+<li>监听的消息类型，JPush SDK提供以下5种类型</li>
+<li>NotificationCenter.kNetworkDidSetupNotification                  建立连接</li>
+<li>NotificationCenter.kNetworkDidRegisterNotification              登陆成功</li>
+<li>NotificationCenter.kNetworkDidLoginNotification                  注册成功</li>
+<li>NotificationCenter.kNetworkDidCloseNotification                  关闭连接</li>
+<li>NotificationCenter.kNetworkDidMPNsMessageNotification    收到MPNs消息</li>
+</ul>
+</li>
+<li>selector<ul>
+<li>当有事件发生时触发该回调函数</li>
+<li>Dictionary在kNetworkDidSetupNotification时会带一个RegistrationID</li>
+<li>Dictionary在kNetworkDidSetupNotification时会带一个MPNs的消息</li>
+</ul>
+</li>
+</ul>
+<h4 id="_13">示例代码</h4>
+<pre><code>void callBack(Dictionary&lt;string, string&gt; dict)
+{
+   Debug.WriteLine(dict.ToString());
+} 
+或者使用lamda表达式
+JPushSDK.NotificationCenter.AddNotification(JPushSDK.NotificationCenter.kNetworkDidCloseNotification, (K) =&gt;
+{
+      Deployment.Current.Dispatcher.BeginInvoke(() =&gt;
+      {
+         //TextConnectionState.Text = "关闭连接";
+      });
+});
+</code></pre>
+<h3 id="mpns">开启、查询和停止MPNs推送功能</h3>
+<p>与Windows Phone推送相关的API说明</p>
+<h4 id="method-registernotification">Method - RegisterNotification</h4>
+<p>注册MPNs服务的接口。当自行定制弹出用户允许推送的窗口，<code>请使用这个接口。用户关闭了MPNs通知后，如果再次开启通知请调用此函数。不能调用RegisterNotificationWithMessagebox</code></p>
+<h5 id="_14">支持的版本</h5>
+<p>开始支持v1.0.0</p>
+<h5 id="_15">接口定义</h5>
+<p>public  static void RegisterNotification()</p>
+<h4 id="method-registernotificationwithmessagebox">Method - RegisterNotificationWithMessagebox</h4>
+<p>注册MPNs的接口，帮助管理首次注册弹出messagebox，并保存用户选择状态</p>
+<h5 id="_16">支持的版本</h5>
+<p>开始支持v1.0.0</p>
+<h5 id="_17">接口定义</h5>
+<pre><code>public  static void RegisterNotificationWithMessagebox(string content, string title, Action&lt;bool&gt; callBack)
+</code></pre>
+<h5 id="_18">参数说明</h5>
+<ul>
+<li>content<ul>
+<li>弹出框的内容</li>
+</ul>
+</li>
+<li>title<ul>
+<li>弹出框的标题</li>
+</ul>
+</li>
+<li>callBack
+    +回调函数通知用户选择结果</li>
+</ul>
+<h4 id="method-closenotification">Method-CloseNotification</h4>
+<p>关闭MPNs推送</p>
+<h5 id="_19">支持的版本</h5>
+<p>开始支持的版本v1.0.0</p>
+<h5 id="_20">接口定义</h5>
+<pre><code>public  static void CloseNotification()
+</code></pre>
+<h4 id="method-isopnenotification">Method-IsOpneNotification</h4>
+<p>检查MPNs是否开启</p>
+<h5 id="_21">支持版本</h5>
+<p>开始支持版本v1.0.0</p>
+<h5 id="_22">接口定义</h5>
+<pre><code>public  static bool IsOpneNotification()
+</code></pre>
+<h3 id="api_1">标签与别名 API</h3>
+<div style="font-size:13px;background: #E0EFFE;border: 1px solid #ACBFD7;border-radius: 3px;padding: 8px 16px; padding-bottom: 0;margin-bottom: 0;">
+ <p>温馨提示，设置标签别名请注意处理call back结果。
+ <p>只有call back 返回值为 0 才设置成功，才可以向目标推送。否则服务器 API 会返回1011错误。
+</div>
+
+<p>提供相关 API 用来设置别名（alias）与标签（tags）。</p>
+<p>API 可以在 App 里任何地方调用。</p>
+<h4 id="alias">别名 alias</h4>
+<p>为安装了应用程序的用户，取个别名来标识。以后给该用户 Push 消息时，就可以用此别名来指定。</p>
+<p>每个用户只能指定一个别名。</p>
+<p>同一个应用程序内，对不同的用户，建议取不同的别名。这样，尽可能根据别名来唯一确定用户。</p>
+<p>系统不限定一个别名只能指定一个用户。如果一个别名被指定到了多个用户，当给指定这个别名发消息时，服务器端API会同时给这多个用户发送消息。</p>
+<p>举例：在一个用户要登录的游戏中，可能设置别名为 userid。游戏运营时，发现该用户 3 天没有玩游戏了，则根据 userid 调用服务器端API发通知到客户端提醒用户。</p>
+<h4 id="tag">标签 tag</h4>
+<p>为安装了应用程序的用户，打上标签。其目的主要是方便开发者根据标签，来批量下发 Push 消息。</p>
+<p>可为每个用户打多个标签。</p>
+<p>举例： game, old_page,  women</p>
+<h4 id="method-settagswithaliaswith-callback">Method - SetTagsWithAlias(with Callback)</h4>
+<p>调用此 API 来同时设置别名与标签，支持回掉函数。</p>
+<p>需要理解的是，这个接口是覆盖逻辑，而不是增量逻辑。即新的调用会覆盖之前的设置。</p>
+<p>在之前调用过后，如果需要再次改变别名与标签，只需要重新调用此 API 即可。</p>
+<h5 id="_23">支持的版本</h5>
+<p>开始支持的版本：1.0.0</p>
+<h5 id="_24">接口定义</h5>
+<pre><code>public static void  SetTagsWithAlias(HashSet&lt;string&gt; tags, string alias, Action&lt;int, HashSet&lt;string&gt;, string&gt; callback)
+</code></pre>
+<h5 id="_25">参数说明</h5>
+<ul>
+<li>tags<ul>
+<li>null 此次调用不设置此值。</li>
+<li>空集合表示取消之前的设置。</li>
+<li>每次调用至少设置一个 tag，覆盖之前的设置，不是新增。</li>
+<li>有效的标签组成：字母（区分大小写）、数字、下划线、汉字。</li>
+<li>限制：每个 tag 命名长度限制为 40 字节，最多支持设置 100 个 tag，但总长度不得超过1K字节。（判断长度需采用UTF-8编码）</li>
+<li>单个设备最多支持设置 100 个 tag。App 全局 tag 数量无限制。</li>
+</ul>
+</li>
+<li>alias<ul>
+<li>null此次调用不设置此值。</li>
+<li>空字符串 （""）表示取消之前的设置。</li>
+<li>每次调用设置有效的别名，覆盖之前的设置。</li>
+<li>有效的别名组成：字母（区分大小写）、数字、下划线、汉字。</li>
+<li>限制：alias 命名长度限制为 40 字节。（判断长度需采用UTF-8编码）</li>
+</ul>
+</li>
+<li>callbackSelector<ul>
+<li>NULL 此次调用不需要 Callback。</li>
+<li>用于回掉返回对应的参数 alias, tags。并返回对应的状态码：0为成功，其他返回码请参考错误码定义。<pre><code>private void TagsAliasCallBack(int resultCode, HashSet&lt;string&gt; tags, string alias);
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="method-filtervalidtags">Method - FilterValidTags</h4>
+<p>用于过滤出正确可用的 tags。</p>
+<p>如果总数量超出最大限制则返回最大数量的靠前的可用tags。</p>
+<div style="font-size:13px;background: #E0EFFE;border: 1px solid #ACBFD7;border-radius: 3px;padding: 8px 16px; padding-bottom: 0;margin-bottom: 0;">
+ <p>使用建议:
+    <br>
+<p>设置 tags 时，如果其中一个 tag 无效，则整个设置过程失败。
+<br>
+<p>如果 App 的 tags 会在运行过程中动态设置，并且存在对 JPush SDK tag 规定的无效字符，则有可能一个 tag 无效导致这次调用里所有的 tags 更新失败。
+ <br>
+ <p>这时你可以调用本方法 FilterValidTags 来过滤掉无效的 tags，得到有效的 tags，再调用 JPush SDK 的 set tags / alias 方法。
+</div>
+
+<h5 id="_26">支持的版本</h5>
+<p>开始支持的版本：1.0.0</p>
+<h5 id="_27">接口定义</h5>
+<pre><code>public static HashSet&lt;string&gt; FilterValidTags(HashSet&lt;string&gt; tags)
+</code></pre>
+<h5 id="_28">参数说明</h5>
+<ul>
+<li>tags<ul>
+<li>原 tag 集合。</li>
+</ul>
+</li>
+</ul>
+<h5 id="_29">接口返回</h5>
+<p>有效的 tag 集合。</p>
+<h4 id="_30">错误码定义</h4>
+<div class="table-d" align="center" >
+  <table border="1" width = "100%">
+    <tr  bgcolor="#D3D3D3" >
+      <th >Code</th>
+      <th >描述</th>
+      <th >详细解释</th>
+    </tr>
+    <tr >
+      <td>6001</td>
+      <td>无效的设置，tag/alias 不应参数都为 null</td>
+      <td></td>
+    </tr>
+    <tr >
+      <td>6002</td>
+      <td>设置超时</td>
+      <td>建议重试</td>
+    </tr>
+    <tr >
+      <td>6003</td>
+      <td>alias 字符串不合法</td>
+      <td>有效的别名、标签组成：字母（区分大小写）、数字、下划线、汉字。</td>
+    </tr>
+    <tr >
+      <td>6004</td>
+      <td>alias超长。最多 40个字节</td>
+      <td>中文 UTF-8 是 3 个字节</td>
+    </tr>
+    <tr >
+      <td>6005</td>
+      <td>某一个 tag 字符串不合法</td>
+      <td>有效的别名、标签组成：字母（区分大小写）、数字、下划线、汉字。</td>
+    </tr>
+    <tr >
+      <td>6006</td>
+      <td>某一个 tag 超长。一个 tag 最多 40个字节</td>
+      <td>中文 UTF-8 是 3 个字节</td>
+    </tr>
+    <tr >
+      <td>6007</td>
+      <td>tags 数量超出限制。最多 100个</td>
+      <td>这是一台设备的限制。一个应用全局的标签数量无限制。</td>
+    </tr>
+    <tr >
+      <td>6008</td>
+      <td>tag 超出总长度限制</td>
+      <td>总长度最多 1K 字节</td>
+    </tr>
+    <tr >
+      <td>6011</td>
+      <td>10s内设置tag或alias大于10次</td>
+      <td>短时间内操作过于频繁</td>
+    </tr>
+  </table>
+</div>
+
+<h3 id="_31">统计功能</h3>
+<p>用于统计Toast点击，页面切换等事件</p>
+<h4 id="method-handletoastnotification">Method-HandleToastNotification</h4>
+<p>用于统计点击Toast通知进入应用程序的事件，需要放入到与Toast通知对应的页面和默认的页面，比如MainPage.xaml页面</p>
+<h5 id="_32">支持版本</h5>
+<p>开始支持v1.0.0</p>
+<h5 id="_33">接口定义</h5>
+<pre><code>public static void HandleToastNotification(IDictionary&lt;string, string&gt; remotoInfo)
+</code></pre>
+<h5 id="_34">参数说明</h5>
+<ul>
+<li>remoteInfo<ul>
+<li>页面切换时，由wp 8 sdk的接口：NavigationContext.QueryString获取</li>
+</ul>
+</li>
+</ul>
+<h4 id="method-trackpageinto">Method-TrackPageInto</h4>
+<p>用于统计用户进入页面的事件，在需要统计页面的OnNavigatedTo中加入这个函数</p>
+<h5 id="_35">支持版本</h5>
+<p>开始支持版本v1.0.0</p>
+<h5 id="_36">接口定义</h5>
+<pre><code>public static void TrackPageInto(string pageName)
+</code></pre>
+<h5 id="_37">参数说明</h5>
+<ul>
+<li>pageName<ul>
+<li>页面名称</li>
+</ul>
+</li>
+</ul>
+<h4 id="method-trackpageout">Method-TrackPageOut</h4>
+<p>用于统计用户离开页面的事件，在需要统计的页面的OnNavigatedFrom中加入这个函数</p>
+<h5 id="_38">支持版本</h5>
+<p>开始支持版本v1.0.0</p>
+<h5 id="_39">接口定义</h5>
+<pre><code>public static void TrackPageOut(string pageName)
+</code></pre>
+
+<h5 id="_40">参数说明</h5>
+<ul>
+<li>pageName<ul>
+<li>页面名称</li>
+</ul>
+</li>
+</ul>
+<h3 id="registrationid">获取RegistrationID</h3>
+<p>这个API中在名空间JPushSDK的类JServer中</p>
+<h4 id="method-getregisrtationid">Method-GetRegisrtationID</h4>
+<p>获取RegistrationID,没有登录成功之前返回空的字符串，登录成功后返回 RegistrationID</p>
+<h5 id="_41">支持版本</h5>
+<p>开始支持V1.0.0</p>
+<h5 id="_42">接口定义</h5>
+<pre><code>public static string   GetRegisrtationID()
+</code></pre>
+<h3 id="_43">客户端错误码定义</h3>
+<div class="table-d" align="center" >
+  <table border="1" width = "100%">
+    <tr  bgcolor="#D3D3D3" >
+      <th >Code</th>
+      <th >描述</th>
+    </tr>
+    <tr >
+      <td>1008</td>
+      <td>AppKey非法</td>
+    </tr>
+    <tr >
+      <td>1009</td>
+      <td>当前的appkey下没有创建WinPhone应用。请到官网检查此应用的应用详情</td>
+    </tr>
+  </table>
+</div> </div>
+                        </div> <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../../../server/push/server_overview/" class="btn btn-neutral float-right" title="REST API 概述">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../winphone_guide/" class="btn btn-neutral float-left" title="Windows Phone SDK 集成指南"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>Copyright 2011-2016, jiguang.cn, All Rights Reserved. <br />粤ICP备12056275号-13 深圳市和讯华谷信息技术有限公司</p>
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer> </div>
+                </section>
+            </div>
+            <div class="col-lg-1">
+                <div class="visible-lg">
+                    <div id="tocright">
+                        <div id="navbar-right">
+                            <div>
+                            <p>目录</p>
+                            </div>
+                            <ul class="nav" >
+    
+        
+            <li><a href="#api">API概述</a></li>
+        
+            <li><a href="#jpush-sdkmpns">JPush SDK的状态和MPNs的通知</a></li>
+        
+            <li><a href="#mpns">开启、查询和停止MPNs推送功能</a></li>
+        
+            <li><a href="#api_1">标签与别名 API</a></li>
+        
+            <li><a href="#_31">统计功能</a></li>
+        
+            <li><a href="#registrationid">获取RegistrationID</a></li>
+        
+            <li><a href="#_43">客户端错误码定义</a></li>
+        
+    
+    </ul>
+    
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

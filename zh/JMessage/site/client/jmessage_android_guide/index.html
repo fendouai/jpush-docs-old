@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+  <html class="no-js lt-ie9" lang="en">
+  <![endif]-->
+<!--[if gt IE 8]>
+    <!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="author" content="JPush Offical"> 
+    <title>JMessage Android SDK 集成指南 - 极光文档</title> 
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <script src="../../js/jquery-2.1.4.js"></script>
+
+    <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+    <script src="../../js/bootstrap/js/bootstrap.js"></script>
+
+    <link href="../../js/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+    
+    <script>
+    // Current page data
+    var mkdocs_page_name = "JMessage Android SDK 集成指南";
+    var mkdocs_page_input_path = "client/jmessage_android_guide.md";
+    var mkdocs_page_url = "/client/jmessage_android_guide/";
+    </script>
+    
+    <script src="../../js/jpush.js"></script> 
+</head>
+
+<body data-spy="scroll" data-target="#navbar-right">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3  col-md-3  col-sm-3 ">
+                    <div id="doc-icon">
+                        <a href="/"><img src="/img/icon/logo.png"></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-8  col-sm-8">
+                    <div class="header">
+                        <ul class="nav nav-tabs">
+                            <li role="presentation" >
+                                <a href="/jpush/guideline/intro/" id="jpush-top">JPush</a></li>
+                            <li role="presentation" >
+                                <a href="/jmessage/guideline/jmessage_guide/" id="jmessage-top">JMessage</a></li>
+                            <li role="presentation" >
+                                <a href="/jsms/guideline/JSMS_guide/" id="jsms-top">短信验证码</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2  col-md-1 col-sm-1">
+                    <div>
+                        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3  col-md-3 col-sm-4">
+                <div id="navbar-left">
+                    <ul class="wy-menu">
+                        
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    入门指南 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../guideline/jmessage_guide/">JMessage 产品简介</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    Android 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../im_sdk_android/">Android SDK 概述</a>
+    </li>
+                                
+                                    <li class="toctree-l1 current">
+        <a class="current" href="./">JMessage Android SDK 集成指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../im_errorcode_android/">IM SDK ErrorCode 定义</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    iOS 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../im_sdk_ios/">iOS SDK 概述</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../jmessage_ios_guide/">JMessage iOS SDK 集成指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../im_errorcode_ios/">IM SDK ErrorCode 定义</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    JS 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../im_sdk_js/">JMessage WEB SDK 开发文档</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    REST API 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../server/rest_api_im/">IM REST API</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../server/rest_api_im_report/">IM REST Report</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../im_errorcode_server/">Server ErrorCode 定义</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    高级 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../advanced/im_message_protocol/">IM 消息协议</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../advanced/im_objects/">IM 业务对象</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../advanced/jmessage_callback/">实时消息回调</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../advanced/jmessage_topics/">极光IM高级话题</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                                <ul class="subnavul">
+                                    <li class="subnavli_single " >
+                                        <span>
+                          <a href="../../updates/" class="">最近更新</a></span>
+                                    </li>
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                                <ul class="subnavul">
+                                    <li class="subnavli_single " >
+                                        <span>
+                          <a href="../../resources/" class="">资源下载</a></span>
+                                    </li>
+                                </ul>
+                                <li></ul>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-8  col-md-9  col-sm-8">
+                <div id="content-top"></div>
+                <section >
+                    <div class="rst-content"><div id="breadcrumbs" role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../guideline/jmessage_guide/">极光文档</a>></li>
+    
+      
+        
+          <li><a href="../im_sdk_android/">Android</a> ></li>
+        
+      
+    
+    <li>
+    JMessage Android SDK 集成指南
+    <!--
+    <a href="./">JMessage Android SDK 集成指南</a>
+    -->
+    </li>
+  </ul>
+</div>
+                        <div role="main">
+                            <div class="section"> <h1 id="jmessage-android-sdk">JMessage Android SDK 集成指南</h1>
+<h3 id="_1">文档说明</h3>
+<p>JMessage SDK 是基于 JPush SDK 开发的，完整支持 JPush 推送的全部功能。所以 IM SDK 的集成，是在 Push SDK 的集成操作基础上，附加少量的步骤来完成。</p>
+<p>如果您之前未集成 JPush SDK（推送SDK），请参考其集成文档：<a href="../../../guideline/android_guide/">JPush Android SDK 集成指南</a></p>
+<p>在上述文档基础上，需要如下几个集成操作：</p>
+<ul>
+<li>复制 IM SDK jar 包文件：jmessage-sdk-v1.X.X.jar</li>
+<li>修改 AndroidManifest.xml 文件</li>
+<li>代码初始化</li>
+</ul>
+<p>以上步骤以下详述。</p>
+<h4 id="jar">jar 包文件</h4>
+<p>把 JMessage SDK 的 jar 包文件，放到您的应用工程里 libs/ 目录下。文件名规格如：</p>
+<pre><code>jmessage-sdk-android-1.x.x.jar
+</code></pre>
+<p>其中 1.x.x 为版本号。随着版本升级，这个版本号会变更。</p>
+<p>如果您的应用之前集成过 JPush (推送) SDK，则需要删除原来的 jar 包文件。如果这 2 个文件同时存在，Android 编译器会报错。</p>
+<h4 id="androidmanifestxml">修改 AndroidManifest.xml 文件</h4>
+<p>基于 JPush SDK 文档里描述的需要增加的部分，JMessage SDK 需要多加如下的关于广播的配置项。</p>
+<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;manifest xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    package=&quot;您自己的包名&quot;
+    android:versionCode=&quot;XX&quot;
+    android:versionName=&quot;XX&quot;&gt;
+
+&lt;permission
+        android:name=&quot;您自己的包名.permission.JPUSH_MESSAGE&quot;
+        android:protectionLevel=&quot;signature&quot; /&gt;
+
+&lt;!--Required 一些系统要求的权限，如访问网络等--&gt;
+&lt;uses-permission android:name=&quot;您自己的包名.permission.JPUSH_MESSAGE&quot; /&gt;
+&lt;uses-permission android:name=&quot;android.permission.RECEIVE_USER_PRESENT&quot; /&gt;
+&lt;uses-permission android:name=&quot;android.permission.INTERNET&quot; /&gt;
+&lt;uses-permission android:name=&quot;android.permission.WAKE_LOCK&quot; /&gt;
+&lt;uses-permission android:name=&quot;android.permission.READ_PHONE_STATE&quot; /&gt;
+&lt;uses-permission android:name=&quot;android.permission.WRITE_EXTERNAL_STORAGE&quot; /&gt;
+&lt;uses-permission android:name=&quot;android.permission.READ_EXTERNAL_STORAGE&quot; /&gt;
+&lt;uses-permission android:name=&quot;android.permission.VIBRATE&quot; /&gt;
+&lt;uses-permission android:name=&quot;android.permission.MOUNT_UNMOUNT_FILESYSTEMS&quot; /&gt;
+&lt;uses-permission android:name=&quot;android.permission.ACCESS_NETWORK_STATE&quot; /&gt;
+&lt;uses-permission android:name=&quot;android.permission.SYSTEM_ALERT_WINDOW&quot; /&gt;
+&lt;uses-permission android:name=&quot;android.permission.WRITE_SETTINGS&quot; /&gt;
+
+&lt;!-- Required SDK 核心功能--&gt;
+        &lt;!-- option since 2.0.5 可配置PushService，DaemonService,PushReceiver,AlarmReceiver的android:process参数 将JPush相关组件设置为一个独立进程 --&gt;
+        &lt;!-- 如：android:process=&quot;:remote&quot; --&gt;
+        &lt;service
+            android:name=&quot;cn.jpush.android.service.PushService&quot;
+            android:enabled=&quot;true&quot;
+            android:exported=&quot;false&quot; &gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name=&quot;cn.jpush.android.intent.REGISTER&quot; /&gt;
+                &lt;action android:name=&quot;cn.jpush.android.intent.REPORT&quot; /&gt;
+                &lt;action android:name=&quot;cn.jpush.android.intent.PushService&quot; /&gt;
+                &lt;action android:name=&quot;cn.jpush.android.intent.PUSH_TIME&quot; /&gt;
+            &lt;/intent-filter&gt;
+        &lt;/service&gt;
+
+&lt;!-- since 1.1.4 option 可选项。用于同一设备中不同应用的JPush服务相互拉起的功能。 --&gt;
+&lt;!-- 若不启用该功能可删除该组件，将不拉起其他应用也不能被其他应用拉起 --&gt;
+         &lt;service
+             android:name=&quot;cn.jpush.android.service.DaemonService&quot;
+             android:enabled=&quot;true&quot;
+             android:exported=&quot;true&quot;&gt;
+             &lt;intent-filter &gt;
+                 &lt;action android:name=&quot;cn.jpush.android.intent.DaemonService&quot; /&gt;
+                 &lt;category android:name=&quot;您自己的包名&quot;/&gt;
+             &lt;/intent-filter&gt;
+         &lt;/service&gt;
+
+&lt;!-- Required Push SDK核心功能--&gt;
+        &lt;receiver
+            android:name=&quot;cn.jpush.android.service.PushReceiver&quot;
+            android:enabled=&quot;true&quot;&gt;
+            &lt;intent-filter android:priority=&quot;1000&quot;&gt;
+                &lt;action android:name=&quot;cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY&quot; /&gt;
+                &lt;category android:name=&quot;您自己的包名&quot; /&gt;
+            &lt;/intent-filter&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name=&quot;android.intent.action.USER_PRESENT&quot; /&gt;
+                &lt;action android:name=&quot;android.net.conn.CONNECTIVITY_CHANGE&quot; /&gt;
+            &lt;/intent-filter&gt;
+            &lt;!-- Optional --&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name=&quot;android.intent.action.PACKAGE_ADDED&quot; /&gt;
+                &lt;action android:name=&quot;android.intent.action.PACKAGE_REMOVED&quot; /&gt;
+
+                &lt;data android:scheme=&quot;package&quot; /&gt;
+            &lt;/intent-filter&gt;
+        &lt;/receiver&gt;
+
+&lt;!-- Required Push SDK核心功能 --&gt;
+        &lt;activity
+            android:name=&quot;cn.jpush.android.ui.PushActivity&quot;
+            android:configChanges=&quot;orientation|keyboardHidden&quot;
+            android:theme=&quot;@android:style/Theme.Translucent.NoTitleBar&quot;&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name=&quot;cn.jpush.android.ui.PushActivity&quot; /&gt;
+                &lt;category android:name=&quot;android.intent.category.DEFAULT&quot; /&gt;
+                &lt;category android:name=&quot;您自己的包名&quot; /&gt;
+            &lt;/intent-filter&gt;
+        &lt;/activity&gt;
+&lt;!-- Required Push SDK核心功能 --&gt;
+        &lt;service
+            android:name=&quot;cn.jpush.android.service.DownloadService&quot;
+            android:enabled=&quot;true&quot;
+            android:exported=&quot;false&quot; /&gt;
+&lt;!-- Required Push SDK核心功能 --&gt;
+        &lt;receiver android:name=&quot;cn.jpush.android.service.AlarmReceiver&quot; /&gt;
+
+&lt;!-- IM Required IM SDK核心功能--&gt;
+        &lt;receiver
+            android:name=&quot;cn.jpush.im.android.helpers.IMReceiver&quot;
+            android:enabled=&quot;true&quot;
+            android:exported=&quot;false&quot;&gt;
+            &lt;intent-filter android:priority=&quot;1000&quot;&gt;
+                &lt;action android:name=&quot;cn.jpush.im.android.action.IM_RESPONSE&quot; /&gt;
+                &lt;action android:name=&quot;cn.jpush.im.android.action.NOTIFICATION_CLICK_PROXY&quot; /&gt;
+
+                &lt;category android:name=&quot;您自己的包名&quot; /&gt;
+            &lt;/intent-filter&gt;
+        &lt;/receiver&gt;
+
+&lt;!-- Required. Enable it you can get statistics data with channel --&gt;
+        &lt;meta-data
+            android:name=&quot;JPUSH_CHANNEL&quot;
+            android:value=&quot;developer-default&quot; /&gt;
+&lt;!-- Required. AppKey copied from Portal --&gt;
+        &lt;meta-data
+            android:name=&quot;JPUSH_APPKEY&quot;
+            android:value=&quot;您的APPKey&quot; /&gt;
+</code></pre>
+
+<p>其中 category 部分的包名，应改为您应用的包名。</p>
+<h4 id="_2">代码初始化</h4>
+<p>在应用的自定义 Application 的 onCreate 方法里，加上如下的代码段，来初始化 JMessage SDK。</p>
+<pre><code>@Override
+public void onCreate() {
+    super.onCreate();
+    Log.i(&quot;JMessageDemoApplication&quot;, &quot;Application onCreate&quot;);
+
+    JMessageClient.init(getApplicationContext());
+    JPushInterface.setDebugMode(true);
+}
+</code></pre>
+
+<p><strong>JPushInterface.init 方法不可缺少</strong></p>
+<p>上述代码，即在原 JPush SDK 初始化调 JPushInterface.init 位置，替换为 JMessageClient.ini 方法，其他一样。</p>
+<h3 id="_3">功能</h3>
+<h4 id="demo-app">Demo App</h4>
+<p>极光 IM SDK 提供一个完整的 Demo App，它就是一个 IM App。或者说，如果你的 App 需求只是 IM 功能，可以只做这样两个变更就是你自己的 IM App 了：</p>
+<ul>
+<li>换 Logo； </li>
+<li>在 JPush Web 控制台上注册应用，获取到的 Appkey 更新到 Demo App 里。</li>
+</ul>
+<h4 id="im">IM 混淆</h4>
+<ul>
+<li>
+<p>请下载4.x版本的<a href="http://sourceforge.net/projects/proguard/files/proguard/">proguard.jar</a>， 并替换你Android Sdk "tools\proguard\lib\proguard.jar"</p>
+</li>
+<li>
+<p>在你的proguard.cfg加上代码：如果是使用新版本的ADT 将project.properties的中“# proguard.config=${sdk.dir}/tools/proguard/proguard-android.txt:proguard-project.txt”的“#”注释去掉，然后在proguard-android.txt中配置</p>
+</li>
+</ul>
+<pre><code>-dontwarn cn.jpush.**
+-keepattributes  EnclosingMethod,Signature
+-keep class cn.jpush.** { *; }
+-keepclassmembers class ** {
+    public void onEvent*(**);
+}
+
+#========================gson================================
+-dontwarn com.google.**
+-keep class com.google.gson.** {*;}
+
+#========================protobuf================================
+#-dontwarn com.google.**
+-keep class com.google.protobuf.** {*;}
+
+</code></pre>
+
+<p><br /></p> </div>
+                        </div> <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../im_errorcode_android/" class="btn btn-neutral float-right" title="IM SDK ErrorCode 定义">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../im_sdk_android/" class="btn btn-neutral float-left" title="Android SDK 概述"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>Copyright 2011-2016, jiguang.cn, All Rights Reserved. <br />粤ICP备12056275号-13 深圳市和讯华谷信息技术有限公司</p>
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer> </div>
+                </section>
+            </div>
+            <div class="col-lg-1">
+                <div class="visible-lg">
+                    <div id="tocright">
+                        <div id="navbar-right">
+                            <div>
+                            <p>目录</p>
+                            </div>
+                            <ul class="nav" >
+    
+        
+            <li><a href="#_1">文档说明</a></li>
+        
+            <li><a href="#_3">功能</a></li>
+        
+    
+    </ul>
+    
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
+        
+    <url>
+     <loc>http://docs.jpush.io/guideline/intro/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/console/Instructions/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/guideline/push-SMS-intro/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/advanced/rich_push/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/guideline/faq/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>http://docs.jpush.io/client/Android/android_sdk/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/client/Android/android_3m/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/client/Android/android_guide/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/client/Android/android_debug_guide/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/client/Android/android_senior/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/client/Android/android_api/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/client/Android/android_faq/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>http://docs.jpush.io/client/iOS/ios_sdk/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/client/iOS/ios_guide_new/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/client/iOS/ios_debug_guide/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/client/iOS/ios_cer_guide/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/client/iOS/ios_new_fetures/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/client/iOS/ios_api/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/client/iOS/ios_faq/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>http://docs.jpush.io/client/Windows Phone/winphone_sdk/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/client/Windows Phone/winphone_3m/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/client/Windows Phone/winphone_guide/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/client/Windows Phone/winphone_api/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>http://docs.jpush.io/server/push/server_overview/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/server/push/rest_api_v3_push/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/server/push/rest_api_v3_report/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/server/push/rest_api_v3_device/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/server/push/rest_api_push_schedule/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/server/push/http_status_code/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>http://docs.jpush.io/advanced/scenes/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/advanced/topics/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+    <url>
+     <loc>http://docs.jpush.io/client/client_plugins/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+        
+    <url>
+     <loc>http://docs.jpush.io/server/3rd/java_sdk/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/server/3rd/python_sdk/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/server/3rd/php_sdk/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/server/3rd/ruby_sdk/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/server/3rd/csharp_sdk/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/server/3rd/nodejs_sdk/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>http://docs.jpush.io/server/old/rest_api_v2_push/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.jpush.io/server/old/rest_api_v2_report/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+    <url>
+     <loc>http://docs.jpush.io/updates/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>http://docs.jpush.io/resources/</loc>
+     <lastmod>2016-09-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+</urlset>

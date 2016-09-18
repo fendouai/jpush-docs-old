@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+  <html class="no-js lt-ie9" lang="en">
+  <![endif]-->
+<!--[if gt IE 8]>
+    <!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="author" content="JPush Offical"> 
+    <title>IM 消息协议 - 极光文档</title> 
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <script src="../../js/jquery-2.1.4.js"></script>
+
+    <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+    <script src="../../js/bootstrap/js/bootstrap.js"></script>
+
+    <link href="../../js/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+    
+    <script>
+    // Current page data
+    var mkdocs_page_name = "IM 消息协议";
+    var mkdocs_page_input_path = "advanced/im_message_protocol.md";
+    var mkdocs_page_url = "/advanced/im_message_protocol/";
+    </script>
+    
+    <script src="../../js/jpush.js"></script> 
+</head>
+
+<body data-spy="scroll" data-target="#navbar-right">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3  col-md-3  col-sm-3 ">
+                    <div id="doc-icon">
+                        <a href="/"><img src="/img/icon/logo.png"></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-8  col-sm-8">
+                    <div class="header">
+                        <ul class="nav nav-tabs">
+                            <li role="presentation" >
+                                <a href="/jpush/guideline/intro/" id="jpush-top">JPush</a></li>
+                            <li role="presentation" >
+                                <a href="/jmessage/guideline/jmessage_guide/" id="jmessage-top">JMessage</a></li>
+                            <li role="presentation" >
+                                <a href="/jsms/guideline/JSMS_guide/" id="jsms-top">短信验证码</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2  col-md-1 col-sm-1">
+                    <div>
+                        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3  col-md-3 col-sm-4">
+                <div id="navbar-left">
+                    <ul class="wy-menu">
+                        
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    入门指南 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../guideline/jmessage_guide/">JMessage 产品简介</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    Android 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../client/im_sdk_android/">Android SDK 概述</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../client/jmessage_android_guide/">JMessage Android SDK 集成指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../client/im_errorcode_android/">IM SDK ErrorCode 定义</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    iOS 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../client/im_sdk_ios/">iOS SDK 概述</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../client/jmessage_ios_guide/">JMessage iOS SDK 集成指南</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../client/im_errorcode_ios/">IM SDK ErrorCode 定义</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    JS 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../client/im_sdk_js/">JMessage WEB SDK 开发文档</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    REST API 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../server/rest_api_im/">IM REST API</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../server/rest_api_im_report/">IM REST Report</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../client/im_errorcode_server/">Server ErrorCode 定义</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    高级 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 current">
+        <a class="current" href="./">IM 消息协议</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../im_objects/">IM 业务对象</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../jmessage_callback/">实时消息回调</a>
+    </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../jmessage_topics/">极光IM高级话题</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                                <ul class="subnavul">
+                                    <li class="subnavli_single " >
+                                        <span>
+                          <a href="../../updates/" class="">最近更新</a></span>
+                                    </li>
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                                <ul class="subnavul">
+                                    <li class="subnavli_single " >
+                                        <span>
+                          <a href="../../resources/" class="">资源下载</a></span>
+                                    </li>
+                                </ul>
+                                <li></ul>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-8  col-md-9  col-sm-8">
+                <div id="content-top"></div>
+                <section >
+                    <div class="rst-content"><div id="breadcrumbs" role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../guideline/jmessage_guide/">极光文档</a>></li>
+    
+      
+        
+          <li><a href="./">高级</a> ></li>
+        
+      
+    
+    <li>
+    IM 消息协议
+    <!--
+    <a href="./">IM 消息协议</a>
+    -->
+    </li>
+  </ul>
+</div>
+                        <div role="main">
+                            <div class="section"> <h1 id="im">IM 消息协议</h1>
+<h3 id="summary">Summary 概述</h3>
+<p>JMessage 对于不同的消息类型，有一个 JSON 格式的消息协议。这个业务级别的协议，由发送者编码，由接收者解码，并处理接收到的消息。</p>
+<p>面向开发者接口提供的发送消息接口，也需要遵循此文档定义来组装消息，以发往客户端。</p>
+<h3 id="protocol">Protocol 协议定义</h3>
+<ul>
+<li>version Number <ul>
+<li>必须。</li>
+<li>协议版本号。第一版本：1，以此类推。</li>
+</ul>
+</li>
+<li>target_type String <ul>
+<li>必须。</li>
+<li>接收者类型。</li>
+<li>选项：single, group</li>
+</ul>
+</li>
+<li>target_id  String<ul>
+<li>必须。</li>
+<li>接收者ID。</li>
+<li>可能值：${username}, ${gid} </li>
+<li>接收方可用此字段，校验消息是不是发给自己的。</li>
+</ul>
+</li>
+<li>target_name String <ul>
+<li>可选。</li>
+<li>接收者的展示名。</li>
+</ul>
+</li>
+<li>from_type String <ul>
+<li>必须。</li>
+<li>发送方来源。</li>
+<li>选项：user, robot, admin, ...。可用于扩展特定消息来源。 </li>
+<li>用户只允许发送 from_type = user 的消息。</li>
+</ul>
+</li>
+<li>from_id String <ul>
+<li>必须。</li>
+<li>发送者 username</li>
+</ul>
+</li>
+<li>from_name String <ul>
+<li>可选。</li>
+<li>发送方展示名。</li>
+</ul>
+</li>
+<li>from_platform String<ul>
+<li>必须。</li>
+<li>发送方平台。</li>
+<li>可选项： a - Android, i - iOS, w - WinPhone, web - Web</li>
+</ul>
+</li>
+<li>create_time Number <ul>
+<li>必须。</li>
+<li>消息发送时间。</li>
+<li>精确到秒。</li>
+</ul>
+</li>
+<li>msg_type String <ul>
+<li>必须。</li>
+<li>选项：text, voice, image, custom</li>
+</ul>
+</li>
+<li>msg_body JsonObject <ul>
+<li>必须。</li>
+<li>消息实体。</li>
+</ul>
+</li>
+</ul>
+<h3 id="message-body">Message Body 消息体定义</h3>
+<p>根据 msg_type 的不同，msg_body 里会有以下字段信息。</p>
+<ul>
+<li>extras<ul>
+<li>可选。</li>
+<li>JsonObject</li>
+<li>用于附加参数。所有的消息类型都可以带此字段。</li>
+</ul>
+</li>
+</ul>
+<p>msg_type = text</p>
+<ul>
+<li>text String<ul>
+<li>必须。</li>
+<li>文本类型消息内容。</li>
+</ul>
+</li>
+</ul>
+<p>msg_type = voice</p>
+<ul>
+<li>media_id String<ul>
+<li>必须。</li>
+<li>媒体文件上传到得到的KEY，用于生成下载URL。</li>
+</ul>
+</li>
+<li>media_crc32 Number<ul>
+<li>必须。</li>
+<li>文件的 CRC32 校验码。</li>
+</ul>
+</li>
+<li>duration Number<ul>
+<li>必须。</li>
+<li>语音时长（单位：秒）</li>
+</ul>
+</li>
+<li>format String<ul>
+<li>必须。</li>
+<li>语音类型。</li>
+</ul>
+</li>
+<li>fsize  Number<ul>
+<li>必须</li>
+<li>文件大小（字节数）</li>
+</ul>
+</li>
+</ul>
+<p>msg_type = image</p>
+<ul>
+<li>media_id String<ul>
+<li>必须。</li>
+<li>媒体文件上传到得到的KEY，用于生成下载URL。</li>
+</ul>
+</li>
+<li>media_crc32 Number<ul>
+<li>必须。</li>
+<li>文件的 CRC32 校验码。</li>
+</ul>
+</li>
+<li>width Number<ul>
+<li>必须。</li>
+<li>原图片宽度。</li>
+</ul>
+</li>
+<li>height Number<ul>
+<li>必须。</li>
+<li>原图片调度。</li>
+</ul>
+</li>
+<li>format String<ul>
+<li>可选。</li>
+<li>图片格式。</li>
+</ul>
+</li>
+<li>fsize  Number<ul>
+<li>必须</li>
+<li>文件大小（字节数）</li>
+</ul>
+</li>
+<li>img_link String<ul>
+<li>可选。</li>
+<li>图片链接。</li>
+</ul>
+</li>
+</ul>
+<p>msg_type = custom</p>
+<p>开发者自定义字段。JsonObject。</p>
+<h3 id="examples">Examples 消息示例</h3>
+<pre><code>{
+    &quot;version&quot;: 1, 
+    &quot;target_type&quot;: &quot;single&quot;,
+    &quot;target_id&quot;: &quot;javen&quot;,
+    &quot;target_name&quot;: &quot;Javen Fang&quot;,
+    &quot;from_type&quot;: &quot;user&quot;,
+    &quot;from_id&quot;: &quot;fang&quot;, 
+    &quot;from_name&quot;: &quot;Fang Javen&quot;, 
+    &quot;create_time&quot;: 135432432187,
+    &quot;msg_type&quot;: &quot;text&quot;,
+    &quot;msg_body&quot;: {
+        &quot;text&quot;: &quot;Hello, JPush IM!&quot;  
+    }
+}
+</code></pre>
+
+<h3 id="see-also">See Also 相关文档</h3>
+<ul>
+<li><a href="../../guideline/jmessage_guide/">极光IM 指南</a></li>
+<li><a href="../../client/im_sdk_android/">IM SDK for Android</a></li>
+<li><a href="../../client/im_sdk_ios/">IM SDK for iOS</a></li>
+<li><a href="../../server/rest_api_im/">IM REST API</a></li>
+<li><a href="../im_objects/">IM 业务对象</a></li>
+</ul> </div>
+                        </div> <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../im_objects/" class="btn btn-neutral float-right" title="IM 业务对象">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../../client/im_errorcode_server/" class="btn btn-neutral float-left" title="Server ErrorCode 定义"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>Copyright 2011-2016, jiguang.cn, All Rights Reserved. <br />粤ICP备12056275号-13 深圳市和讯华谷信息技术有限公司</p>
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer> </div>
+                </section>
+            </div>
+            <div class="col-lg-1">
+                <div class="visible-lg">
+                    <div id="tocright">
+                        <div id="navbar-right">
+                            <div>
+                            <p>目录</p>
+                            </div>
+                            <ul class="nav" >
+    
+        
+            <li><a href="#summary">Summary 概述</a></li>
+        
+            <li><a href="#protocol">Protocol 协议定义</a></li>
+        
+            <li><a href="#message-body">Message Body 消息体定义</a></li>
+        
+            <li><a href="#examples">Examples 消息示例</a></li>
+        
+            <li><a href="#see-also">See Also 相关文档</a></li>
+        
+    
+    </ul>
+    
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

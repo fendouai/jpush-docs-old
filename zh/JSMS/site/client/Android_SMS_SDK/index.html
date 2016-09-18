@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+  <html class="no-js lt-ie9" lang="en">
+  <![endif]-->
+<!--[if gt IE 8]>
+    <!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="author" content="JPush Offical"> 
+    <title>Android SDK 概述 - 极光文档</title> 
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <script src="../../js/jquery-2.1.4.js"></script>
+
+    <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+    <script src="../../js/bootstrap/js/bootstrap.js"></script>
+
+    <link href="../../js/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+    
+    <script>
+    // Current page data
+    var mkdocs_page_name = "Android SDK 概述";
+    var mkdocs_page_input_path = "client/Android_SMS_SDK.md";
+    var mkdocs_page_url = "/client/Android_SMS_SDK/";
+    </script>
+    
+    <script src="../../js/jpush.js"></script> 
+</head>
+
+<body data-spy="scroll" data-target="#navbar-right">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3  col-md-3  col-sm-3 ">
+                    <div id="doc-icon">
+                        <a href="/"><img src="/img/icon/logo.png"></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-8  col-sm-8">
+                    <div class="header">
+                        <ul class="nav nav-tabs">
+                            <li role="presentation" >
+                                <a href="/jpush/guideline/intro/" id="jpush-top">JPush</a></li>
+                            <li role="presentation" >
+                                <a href="/jmessage/guideline/jmessage_guide/" id="jmessage-top">JMessage</a></li>
+                            <li role="presentation" >
+                                <a href="/jsms/guideline/JSMS_guide/" id="jsms-top">短信验证码</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2  col-md-1 col-sm-1">
+                    <div>
+                        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3  col-md-3 col-sm-4">
+                <div id="navbar-left">
+                    <ul class="wy-menu">
+                        
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    入门指南 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../guideline/JSMS_guide/">短信验证码概述</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    Android 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 current">
+        <a class="current" href="./">Android SDK 概述</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    iOS 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../iOS_SMS_SDK/">iOS SDK 概述</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                            <ul class="subnavul">
+                                <li class="subnavli">
+                                    <span>
+                                <a href="#">
+                                    REST API 
+                                <div class="nav-icon">
+                                    <img src="/img/icon/right.png">
+                                </div>                 
+                                </a>
+                                </span>
+                                </li>
+                                
+                                    <li class="toctree-l1 ">
+        <a class="" href="../../server/rest_api_jsms/">REST API 概述</a>
+    </li>
+                                
+                                
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                                <ul class="subnavul">
+                                    <li class="subnavli_single " >
+                                        <span>
+                          <a href="../../updates/" class="">最近更新</a></span>
+                                    </li>
+                                </ul>
+                                <li>
+                        <li class="subnav">
+                            
+                                <ul class="subnavul">
+                                    <li class="subnavli_single " >
+                                        <span>
+                          <a href="../../resources/" class="">资源下载</a></span>
+                                    </li>
+                                </ul>
+                                <li></ul>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-8  col-md-9  col-sm-8">
+                <div id="content-top"></div>
+                <section >
+                    <div class="rst-content"><div id="breadcrumbs" role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../guideline/JSMS_guide/">极光文档</a>></li>
+    
+      
+        
+          <li><a href="./">Android</a> ></li>
+        
+      
+    
+    <li>
+    Android SDK 概述
+    <!--
+    <a href="./">Android SDK 概述</a>
+    -->
+    </li>
+  </ul>
+</div>
+                        <div role="main">
+                            <div class="section"> <h1 id="jsms-android-sdk">JSMS Android SDK 集成指南</h1>
+<h2 id="sdk">SDK 说明</h2>
+<h3 id="_1">支持版本</h3>
+<ul>
+<li>目前 SDK 只支持 Android 2.3 及以上版本的手机系统。</li>
+</ul>
+<h3 id="sdk_1">SDK 压缩包包含</h3>
+<ul>
+<li>AndroidManifest.xml：客户端嵌入 SDK 参考的配置文件；</li>
+<li>libs/jpush-sdk-sms-v1.x.x.jar：SDK Java 开发包；</li>
+<li>example：一个完整的 Android 项目，演示了 SMS SDK 的基本用法，可以用来做参考。</li>
+</ul>
+<h2 id="_2">集成步骤</h2>
+<h3 id="_3">创建应用</h3>
+<p>注册成为极光开发者，在极光的 Web Portal 上创建应用得到 AppKey。如果您已经是是极光其他产品的用户并且创建过应用，那么无需重复创建。</p>
+<h3 id="sdk_2">导入 SDK 开发包</h3>
+<p>解压压缩包，将 libs/jpush-sdk-sms-v1.x.x.jar 复制到工程的 libs 目录下面。</p>
+<h3 id="jpush-android-sdk">集成 JPush Android SDK 的混淆</h3>
+<pre><code>-keep class cn.jpush.sms.SMSSDK {*;}
+-keep class cn.jpush.sms.listener.** {*;}
+-keep class cn.jpush.sms.utils.DeviceInfo {*;}
+
+
+#========================gson &amp; protobuf================================
+-dontwarn com.google.**
+-keep class com.google.gson.jsms.annotations.Until {*;}
+
+#Gson specific classes
+-keep class sun.misc.Unsafe { *; }
+-keep public abstract class com.google.gson.jsms.internal.UnsafeAllocator { *; }
+
+
+</code></pre>
+
+<h3 id="androidmanifestxml">配置 AndroidManifest.xml</h3>
+<ul>
+<li>
+<p>配置权限：</p>
+<pre><code>&lt;uses-permission android:name="android.permission.INTERNET"/&gt;
+&lt;uses-permission android:name="android.permission.READ_PHONE_STATE"/&gt;
+&lt;uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/&gt;
+&lt;uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/&gt;
+</code></pre>
+</li>
+<li>
+<p>配置 AppKey：</p>
+<pre><code>&lt;meta-data android:name="JPUSH_APPKEY" android:value="Your AppKey"/&gt;
+</code></pre>
+</li>
+</ul>
+<h3 id="_4">添加代码</h3>
+<p>参考 Demo 和 SDK API 说明进行添加集成。</p>
+<h2 id="sdk-api">SDK API 描述</h2>
+<ul>
+<li>
+<p>SMSSDK 类：对外的类，该类为单例，调用该类的方法都需要获取该类的唯一实例，获得方法为 SMSSDK.getInstance()。</p>
+</li>
+<li>
+<p>SmscodeListener：获取验证码的回调接口，在调用 SMSSDK 的 getSmsCode 时需要传入接口实例。</p>
+</li>
+<li>
+<p>SmscheckListener：检查验证码的回调接口，在调用 SMSSDK 的 checkSmsCode 时需要传入接口实例。</p>
+</li>
+</ul>
+<h3 id="smssdkinitcontext-context">SMSSDK.init(Context context)</h3>
+<h4 id="_5">接口说明</h4>
+<p>该接口为初始化接口，主要是检测一些配置信息，如果配置错误将会初始化失败，将会打印错误日志。调用其它接口前必须先调用该接口，仅且仅需调用一次，建议在 Application 或初始 Activity 中调用。</p>
+<h4 id="_6">调用示例</h4>
+<pre><code>SMSSDK.getInstance().init(this);
+</code></pre>
+<h3 id="smssdkgetsmscodestring-phone-string-tempid-smscodelistener-listener">SMSSDK.getSmsCode(String phone, String tempId, SmscodeListener listener)</h3>
+<h4 id="_7">接口说明</h4>
+<p>获取验证码。</p>
+<blockquote>
+<p>注：该接口是在非 UI 线程回调，需要在 UI 线程回调可调用 SMSSDK.getSmsCodeAsyn() 接口。</p>
+</blockquote>
+<h4 id="_8">参数说明</h4>
+<ul>
+<li>phone：手机号码；</li>
+<li>temp_id：短信模板；</li>
+<li>listener：回调接口。</li>
+</ul>
+<h4 id="_9">调用示例</h4>
+<pre><code>SMSSDK.getInstance().getSmsCodeAsyn("159xxxxxxxx", "1", new SmscodeListener() {
+    @Override
+    public void getCodeSuccess(final String uuid) {
+        // 获取验证码成功，uuid 为此次获取的唯一标识码。
+    }
+
+    @Override
+    public void getCodeFail(int errCode,final String errmsg) {
+        // 获取验证码失败 errCode 为错误码，详情请见文档后面的错误码表; errmsg 为错误描述。
+    }
+});
+</code></pre>
+<h3 id="smssdkchecksmscodestring-phone-string-code-smschecklistener-listener">SMSSDK.checkSmsCode(String phone, String code, SmscheckListener listener)</h3>
+<h4 id="_10">接口说明</h4>
+<p>验证码验证接口。</p>
+<blockquote>
+<p>注：该接口是在非 UI 线程回调，需要在 UI 线程回调可调用 SMSSDK.checkSmsCodeAsyn() 接口。</p>
+</blockquote>
+<h4 id="_11">参数说明</h4>
+<ul>
+<li>phone：手机号码；</li>
+<li>code：短信验证码；</li>
+<li>listener：回调接口。</li>
+</ul>
+<h4 id="_12">调用示例</h4>
+<pre><code>SMSSDK.getInstance().checkSmsCodeAsyn("159xxxxxxxx", "123456", new SmscheckListener() {
+    @Override
+    public void checkCodeSuccess(final String code) {
+        // 验证码验证成功，code 为验证码信息。
+    }
+
+    @Override
+    public void checkCodeFail(int errCode, final String errmsg) {
+        // 验证码验证失败, errCode 为错误码，详情请见文档后面的错误码表；errmsg 为错误描述。
+    }
+});
+</code></pre>
+<h2 id="_13">错误码描述</h2>
+<table>
+<thead>
+<tr>
+<th>错误码</th>
+<th>错误码描述</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3001</td>
+<td>请求超时</td>
+<td></td>
+</tr>
+<tr>
+<td>3002</td>
+<td>无效的手机号码</td>
+<td></td>
+</tr>
+<tr>
+<td>4001</td>
+<td>body 为空</td>
+<td></td>
+</tr>
+<tr>
+<td>4002</td>
+<td>无效的 AppKey</td>
+<td></td>
+</tr>
+<tr>
+<td>4003</td>
+<td>无效的来源</td>
+<td></td>
+</tr>
+<tr>
+<td>4004</td>
+<td>body 解密失败</td>
+<td></td>
+</tr>
+<tr>
+<td>4005</td>
+<td>aes key 解密失败</td>
+<td></td>
+</tr>
+<tr>
+<td>4006</td>
+<td>时间戳转化失败</td>
+<td></td>
+</tr>
+<tr>
+<td>4007</td>
+<td>body 格式不正确</td>
+<td></td>
+</tr>
+<tr>
+<td>4008</td>
+<td>无效时间戳</td>
+<td></td>
+</tr>
+<tr>
+<td>4009</td>
+<td>没有短信验证权限</td>
+<td></td>
+</tr>
+<tr>
+<td>4011</td>
+<td>发送超频</td>
+<td>单个设备或同一手机号每天获取验证码默认10次</td>
+</tr>
+<tr>
+<td>4013</td>
+<td>模板不存在</td>
+<td></td>
+</tr>
+<tr>
+<td>4014</td>
+<td>extra 为空</td>
+<td></td>
+</tr>
+<tr>
+<td>4015</td>
+<td>验证码不正确</td>
+<td></td>
+</tr>
+<tr>
+<td>4016</td>
+<td>没有余额</td>
+<td></td>
+</tr>
+<tr>
+<td>4017</td>
+<td>验证码超时</td>
+<td></td>
+</tr>
+<tr>
+<td>4018</td>
+<td>重复验证</td>
+<td></td>
+</tr>
+<tr>
+<td>2993</td>
+<td>验证码校验失败</td>
+<td>短信已下发但获取 uuid 异常</td>
+</tr>
+<tr>
+<td>2994</td>
+<td>本地数据有误</td>
+<td></td>
+</tr>
+<tr>
+<td>2995</td>
+<td>数据解析错误</td>
+<td></td>
+</tr>
+<tr>
+<td>2996</td>
+<td>两次请求不超过 1 分钟</td>
+<td>本地校验</td>
+</tr>
+<tr>
+<td>2997</td>
+<td>未获取验证码</td>
+<td></td>
+</tr>
+<tr>
+<td>2998</td>
+<td>网络错误</td>
+<td>没有网络等</td>
+</tr>
+<tr>
+<td>2999</td>
+<td>其它错误</td>
+<td></td>
+</tr>
+</tbody>
+</table> </div>
+                        </div> <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../iOS_SMS_SDK/" class="btn btn-neutral float-right" title="iOS SDK 概述">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../../guideline/JSMS_guide/" class="btn btn-neutral float-left" title="短信验证码概述"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>Copyright 2011-2016, jiguang.cn, All Rights Reserved. <br />粤ICP备12056275号-13 深圳市和讯华谷信息技术有限公司</p>
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer> </div>
+                </section>
+            </div>
+            <div class="col-lg-1">
+                <div class="visible-lg">
+                    <div id="tocright">
+                        <div id="navbar-right">
+                            <div>
+                            <p>目录</p>
+                            </div>
+                            <ul class="nav" >
+    
+        
+            <li><a href="#sdk">SDK 说明</a></li>
+        
+            <li><a href="#_2">集成步骤</a></li>
+        
+            <li><a href="#sdk-api">SDK API 描述</a></li>
+        
+            <li><a href="#_13">错误码描述</a></li>
+        
+    
+    </ul>
+    
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
