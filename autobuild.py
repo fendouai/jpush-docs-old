@@ -17,7 +17,7 @@ logging.info(commands.getstatusoutput('git commit -m "fix the pull to push"'))
 logging.info(commands.getstatusoutput("git push origin renew"))
 
 
-print ("git push origin renew")
+print ("git push origin renew,test")
 
 
 
