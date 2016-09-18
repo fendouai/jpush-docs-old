@@ -28,13 +28,16 @@ def git_push():
     add_result= (commands.getstatusoutput("git add ."))
     commit_result=(commands.getstatusoutput('git commit -m "fix the pull to push"'))
     push_result= (commands.getstatusoutput("git push origin renew"))
+    logging.info(add_result)
+    logging.info(commit_result)
     logging.info(push_result)
     if(push_result[0]):
+        print ("fail")
         reset_result=commands.getstatusoutput("git reset --hard HEAD^")
         logging.info(reset_result)
     else:
-        print "success"
-        logging.info ("git push origin renew")
+        print ("success")
+        logging.info("git push origin renew")
 
 
 downloader=GithubDownload()
