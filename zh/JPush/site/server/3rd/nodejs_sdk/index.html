@@ -416,19 +416,12 @@
   </ul>
 </div>
                         <div role="main">
-                            <div class="section"> <h1>JPush API client library for Node.js</h1>
-
-<h3 id="_1">概述</h3>
-<div style="font-size:13px;background: #E0EFFE;border: 1px solid #ACBFD7;border-radius: 3px;padding: 8px 16px;">
-<p>温馨提示：</p>
-<p>详细API介绍文档地址   <a href="https://github.com/jpush/jpush-api-nodejs-client/blob/master/doc/api.md">NodeJS API DOC</a></p>
-</div>
-
-<p><br></p>
-<p>本SDK提供JPush服务端接口的Node封装，与 JPush Rest API 组件通信。使用时引用该模块即可，可参考附带Demo学习使用方法。</p>
-<p><a href="../../server/rest_api_v3_push/">REST API 文档</a></p>
-<p>版本更新：<a href="../../../resources/#sdk_1">Release页面</a>。下载更新请到这里。</p>
-<h3 id="install">Install</h3>
+                            <div class="section"> <p><a href="https://travis-ci.org/jpush/jpush-api-nodejs-client"><img alt="Build Status" src="https://travis-ci.org/jpush/jpush-api-nodejs-client.svg?branch=master" /></a></p>
+<h1 id="jpush-api-client-library-for-nodejs">JPush API client library for Node.js</h1>
+<p>本 SDK 提供 JPush 服务端接口的 Node 封装，与 JPush Rest API 组件通信。使用时引用该模块即可，可参考附带 Demo 学习使用方法。</p>
+<p><a href="http://docs.jiguang.cn/server/rest_api_v3_push/">REST API 文档</a></p>
+<p><a href="doc/api.md">NodeJS API 文档</a></p>
+<h2 id="install">Install</h2>
 <pre><code>npm install jpush-sdk
 #or
 {
@@ -438,65 +431,77 @@
 }
 </code></pre>
 
-<h3 id="example">Example</h3>
-<h4 id="quick-start">Quick start</h4>
-<p>此Demo展示如何使用Node lib向所有用户推送通知。</p>
-<pre><code>var JPush = require(&quot;../lib/JPush/JPush.js&quot;);
-var client = JPush.buildClient('your appKey', 'your masterSecret');
+<h2 id="example">Example</h2>
+<h3 id="quick-start">Quick start</h3>
+<p>此 Demo 展示如何使用 Node lib 向所有用户推送通知。</p>
+<pre><code class="js">var JPush = require(&quot;../lib/JPush/JPush.js&quot;)
+var client = JPush.buildClient('your appKey', 'your masterSecret')
 
 //easy push
 client.push().setPlatform(JPush.ALL)
     .setAudience(JPush.ALL)
-    .setNotification('Hi, JPush', JPush.ios('ios alert', 'happy.caf', 5))
+    .setNotification('Hi, JPush', JPush.ios('ios alert', 'happy', 5))
     .send(function(err, res) {
         if (err) {
-            console.log(err.message);
+            console.log(err.message)
         } else {
-            console.log('Sendno: ' + res.sendno);
-            console.log('Msg_id: ' + res.msg_id);
+            console.log('Sendno: ' + res.sendno)
+            console.log('Msg_id: ' + res.msg_id)
         }
     });
 </code></pre>
 
-<h4 id="expert-mode">Expert mode(高级版)</h4>
-<pre><code>client.push().setPlatform('ios', 'android')
+<h3 id="expert-mode">Expert mode（高级版）</h3>
+<pre><code class="js">client.push().setPlatform('ios', 'android')
     .setAudience(JPush.tag('555', '666'), JPush.alias('666,777'))
     .setNotification('Hi, JPush', JPush.ios('ios alert'), JPush.android('android alert', null, 1))
     .setMessage('msg content')
     .setOptions(null, 60)
     .send(function(err, res) {
         if (err) {
-            console.log(err.message);
+            console.log(err.message)
         } else {
-            console.log('Sendno: ' + res.sendno);
-            console.log('Msg_id: ' + res.msg_id);
+            console.log('Sendno: ' + res.sendno)
+            console.log('Msg_id: ' + res.msg_id)
         }
     });
+
 </code></pre>
 
-<p>关于Payload对象的方法，参考 <a href="https://github.com/jpush/jpush-api-nodejs-client/blob/master/doc/api.md">详细API文档</a></p>
-<h4 id="_2">获取统计信息</h4>
-<p>本Node lib简易封装获取统计信息的接口，传入推送API返回的 msg_id 列表，多个 msg_id 用逗号隔开，最多支持100个msg_id。
-更多详细要求，请参考 <a href="../../server/rest_api_v3_report/">Report API 文档</a></p>
-<pre><code>var JPush = require(&quot;../lib/JPush/JPush.js&quot;);
+<p>关于 Payload 对象的方法，参考<a href="doc/api.md">详细 API 文档</a>。</p>
+<h3 id="_1">获取统计信息</h3>
+<p>本 Node lib 简易封装获取统计信息的接口，传入推送 API 返回的 msg_id 列表，多个 msg_id 用逗号隔开，最多支持 100 个 msg_id。<br />
+更多详细要求，请参考 <a href="http://docs.jiguang.cn/server/rest_api_v3_report/">Report API 文档</a>。</p>
+<pre><code class="js">var JPush = require(&quot;../lib/JPush/JPush.js&quot;);
 var client = JPush.buildClient('your appKey', 'your masterSecret');
 
 client.getReportReceiveds('746522674,344076897', function(err, res) {
     if (err) {
-        console.log(err.message);
+        console.log(err.message)
     } else {
-        for (var i=0; i&lt;res.length; i++) {
-            console.log(res[i].android_received);
-            console.log(res[i].ios_apns_sent);
-            console.log(res[i].msg_id);
-            console.log('------------');
+        for (var i = 0; i &lt; res.length; i++) {
+            console.log(res[i].android_received)
+            console.log(res[i].ios_apns_sent)
+            console.log(res[i].msg_id)
+            console.log('------------')
         }
     }
 });
 </code></pre>
 
-<h4 id="_3">单元测试</h4>
-<p>在程序根目录下执行</p>
+<h3 id="log">关闭 Log</h3>
+<pre><code class="js">// 在构建 JPushClient 对象的时候, 指定 isDebug 参数。
+var client = JPush.buildClient({
+    appKey:'47a3ddda34b2602fa9e17c01',
+    masterSecret:'d94f733358cca97b18b2cb98',
+    isDebug:false
+});
+// or
+var client = JPush.buildClient('47a3ddda34b2602fa9e17c01', 'd94f733358cca97b18b2cb98', null, false);
+</code></pre>
+
+<h3 id="_2">单元测试</h3>
+<p>在程序根目录下执行.</p>
 <pre><code>mocha test
 </code></pre> </div>
                         </div> <footer>
@@ -534,17 +539,9 @@ client.getReportReceiveds('746522674,344076897', function(err, res) {
                             <ul class="nav" >
     
         
-    
+            <li><a href="#install">Install</a></li>
         
-    
-        
-            <li><a href="#quick-start">Quick start</a></li>
-        
-            <li><a href="#expert-mode">Expert mode(高级版)</a></li>
-        
-            <li><a href="#_2">获取统计信息</a></li>
-        
-            <li><a href="#_3">单元测试</a></li>
+            <li><a href="#example">Example</a></li>
         
     
     </ul>

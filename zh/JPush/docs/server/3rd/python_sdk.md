@@ -3,11 +3,11 @@
 ## 概述
 这是 JPush REST API 的 Python 版本封装开发包，是由极光推送官方提供的，一般支持最新的 API 功能。
 
-对应的 REST API 文档：[REST API](../push/rest_api_v3_push)
+对应的 REST API 文档：<http://docs.jpush.io/server/rest_api_v3_push/>
 
 ## 兼容版本
 +  Python 2.7
-+  Python 3 还没有兼容，以后会兼容。
++  Python 3 ，可以运行，建议继续使用 jpush 3.1.2 ，经过完整测试后会发布新版本。
 
 建议 Python3 的开发者继续使用 jpush 3.1.2，pip 地址：
 
@@ -76,14 +76,14 @@ _jpush.set_logging("DEBUG")
 
 ## HTTP 状态码
 
-参考文档：<http://docs.jiguang.cn/jpush/server/push/http_status_code/>
+参考文档：<http://docs.jpush.io/server/http_status_code/>
 
-Push  API 状态码 参考文档：<http://docs.jiguang.cn/jpush/server/push/rest_api_v3_push/>　
+Push  API 状态码 参考文档：<http://docs.jpush.io/server/rest_api_v3_push/>　
 
-Report API  状态码 参考文档：<http://docs.jiguang.cn/jpush/server/push/rest_api_v3_report/>
+Report API  状态码 参考文档：<http://docs.jpush.io/server/rest_api_v3_report/>
 
-Device API 状态码 参考文档：<http://docs.jiguang.cn/jpush/server/push/rest_api_v3_device/>
+Device API 状态码 参考文档：<http://docs.jpush.io/server/rest_api_v3_device/>
 
-Schedule API 状态码 参考文档：<http://docs.jiguang.cn/jpush/server/push/rest_api_push_schedule/>　
+Schedule API 状态码 参考文档：<http://docs.jpush.io/server/rest_api_push_schedule/>　
 
 [Release页面](https://github.com/jpush/jpush-api-python-client/releases) 有详细的版本发布记录与下载。

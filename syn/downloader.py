@@ -68,7 +68,7 @@ for file_dic in repositories:
          zip_tool.unzip_file(repositories[file_dic]["name"],release_version)
          zip_tool.replace_readme(repositories[file_dic]["name"],release_version)
          git_push()
-         logging.info(repositories[file_dic]["name"],release_version)
+         # logging.info(repositories[file_dic]["name"],release_version)
          logging.info("git push,update the remote file")
 
 
