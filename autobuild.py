@@ -12,10 +12,10 @@ logging.basicConfig(level=logging.DEBUG,
                     filemode='a+')
 
 print (os.chdir("/opt/push/jpush-docs/jpush-docs/"))
-print (commands.getstatusoutput("git add ."))
-print (commands.getstatusoutput('git commit -m "fix the pull to push"'))
-print (commands.getstatusoutput("git push origin renew"))
-
+add_result= (commands.getstatusoutput("git add ."))
+commit_result=(commands.getstatusoutput('git commit -m "fix the pull to push"'))
+push_result= (commands.getstatusoutput("git push origin renew"))
+print push_result[0]
 
 print ("git push origin renew,test")
 
