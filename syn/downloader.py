@@ -7,7 +7,6 @@ import zipfile
 import urllib
 import dirconfig
 import logging
-from autobuild import  autobuild,git_pull
 import commands
 import os
 
@@ -20,9 +19,6 @@ logging.basicConfig(level=logging.DEBUG,
                     datefmt='%a, %d %b %Y %H:%M:%S',
                     filename='/opt/push/jpush-docs/autobuild.log',
                     filemode='a+')
-
-#syn with github
-git_pull()
 
 def git_push():
     print (os.chdir("/opt/push/jpush-docs/jpush-docs/"))
@@ -40,8 +36,14 @@ def git_push():
         print ("success")
         logging.info("git push origin renew")
 
+def git_pull():
+    print time.asctime(time.localtime(time.time()))
+    print (os.chdir("/opt/push/jpush-docs/jpush-docs/"))
+    logging.info(commands.getstatusoutput("git pull origin renew"))
+    print ("git pull origin renew")
 
-
+#syn with github
+git_pull()
 
 downloader=GithubDownload()
 for file_dic in repositories:
