@@ -13,6 +13,7 @@ import os
 from githubdownload import GithubDownload
 from repositories import repositories
 from ziptool import ZipTool
+from autobuild import autobuild
 
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
@@ -43,7 +44,7 @@ def git_pull():
     print ("git pull origin renew")
 
 #syn with github
-git_pull()
+autobuild()
 
 downloader=GithubDownload()
 for file_dic in repositories:
