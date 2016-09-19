@@ -11,7 +11,8 @@
 
 建议 Python3 的开发者继续使用 jpush 3.1.2，pip 地址：
 
->   https://pypi.python.org/pypi?:action=display&name=jpush&version=3.1.2
+delete test
+10:30
 
 ## 环境配置
 

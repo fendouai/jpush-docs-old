@@ -26,7 +26,7 @@ autobuild()
 def git_push():
     print (os.chdir("/opt/push/jpush-docs/jpush-docs/"))
     add_result= (commands.getstatusoutput("git add ."))
-    commit_result=(commands.getstatusoutput('git commit -m "fix the pull to push"'))
+    commit_result=(commands.getstatusoutput('git commit -m "new jpush doc from the github"'))
     push_result= (commands.getstatusoutput("git push origin renew"))
     logging.info(add_result)
     logging.info(commit_result)

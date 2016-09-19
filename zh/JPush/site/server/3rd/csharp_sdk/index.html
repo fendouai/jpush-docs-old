@@ -417,12 +417,11 @@
 </div>
                         <div role="main">
                             <div class="section"> <h1 id="jpush-api-client-library-for-csharp">JPush API client library for CSharp</h1>
+<p>test 10:35</p>
 <h2 id="_1">概述</h2>
 <p>这是 JPush REST API 的 C# 版本封装开发包，是由极光推送官方提供的，一般支持最新的 API 功能。</p>
 <p>对应的 REST API 文档：<a href="http://docs.jpush.io/server/rest_api_v3_push/">http://docs.jpush.io/server/rest_api_v3_push/</a></p>
-<h2 id="_2">支持版本</h2>
-<p>Microsoft. NET Framework 4.0 （包括）以上版本</p>
-<h2 id="_3">环境配置</h2>
+<h2 id="_2">环境配置</h2>
 <p>在 <a href="https://github.com/jpush/jpush-api-csharp-client">jpush-api-csharp-client</a> 项目根目录可以下载下面的两个文件。</p>
 <ul>
 <li>
@@ -431,11 +430,6 @@
 <li>
 <p>在项目引用中添加： cn.jpush.api.dll</p>
 </li>
-</ul>
-<p>在线方式配置：</p>
-<ul>
-<li>在项目-&gt;引用-&gt;管理 NuGet 程序包中搜索 cn.jpush.api</li>
-<li>NuGet 包管理工具会下载 jpush-api-csharp-client 和 Newtonsoft 依赖。</li>
 </ul>
 <h2 id="push-api-v3">Push API v3</h2>
 <p>向某单个设备或者某设备列表推送一条通知或者消息</p>
@@ -460,7 +454,7 @@ catch (APIRequestException e)
     Console.WriteLine(&quot;Error response from JPush server. Should review and fix it. &quot;);
     Console.WriteLine(&quot;HTTP Status: &quot; + e.Status);
     Console.WriteLine(&quot;Error Code: &quot; + e.ErrorCode);
-    Console.WriteLine(&quot;Error Message: &quot; + e.ErrorMessage);
+    Console.WriteLine(&quot;Error Message: &quot; + e.ErrorCode);
 }
 catch (APIConnectionException e)
 {
@@ -573,7 +567,7 @@ catch (APIRequestException e)
     Console.WriteLine(&quot;Error response from JPush server. Should review and fix it.&quot;);
     Console.WriteLine(&quot;HTTP Status: &quot; + e.Status);
     Console.WriteLine(&quot;Error Code: &quot; + e.ErrorCode);
-    Console.WriteLine(&quot;Error Message: &quot; + e.ErrorMessage);
+    Console.WriteLine(&quot;Error Message: &quot; + e.ErrorCode);
 }
 catch (APIConnectionException e)
 {
@@ -599,7 +593,7 @@ catch (APIRequestException e)
     Console.WriteLine(&quot;Error response from JPush server. Should review and fix it.&quot;);
     Console.WriteLine(&quot;HTTP Status: &quot; + e.Status);
     Console.WriteLine(&quot;Error Code: &quot; + e.ErrorCode);
-    Console.WriteLine(&quot;Error Message: &quot; + e.ErrorMessage);
+    Console.WriteLine(&quot;Error Message: &quot; + e.ErrorCode);
 }
 catch (APIConnectionException e)
 {
@@ -628,7 +622,7 @@ catch (APIRequestException e)
     Console.WriteLine(&quot;Error response from JPush server. Should review and fix it.&quot;);
     Console.WriteLine(&quot;HTTP Status: &quot; + e.Status);
     Console.WriteLine(&quot;Error Code: &quot; + e.ErrorCode);
-    Console.WriteLine(&quot;Error Message: &quot; + e.ErrorMessage);
+    Console.WriteLine(&quot;Error Message: &quot; + e.ErrorCode);
 }
 catch (APIConnectionException e)
 {
@@ -636,7 +630,7 @@ catch (APIConnectionException e)
 }
 </code></pre>
 
-<h2 id="_4">异常</h2>
+<h2 id="_3">异常</h2>
 <ul>
 <li>
 <p>APIRequestException</p>
@@ -696,9 +690,7 @@ catch (APIConnectionException e)
         
             <li><a href="#_1">概述</a></li>
         
-            <li><a href="#_2">支持版本</a></li>
-        
-            <li><a href="#_3">环境配置</a></li>
+            <li><a href="#_2">环境配置</a></li>
         
             <li><a href="#push-api-v3">Push API v3</a></li>
         
@@ -708,7 +700,7 @@ catch (APIConnectionException e)
         
             <li><a href="#api-push-schedule">API Push Schedule</a></li>
         
-            <li><a href="#_4">异常</a></li>
+            <li><a href="#_3">异常</a></li>
         
             <li><a href="#http">HTTP 状态码</a></li>
         
