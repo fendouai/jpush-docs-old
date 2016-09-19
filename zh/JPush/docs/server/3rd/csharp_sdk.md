@@ -1,12 +1,11 @@
 # JPush API client library for CSharp
 
+test 10:35
+
 ## 概述
 这是 JPush REST API 的 C# 版本封装开发包，是由极光推送官方提供的，一般支持最新的 API 功能。
 
 对应的 REST API 文档：<http://docs.jpush.io/server/rest_api_v3_push/>
-
-## 支持版本
-Microsoft. NET Framework 4.0 （包括）以上版本
 
 ## 环境配置
 在 [jpush-api-csharp-client](https://github.com/jpush/jpush-api-csharp-client) 项目根目录可以下载下面的两个文件。
@@ -14,11 +13,6 @@ Microsoft. NET Framework 4.0 （包括）以上版本
 *   在项目引用中添加依赖包： Newtonsoft.Json.dll
 
 *   在项目引用中添加： cn.jpush.api.dll
-
-在线方式配置：
-
-*   在项目->引用->管理 NuGet 程序包中搜索 cn.jpush.api
-*   NuGet 包管理工具会下载 jpush-api-csharp-client 和 Newtonsoft 依赖。
 
 ## Push API v3
 
@@ -48,7 +42,7 @@ catch (APIRequestException e)
     Console.WriteLine("Error response from JPush server. Should review and fix it. ");
     Console.WriteLine("HTTP Status: " + e.Status);
     Console.WriteLine("Error Code: " + e.ErrorCode);
-    Console.WriteLine("Error Message: " + e.ErrorMessage);
+    Console.WriteLine("Error Message: " + e.ErrorCode);
 }
 catch (APIConnectionException e)
 {
@@ -160,7 +154,7 @@ catch (APIRequestException e)
     Console.WriteLine("Error response from JPush server. Should review and fix it.");
     Console.WriteLine("HTTP Status: " + e.Status);
     Console.WriteLine("Error Code: " + e.ErrorCode);
-    Console.WriteLine("Error Message: " + e.ErrorMessage);
+    Console.WriteLine("Error Message: " + e.ErrorCode);
 }
 catch (APIConnectionException e)
 {
@@ -187,7 +181,7 @@ catch (APIRequestException e)
     Console.WriteLine("Error response from JPush server. Should review and fix it.");
     Console.WriteLine("HTTP Status: " + e.Status);
     Console.WriteLine("Error Code: " + e.ErrorCode);
-    Console.WriteLine("Error Message: " + e.ErrorMessage);
+    Console.WriteLine("Error Message: " + e.ErrorCode);
 }
 catch (APIConnectionException e)
 {
@@ -217,7 +211,7 @@ catch (APIRequestException e)
     Console.WriteLine("Error response from JPush server. Should review and fix it.");
     Console.WriteLine("HTTP Status: " + e.Status);
     Console.WriteLine("Error Code: " + e.ErrorCode);
-    Console.WriteLine("Error Message: " + e.ErrorMessage);
+    Console.WriteLine("Error Message: " + e.ErrorCode);
 }
 catch (APIConnectionException e)
 {
