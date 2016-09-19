@@ -21,7 +21,8 @@ logging.basicConfig(level=logging.DEBUG,
                     filename='/opt/push/jpush-docs/autobuild.log',
                     filemode='a+')
 
-autobuild()
+#syn with github
+git_pull()
 
 def git_push():
     print (os.chdir("/opt/push/jpush-docs/jpush-docs/"))
@@ -38,6 +39,8 @@ def git_push():
     else:
         print ("success")
         logging.info("git push origin renew")
+
+
 
 
 downloader=GithubDownload()
