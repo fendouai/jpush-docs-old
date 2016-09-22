@@ -67,7 +67,6 @@ for file_dic in repositories:
          logging.info("the file exist,pass")
          logging.info("nothing to push")
      else:
-         # logging.info(repositories[file_dic]["name"], release_version)
          logging.info("the file do not exist,replace")
          logging.info("git pull,update the local file")
          git_pull()
@@ -75,7 +74,6 @@ for file_dic in repositories:
          zip_tool.unzip_file(repositories[file_dic]["name"],release_version)
          zip_tool.replace_readme(repositories[file_dic]["name"],release_version)
          git_push()
-         # logging.info(repositories[file_dic]["name"],release_version)
          logging.info("git push,update the remote file")
 
 
