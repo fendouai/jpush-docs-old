@@ -56,6 +56,8 @@ for file_dic in repositories:
      zip_url = downloader.get_code(html_content)
      release_time = downloader.get_time(html_content)
      release_version = downloader.get_version(html_content)
+     if(not os.path.exists(dirconfig.conf["zip"])):
+          os.mkdir(zip_folder)
      zip_folder=os.path.join(dirconfig.conf["zip"],repositories[file_dic]["name"])
      if(not os.path.exists(zip_folder)):
           os.mkdir(zip_folder)
