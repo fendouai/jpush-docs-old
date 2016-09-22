@@ -1,10 +1,13 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
-
+# low couple
+# syn module only synchronize the docs.
+# if it went wrong, the auto build module will run all the same.
 import requests
 import os
 import zipfile
 import urllib
+import time
 import dirconfig
 import logging
 import commands
@@ -18,11 +21,11 @@ from autobuild import autobuild
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
                     datefmt='%a, %d %b %Y %H:%M:%S',
-                    filename='/opt/push/jpush-docs/autobuild.log',
+                    filename='/opt/push/jpush-docs/syndocs/autosyn.log',
                     filemode='a+')
 
 def git_push():
-    print (os.chdir("/opt/push/jpush-docs/jpush-docs/"))
+    print (os.chdir("/opt/push/jpush-docs/syndocs/jpush-docs/"))
     add_result= (commands.getstatusoutput("git add ."))
     commit_result=(commands.getstatusoutput('git commit -m "new jpush doc from the github"'))
     push_result= (commands.getstatusoutput("git push origin renew"))
@@ -39,12 +42,9 @@ def git_push():
 
 def git_pull():
     print time.asctime(time.localtime(time.time()))
-    print (os.chdir("/opt/push/jpush-docs/jpush-docs/"))
+    print (os.chdir("/opt/push/jpush-docs/syndocs/jpush-docs/"))
     logging.info(commands.getstatusoutput("git pull origin renew"))
     print ("git pull origin renew")
-
-#syn with github
-autobuild()
 
 downloader=GithubDownload()
 for file_dic in repositories:

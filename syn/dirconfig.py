@@ -2,9 +2,9 @@ import os
 #config the dir of the mkdocs docs dir
 conf={}
 
-conf["mkdocs"]="/opt/push/jpush-docs/jpush-docs/zh/"
+conf["mkdocs"]="/opt/push/jpush-docs/syndocs/jpush-docs/zh/"
 
-conf["zip"]="/opt/push/jpush-docs/download-zip/"
+conf["zip"]="/opt/push/jpush-docs/syndocs/download-zip/"
 
 #jpush dir
 conf["jpush_dir"]=os.path.join(conf["mkdocs"],"JPush")
