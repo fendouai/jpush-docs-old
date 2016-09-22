@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 # low couple
-# syn module only synchronize the docs.
+# syn module only synchronize the docs.################
 # if it went wrong, the auto build module will run all the same.
 import requests
 import os
