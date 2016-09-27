@@ -3,7 +3,7 @@ import os
 
 #jpush server
 repositories={}
-
+'''
 #just for test
 repositories["jpush-api-csharp-client"]={}
 repositories["jpush-api-csharp-client"]["name"]="jpush-api-csharp-client"
@@ -12,8 +12,6 @@ repositories["jpush-api-csharp-client"]["url"]="https://github.com/fendouai/jpus
 repositories["jpush-api-python-client"]={}
 repositories["jpush-api-python-client"]["name"]="jpush-api-python-client"
 repositories["jpush-api-python-client"]["url"]="https://github.com/fendouai/jpush-api-python-client"
-
-
 '''
 repositories["jpush-api-csharp-client"]={}
 repositories["jpush-api-csharp-client"]["name"]="jpush-api-csharp-client"
@@ -22,7 +20,7 @@ repositories["jpush-api-csharp-client"]["url"]="https://github.com/jpush/jpush-a
 repositories["jpush-api-python-client"]={}
 repositories["jpush-api-python-client"]["name"]="jpush-api-python-client"
 repositories["jpush-api-python-client"]["url"]="https://github.com/jpush/jpush-api-python-client"
-'''
+
 
 repositories["jpush-api-php-client"]={}
 repositories["jpush-api-php-client"]["name"]="jpush-api-php-client"
